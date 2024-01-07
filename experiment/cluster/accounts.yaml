@@ -1,0 +1,96 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: new-scheduler
+  namespace: ftschirpke
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: new-scheduler-as-kube-scheduler
+subjects:
+  - kind: ServiceAccount
+    name: new-scheduler
+    namespace: kube-system
+roleRef:
+  kind: ClusterRole
+  name: system:kube-scheduler
+  apiGroup: rbac.authorization.k8s.io
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: new-scheduler-as-volume-scheduler
+subjects:
+  - kind: ServiceAccount
+    name: new-scheduler
+    namespace: kube-system
+roleRef:
+  kind: ClusterRole
+  name: system:volume-scheduler
+  apiGroup: rbac.authorization.k8s.io
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: nextflowscheduleraccount
+  namespace: ftschirpke
+---
+kind: ClusterRole
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: nextflowschedulerrole
+  namespace: ftschirpke
+rules:
+ - apiGroups: [""]
+   resources: ["pods","pods/status","pods/exec","nodes","bindings","configmaps"]
+   verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]
+ - apiGroups: ["metrics.k8s.io"]
+   resources: ["nodes"]
+   verbs: ["get","list"]
+---
+kind: ClusterRoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+   name: myschedulerbinding
+   namespace: ftschirpke
+subjects:
+ - kind: ServiceAccount
+   name: nextflowscheduleraccount
+   namespace: ftschirpke
+roleRef:
+   kind: ClusterRole
+   name: nextflowschedulerrole
+   apiGroup: rbac.authorization.k8s.io
+---
+kind: ClusterRole
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: nextflow-pod-role
+rules:
+ - apiGroups: [""]
+   resources: ["pods","pods/status","pods/log","nodes","configmaps"]
+   verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]
+ - apiGroups: ["apps"]
+   resources: ["daemonsets"]
+   verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]
+---
+kind: ClusterRoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+   name: nextflow-pod-role-binding
+   namespace: ftschirpke
+subjects:
+ - kind: ServiceAccount
+   name: nextflow
+   namespace: ftschirpke
+roleRef:
+   kind: ClusterRole
+   name: nextflow-pod-role
+   apiGroup: rbac.authorization.k8s.io
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: nextflow
+
