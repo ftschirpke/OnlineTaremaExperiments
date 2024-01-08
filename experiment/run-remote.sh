@@ -3,6 +3,8 @@ cd $(dirname $0)
 export KUBECONFIG="secrets/kubeconfig.yaml"
 namespace=ftschirpke
 
+bash cleanup.sh
+
 # setup remote cluster
 kubectl apply -f cluster/accounts.yaml -n $namespace
 kubectl apply -f cluster/pvc.yaml -n $namespace

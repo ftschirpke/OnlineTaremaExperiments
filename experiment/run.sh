@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # remove old data
-rm -rf /input/data
+rm -rd /input/data
 
 # load to cache  TODO: uncomment this and provide a loadToCache.yaml for each workflow
 # echo "workflow: $workflow: loading to cache"
