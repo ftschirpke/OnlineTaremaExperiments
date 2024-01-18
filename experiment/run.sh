@@ -15,7 +15,7 @@ namespace=ftschirpke
 
 echo "workflow: $experiment_name - starting scheduler"
 kubectl apply -f cluster/workflow-scheduler.yaml --wait -n $namespace
-kubectl wait --for=condition=ready pod workflow-scheduler -n $namespace
+kubectl wait --timeout=100s --for=condition=ready pod workflow-scheduler -n $namespace
 mkdir -p $results_dir/$experiment_name
 nohup kubectl logs workflow-scheduler -f -n $namespace > $results_dir/$experiment_name/scheduler.log &
 
