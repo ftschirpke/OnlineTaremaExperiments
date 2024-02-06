@@ -13,7 +13,7 @@ spec:
       value: workflow-scheduler
     - name: AUTOCLOSE
       value: "false"
-    image: friedricht/online_tarema:v12
+    image: friedricht/online_tarema:v18
     imagePullPolicy: Always
     name: workflow-scheduler
     resources:

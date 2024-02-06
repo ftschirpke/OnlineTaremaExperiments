@@ -4,7 +4,7 @@ metadata:
   name: nextflow
 spec:
   nodeSelector: 
-    friedrich: small
+    friedrich: big
   containers:
   - name: nextflow
     image: fabianlehmann/test1:nxf_vla_exp
@@ -42,6 +42,5 @@ spec:
   - name: nfs
     persistentVolumeClaim:
       claimName: nf-input
-      # claimName: nfs-data
   securityContext:
     runAsUser: 0
