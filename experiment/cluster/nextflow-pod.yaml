@@ -4,7 +4,7 @@ metadata:
   name: nextflow
 spec:
   nodeSelector: 
-    friedrich: big
+    ftcpuspeed: high
   containers:
   - name: nextflow
     image: fabianlehmann/test1:nxf_vla_exp
@@ -23,9 +23,7 @@ spec:
       - mountPath: /input
         name: input
       - mountPath: /experiments
-        name: experiments
-      - mountPath: /nfs
-        name: nfs
+        name: exp
     securityContext:
       runAsUser: 0
     resources:
@@ -36,11 +34,8 @@ spec:
   - name: input
     persistentVolumeClaim:
       claimName: ceph-data
-  - name: experiments
+  - name: exp
     persistentVolumeClaim:
-      claimName: ceph-experiments
-  - name: nfs
-    persistentVolumeClaim:
-      claimName: nf-input
+      claimName: ceph-exp
   securityContext:
     runAsUser: 0

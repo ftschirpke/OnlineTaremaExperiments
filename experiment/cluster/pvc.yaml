@@ -8,14 +8,14 @@ spec:
   - ReadWriteMany
   resources:
     requests:
-      storage: 2000G
+      storage: 3000G
 
 ---
 
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: ceph-experiments
+  name: ceph-exp
 spec:
   storageClassName: cephfs
   accessModes:

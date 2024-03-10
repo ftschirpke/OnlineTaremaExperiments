@@ -7,14 +7,16 @@ metadata:
     tier: control-plane
   name: workflow-scheduler
 spec:
+  nodeSelector: 
+    ftcpuspeed: high
   containers:
   - env:
     - name: SCHEDULER_NAME
       value: workflow-scheduler
     - name: AUTOCLOSE
       value: "false"
-    image: friedricht/online_tarema:v18
-    imagePullPolicy: Always
+    image: friedricht/online_tarema:v26
+    imagePullPolicy: IfNotPresent
     name: workflow-scheduler
     resources:
       requests:
@@ -23,8 +25,6 @@ spec:
     volumeMounts:
     - mountPath: /input
       name: data
-  nodeSelector: 
-    friedrich: big
   securityContext:
     runAsUser: 0
   serviceAccount: cwsscheduleraccount
