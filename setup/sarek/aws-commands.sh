@@ -1,0 +1,24 @@
+mkdir -p sarek/input/37/ref
+cd sarek/input/37/ref
+
+aws s3 --no-sign-request cp "s3://ngi-igenomes/igenomes/Homo_sapiens/GATK/GRCh37/Annotation/ASCAT/G1000_alleles_hg19.zip"                                         "G1000_alleles_hg19.zip"                                               
+aws s3 --no-sign-request cp "s3://ngi-igenomes/igenomes/Homo_sapiens/GATK/GRCh37/Annotation/ASCAT/G1000_loci_hg19.zip"                                            "G1000_loci_hg19.zip"                                              
+aws s3 --no-sign-request cp "s3://ngi-igenomes/igenomes/Homo_sapiens/GATK/GRCh37/Annotation/ASCAT/GC_G1000_hg19.zip"                                              "GC_G1000_hg19.zip"                                                
+aws s3 --no-sign-request cp "s3://ngi-igenomes/igenomes/Homo_sapiens/GATK/GRCh37/Annotation/ASCAT/RT_G1000_hg19.zip"                                              "RT_G1000_hg19.zip"                                                
+aws s3 --no-sign-request sync "s3://ngi-igenomes/igenomes/Homo_sapiens/GATK/GRCh37/Sequence/BWAIndex/"                                                            "BWAIndex/"                          
+aws s3 --no-sign-request sync "s3://ngi-igenomes/igenomes/Homo_sapiens/GATK/GRCh37/Sequence/Chromosomes"                                                          "Chromosomes"                        
+aws s3 --no-sign-request cp "s3://ngi-igenomes/igenomes/Homo_sapiens/GATK/GRCh37/Annotation/GATKBundle/dbsnp_138.b37.vcf.gz"                                      "dbsnp_138.b37.vcf.gz"                                              
+aws s3 --no-sign-request cp "s3://ngi-igenomes/igenomes/Homo_sapiens/GATK/GRCh37/Annotation/GATKBundle/dbsnp_138.b37.vcf.gz.tbi"                                  "dbsnp_138.b37.vcf.gz.tbi"                                                  
+aws s3 --no-sign-request cp "s3://ngi-igenomes/igenomes/Homo_sapiens/GATK/GRCh37/Annotation/GATKBundle/af-only-gnomad.raw.sites.vcf.gz"                           "af-only-gnomad.raw.sites.vcf.gz"                                                      
+aws s3 --no-sign-request cp "s3://ngi-igenomes/igenomes/Homo_sapiens/GATK/GRCh37/Annotation/GATKBundle/af-only-gnomad.raw.sites.vcf.gz.tbi"                       "af-only-gnomad.raw.sites.vcf.gz.tbi"                                                          
+aws s3 --no-sign-request cp "s3://ngi-igenomes/igenomes/Homo_sapiens/GATK/GRCh37/Annotation/GATKBundle/1000G_phase1.indels.b37.vcf.gz"                            "1000G_phase1.indels.b37.vcf.gz"                                                      
+aws s3 --no-sign-request cp "s3://ngi-igenomes/igenomes/Homo_sapiens/GATK/GRCh37/Annotation/GATKBundle/Mills_and_1000G_gold_standard.indels.b37.vcf.gz"           "Mills_and_1000G_gold_standard.indels.b37.vcf.gz"                                                                      
+aws s3 --no-sign-request cp "s3://ngi-igenomes/igenomes/Homo_sapiens/GATK/GRCh37/Annotation/GATKBundle/1000G_phase1.indels.b37.vcf.gz.tbi"                        "1000G_phase1.indels.b37.vcf.gz.tbi"                                                          
+aws s3 --no-sign-request cp "s3://ngi-igenomes/igenomes/Homo_sapiens/GATK/GRCh37/Annotation/GATKBundle/Mills_and_1000G_gold_standard.indels.b37.vcf.gz.tbi"       "Mills_and_1000G_gold_standard.indels.b37.vcf.gz.tbi"                                                                          
+aws s3 --no-sign-request cp "s3://ngi-igenomes/igenomes/Homo_sapiens/GATK/GRCh37/Annotation/GATKBundle/1000G_phase1.snps.high_confidence.b37.vcf.gz"              "1000G_phase1.snps.high_confidence.b37.vcf.gz"                                                                      
+aws s3 --no-sign-request cp "s3://ngi-igenomes/igenomes/Homo_sapiens/GATK/GRCh37/Annotation/GATKBundle/1000G_phase1.snps.high_confidence.b37.vcf.gz.tbi"          "1000G_phase1.snps.high_confidence.b37.vcf.gz.tbi"                                                                          
+aws s3 --no-sign-request cp "s3://ngi-igenomes/igenomes/Homo_sapiens/GATK/GRCh37/Annotation/Control-FREEC/out100m2_hg19.gem"                                      "out100m2_hg19.gem"                                               
+
+aws s3 --no-sign-request cp "s3://ngi-igenomes/igenomes/Homo_sapiens/GATK/GRCh37/Sequence/WholeGenomeFasta/human_g1k_v37_decoy.fasta"                              "human_g1k_v37_decoy.fasta"  
+aws s3 --no-sign-request cp "s3://ngi-igenomes/igenomes/Homo_sapiens/GATK/GRCh37/Sequence/WholeGenomeFasta/human_g1k_v37_decoy.fasta.fai"                          "human_g1k_v37_decoy.fasta.fai"        
+aws s3 --no-sign-request cp "s3://ngi-igenomes/igenomes/Homo_sapiens/GATK/GRCh37/Sequence/WholeGenomeFasta/human_g1k_v37_decoy.dict"                               "human_g1k_v37_decoy.dict"   
