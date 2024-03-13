@@ -4,14 +4,17 @@ namespace=ftschirpke
 
 # workflows=( rnaseq chipseq sarek )
 # workflows=( sarek chipseq )
-# workflows=( rnaseq )
+# workflows=( sarek )
+workflows=( rnaseq )
 # workflows=( chipseq rnaseq )
-workflows=( Synthetic_Blast )
+# workflows=( Synthetic_Cycles )
 # synwfs=( Synthetic_Blast Synthetic_Bwa Synthetic_Cycles Synthetic_Genome Synthetic_Montage Synthetic_Seismology Synthetic_Soykb )
 
 # workflows=( rnaseq sarek chipseq )
 
-run=online_tarema
+# run=online_tarema
+# run=benchmark_tarema
+run=rankminrr
 
 trial="single-try"
 
@@ -22,6 +25,7 @@ collectData() {
     cp /input/data/output/trace.csv $experiment/trace.csv
     cp /input/data/output/dag.html $experiment/dag.html
     cp /input/data/output/timeline.html $experiment/timeline.html
+    cp -r /input/scheduler $experiment/scheduler
     cp -r launch $experiment/
     cp $workflow/nextflow.config $experiment/nextflow.config
 }

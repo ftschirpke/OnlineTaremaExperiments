@@ -4,18 +4,13 @@ results_dir=/experiments/bachelor_results
 namespace=ftschirpke
 
 # workflows=( rnaseq chipseq sarek )
-# workflows=( sarek chipseq )
 # workflows=( rnaseq )
-# workflows=( chipseq rnaseq )
-workflows=( sarek )
+# workflows=( sarek )
 workflows=( Synthetic_Blast Synthetic_Bwa Synthetic_Cycles Synthetic_Genome Synthetic_Montage Synthetic_Seismology Synthetic_Soykb )
 
-# workflows=( rnaseq sarek chipseq )
-
 runs=( rankminrr benchmark_tarema online_tarema )
-# runs=( rankminrr )
 
-reruns=1
+reruns=3
 
 waitForNodes(){
     # Confirm that all nodes are ready before starting
@@ -44,6 +39,7 @@ collectData() {
     cp /input/data/output/trace.csv $experiment/trace.csv
     cp /input/data/output/dag.html $experiment/dag.html
     cp /input/data/output/timeline.html $experiment/timeline.html
+    cp -r /input/scheduler $experiment/scheduler
     cp -r launch $experiment/
     cp workflows/$workflow/nextflow.config $experiment/nextflow.config
 }
@@ -119,11 +115,7 @@ do
                 -c /experiments/experiment/configs/nextflow_$run.config \
                 -c /experiments/experiment/configs/nextflow_main.config
 
-            # profile="-profile test"
-            # outdir="--outdir /input/data/outdata"
-            # nextflow run /input/workflows/$workflow $outdir $profile \
-            #     -c /experiments/experiment/configs/nextflow_$run.config \
-            #     -c /experiments/experiment/configs/nextflow_main.config
+            echo "workflow: $workflow $run ($trial): workflow finished, collecting results"
 
             cd ..
 
