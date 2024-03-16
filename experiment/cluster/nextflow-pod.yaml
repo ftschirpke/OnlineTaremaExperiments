@@ -24,6 +24,9 @@ spec:
         name: input
       - mountPath: /experiments
         name: exp
+      - mountPath: /nfs
+        name: nfs
+        readOnly: true
     securityContext:
       runAsUser: 0
     resources:
@@ -37,5 +40,9 @@ spec:
   - name: exp
     persistentVolumeClaim:
       claimName: ceph-exp
+  - name: nfs
+    persistentVolumeClaim:
+      claimName: nfs-data
+      readOnly: true
   securityContext:
     runAsUser: 0

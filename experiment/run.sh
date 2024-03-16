@@ -4,13 +4,16 @@ results_dir=/experiments/bachelor_results
 namespace=ftschirpke
 
 # workflows=( rnaseq chipseq sarek )
-# workflows=( rnaseq )
 # workflows=( sarek )
-workflows=( Synthetic_Blast Synthetic_Bwa Synthetic_Cycles Synthetic_Genome Synthetic_Montage Synthetic_Seismology Synthetic_Soykb )
+#
+# workflows=( Synthetic_Blast Synthetic_Bwa Synthetic_Cycles Synthetic_Genome Synthetic_Montage Synthetic_Seismology Synthetic_Soykb )
+workflows=( rnaseq )
 
-runs=( rankminrr benchmark_tarema online_tarema )
+# runs=( rankminrr benchmark_tarema online_tarema )
+runs=( rankminrr )
 
-reruns=3
+# reruns=3
+reruns=1
 
 waitForNodes(){
     # Confirm that all nodes are ready before starting
