@@ -6,7 +6,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # DIR = "../results_copied_down/bachelor_results_0/"
-DIR = "../results_copied_down/bachelor_results_1/"
+# DIR = "../results_copied_down/bachelor_results_1/"
+DIR = "../results_copied_down/bachelor_results_2/"
 
 
 def main() -> None:
@@ -35,13 +36,14 @@ def main() -> None:
             }
             df.loc[len(df)] = data
 
+    df["minutes"] = df["duration"] / (60 * 1000)
     df["workflow_mean"] = df["workflow"].map(lambda wf: df[df["workflow"] == wf]["duration"].mean())
     df["relative_duration"] = df["duration"] / df["workflow_mean"]
     df["percentage_improvement"] = df["relative_duration"].map(lambda x: (x - 1) * 100)
 
-    # sns.boxplot(data=df, x="workflow", y="duration", hue="scheduling_approach")
-    sns.boxplot(data=df, x="workflow", y="relative_duration", hue="scheduling_approach")
-    # sns.boxplot(data=df, x="workflow", y="percentage_improvement", hue="scheduling_approach")
+    # sns.boxplot(data=df, x="workflow", y="minutes", hue="scheduling_approach")
+    # sns.boxplot(data=df, x="workflow", y="relative_duration", hue="scheduling_approach")
+    sns.boxplot(data=df, x="workflow", y="percentage_improvement", hue="scheduling_approach")
     plt.show()
 
 

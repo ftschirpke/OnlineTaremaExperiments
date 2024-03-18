@@ -8,7 +8,7 @@ metadata:
   name: workflow-scheduler
 spec:
   nodeSelector: 
-    ftcpuspeed: high
+    friedrich: manager
   containers:
   - env:
     - name: SCHEDULER_NAME

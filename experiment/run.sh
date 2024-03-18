@@ -7,17 +7,18 @@ namespace=ftschirpke
 # workflows=( sarek )
 #
 # workflows=( Synthetic_Blast Synthetic_Bwa Synthetic_Cycles Synthetic_Genome Synthetic_Montage Synthetic_Seismology Synthetic_Soykb )
-# workflows=( rnaseq )
-workflows=( Synthetic_Montage )
+workflows=( rnaseq )
+# workflows=( Synthetic_Montage )
 
-runs=( rankminrr benchmark_tarema online_tarema benchmark_tarema_exp online_tarema_exp )
+# runs=( rankminrr benchmark_tarema online_tarema benchmark_tarema_exp online_tarema_exp )
 # runs=( rankminrr benchmark_tarema online_tarema )
 # runs=( rankminrr benchmark_tarema_exp online_tarema_exp )
 # runs=( benchmark_tarema_exp online_tarema_exp )
 # runs=( rankminrr )
+runs=( rankminrr benchmark_tarema benchmark_tarema_exp )
 
-reruns=3
-# reruns=1
+# reruns=3
+reruns=1
 
 waitForNodes(){
     # Confirm that all nodes are ready before starting
