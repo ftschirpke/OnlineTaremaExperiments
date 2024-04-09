@@ -25,8 +25,4 @@ results_dir=/experiments/bachelor_results
 logname=$(date +%Y%m%d-%H%M%S).log
 
 # run experiment on remote cluster
-# normal:
 kubectl exec -n $namespace nextflow -- bash -c "mkdir -p $results_dir && nohup bash run.sh &> $results_dir/$logname & echo 'Successfully started remote experiment. DONE.'"
-# minimal:
-# kubectl exec -n $namespace nextflow -- bash -c "mkdir -p $results_dir && nohup bash minimal-run.sh &> $results_dir/$logname & echo 'Successfully started remote experiment. DONE.'"
-# TODO: go back to normal run.sh after testing minimal-run.sh

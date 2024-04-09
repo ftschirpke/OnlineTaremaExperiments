@@ -4,21 +4,51 @@ from collections import defaultdict
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+from matplotlib.ticker import StrMethodFormatter
 import seaborn as sns
+import scienceplots
 
-# DIR = "../results_copied_down/bachelor_results_0/"
-# DIR = "../results_copied_down/bachelor_results_1/"
-DIR = "../results_copied_down/bachelor_results_5/"
+DIR = "../results_copied_down/bachelor_results_1/"
+
+
+SAVE = True
+
+
+def setBoxColors(bp, color):
+    for element in ['boxes', 'whiskers', 'fliers', 'means', 'medians', 'caps']:
+        for i in range(len(bp[element])):
+            plt.setp(bp[element][i], color='black')
+            if element == 'boxes':
+                plt.setp(bp[element][i], facecolor=color)
+
+
+WF = "Workflow"
+SA = "Scheduling Approach"
+RN = "Run Number"
+
+RMRR = "RankMin-RR"
+
+
+def reformat(name: str) -> str:
+    if name == "rankminrr":
+        return RMRR
+    return " ".join([x.capitalize() for x in name.split("_")])
 
 
 def main() -> None:
-    df: pd.DataFrame = pd.DataFrame(columns=["workflow", "scheduling_approach", "run_number", "start", "end", "duration"])
+    global SAVE
+    SAVE = input("Save plots? (y/n) ") == "y"
+    plt.style.use("science")
+    plt.rcParams["font.size"] = 12
+
+    df: pd.DataFrame = pd.DataFrame(columns=[WF, SA, RN, "start", "end", "duration"])
 
     root_path: Path = Path(DIR)
     for dir in root_path.iterdir():
         if not dir.is_dir():
             continue
         for file in dir.rglob("trace.csv"):
+            print(file)
             run_name = file.parents[0].name
             if "failed" in run_name:
                 continue
@@ -28,24 +58,52 @@ def main() -> None:
             start: int = run_df["start"].min()
             end: int = run_df["complete"].max()
             data = {
-                "workflow": workflow,
-                "scheduling_approach": scheduling_approach,
-                "run_number": int(run_name),
+                WF: reformat(workflow),
+                SA: reformat(scheduling_approach),
+                RN: int(run_name),
                 "start": start,
                 "end": end,
                 "duration": end - start,
             }
             df.loc[len(df)] = data
 
-    df["minutes"] = df["duration"] / (60 * 1000)
-    df["workflow_mean"] = df["workflow"].map(lambda wf: df[df["workflow"] == wf]["duration"].mean())
+    MINS = "Duration in Minutes"
+
+    df[MINS] = df["duration"] / (60 * 1000)
+    df["workflow_mean"] = df[WF].map(lambda wf: df[df[WF] == wf]["duration"].mean())
     df["relative_duration"] = df["duration"] / df["workflow_mean"]
     df["percentage_improvement"] = df["relative_duration"].map(lambda x: (x - 1) * 100)
 
-    sns.boxplot(data=df, x="workflow", y="minutes", hue="scheduling_approach")
-    # sns.boxplot(data=df, x="workflow", y="relative_duration", hue="scheduling_approach")
-    # sns.boxplot(data=df, x="workflow", y="percentage_improvement", hue="scheduling_approach")
-    plt.show()
+    df["rankminrr_mean"] = df[WF].map(
+        lambda wf:
+        df[(df[WF] == wf) & (df[SA] == RMRR)]["duration"].mean()
+    )
+
+    df["relative_to_rankminrr"] = df["duration"] / df["rankminrr_mean"]
+
+    PERC_IMPR_RMRR = "Relative Makespan compared to RankMin-RR mean"
+    df[PERC_IMPR_RMRR] = df["relative_to_rankminrr"].map(lambda x: (x - 1) * 100)
+
+    plot_y = PERC_IMPR_RMRR
+
+    print(df)
+
+    # sns.boxplot(data=df, x=WF, y="minutes", hue=SA)
+    # sns.boxplot(data=df, x=WF, y="relative_duration", hue=SA)
+    # sns.boxplot(data=df, x=WF, y="percentage_improvement", hue=SA)
+    bp = sns.boxplot(data=df, x=WF, y=plot_y, hue=SA)
+
+    bp.yaxis.set_major_formatter(StrMethodFormatter("${x:+.0f}$\\%%"))
+
+    print(f"Currently at Runtime plot ({plot_y})")
+    if SAVE:
+        yes = input("Save this? (y/n) ") == "y"
+        if yes:
+            fig = bp.get_figure()
+            fig.set_size_inches(10, 5)
+            fig.savefig("plots/runtimes.pdf", bbox_inches='tight')
+    if not SAVE:
+        plt.show()
 
 
 def main2() -> None:
@@ -87,9 +145,8 @@ def main2() -> None:
             list_data = list(task_data.items())
             ax.barh(y=[x[0] for x in list_data], width=[x[1][1] for x in list_data], left=[x[1][0] for x in list_data])
 
-        plt.show()
-
 
 if __name__ == "__main__":
+
     main()
-    main2()
+    # main2()

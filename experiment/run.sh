@@ -7,20 +7,17 @@ namespace=ftschirpke
 # workflows=( sarek )
 #
 # workflows=( Synthetic_Blast Synthetic_Bwa Synthetic_Cycles Synthetic_Genome Synthetic_Montage Synthetic_Seismology Synthetic_Soykb )
-workflows=( rnaseq )
+workflows=( rnaseq Synthetic_Blast Synthetic_Bwa Synthetic_Cycles Synthetic_Genome Synthetic_Montage Synthetic_Seismology Synthetic_Soykb chipseq )
 # workflows=( chipseq )
 # workflows=( Synthetic_Montage )
 
-runs=( rankminrr benchmark_tarema benchmark_tarema_exp online_tarema online_tarema_exp )
-# runs=( rankminrr benchmark_tarema online_tarema )
-# runs=( rankminrr benchmark_tarema_exp online_tarema_exp )
-# runs=( benchmark_tarema_exp online_tarema_exp )
+runs=( online_tarema benchmark_tarema rankminrr )
 # runs=( rankminrr )
-# runs=( benchmark_tarema_exp benchmark_tarema rankminrr )
 # runs=( benchmark_tarema )
+# runs=( online_tarema )
 
-# reruns=3
-reruns=2
+reruns=3
+# reruns=2
 # reruns=1
 
 waitForNodes(){
@@ -106,12 +103,12 @@ do
 
             echo "workflow: $workflow $run ($trial): starting scheduler"
 
-            run_config=$run
-            if [[ $run == *_exp ]]; then
-                kubectl apply -f cluster/experimental-workflow-scheduler.yaml --wait -n $namespace
-                run_config=${run%_exp}
+
+            if [ $run == "rankminrr" ]; then
+                kubectl create -f cluster/original-workflow-scheduler.yaml -n $namespace
+                # kubectl create -f cluster/workflow-scheduler.yaml -n $namespace
             else
-                kubectl apply -f cluster/workflow-scheduler.yaml --wait -n $namespace
+                kubectl create -f cluster/workflow-scheduler.yaml -n $namespace
             fi
 
             kubectl wait --for=condition=ready pod workflow-scheduler -n $namespace
@@ -129,11 +126,9 @@ do
             fi
             waitForNodes
 
-            echo "starting with config: $run_config"
-
             nextflow run /input/workflows/$workflow $profile \
                 -c /experiments/experiment/$workflow/nextflow.config \
-                -c /experiments/experiment/configs/nextflow_${run_config}.config \
+                -c /experiments/experiment/configs/nextflow_$run.config \
                 -c /experiments/experiment/configs/nextflow_main.config
 
             echo "workflow: $workflow $run ($trial): workflow finished, collecting results"

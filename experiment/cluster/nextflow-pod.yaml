@@ -4,7 +4,7 @@ metadata:
   name: nextflow
 spec:
   nodeSelector: 
-    friedrich: manager
+    friedrich: nextflowpod
   containers:
   - name: nextflow
     image: fabianlehmann/test1:nxf_vla_exp

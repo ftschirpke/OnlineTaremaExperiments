@@ -8,14 +8,14 @@ metadata:
   name: workflow-scheduler
 spec:
   nodeSelector: 
-    friedrich: manager
+    friedrich: schedulerpod
   containers:
   - env:
     - name: SCHEDULER_NAME
       value: workflow-scheduler
     - name: AUTOCLOSE
       value: "false"
-    image: friedricht/online_tarema:v38
+    image: friedricht/online_tarema:v41
     imagePullPolicy: IfNotPresent
     name: workflow-scheduler
     resources:
