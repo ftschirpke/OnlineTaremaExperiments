@@ -8,7 +8,7 @@ from matplotlib.ticker import StrMethodFormatter
 import seaborn as sns
 import scienceplots
 
-DIR = "../results_copied_down/bachelor_results_1/"
+DIR = "../results_copied_down/bachelor_results_0/"
 
 
 SAVE = True
@@ -70,18 +70,18 @@ def main() -> None:
     MINS = "Duration in Minutes"
 
     df[MINS] = df["duration"] / (60 * 1000)
-    df["workflow_mean"] = df[WF].map(lambda wf: df[df[WF] == wf]["duration"].mean())
-    df["relative_duration"] = df["duration"] / df["workflow_mean"]
+    df["workflow_median"] = df[WF].map(lambda wf: df[df[WF] == wf]["duration"].median())
+    df["relative_duration"] = df["duration"] / df["workflow_median"]
     df["percentage_improvement"] = df["relative_duration"].map(lambda x: (x - 1) * 100)
 
-    df["rankminrr_mean"] = df[WF].map(
+    df["rankminrr_median"] = df[WF].map(
         lambda wf:
-        df[(df[WF] == wf) & (df[SA] == RMRR)]["duration"].mean()
+        df[(df[WF] == wf) & (df[SA] == RMRR)]["duration"].median()
     )
 
-    df["relative_to_rankminrr"] = df["duration"] / df["rankminrr_mean"]
+    df["relative_to_rankminrr"] = df["duration"] / df["rankminrr_median"]
 
-    PERC_IMPR_RMRR = "Relative Makespan compared to RankMin-RR mean"
+    PERC_IMPR_RMRR = "Relative Makespan compared to RankMin-RR Median"
     df[PERC_IMPR_RMRR] = df["relative_to_rankminrr"].map(lambda x: (x - 1) * 100)
 
     plot_y = PERC_IMPR_RMRR
