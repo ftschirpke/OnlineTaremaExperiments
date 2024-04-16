@@ -35,6 +35,9 @@ def reformat(name: str) -> str:
     return " ".join([x.capitalize() for x in name.split("_")])
 
 
+scheduling_approaches = [RMRR, "Benchmark Tarema", "Online Tarema"]
+
+
 def main() -> None:
     global SAVE
     SAVE = input("Save plots? (y/n) ") == "y"
@@ -67,6 +70,9 @@ def main() -> None:
             }
             df.loc[len(df)] = data
 
+    df["sort_key"] = df[[WF, SA, RN]].apply(lambda x: f"{x[WF]}-{scheduling_approaches.index(x[SA])}-{x[RN]}", axis=1)
+    df.sort_values(by="sort_key", inplace=True)
+
     MINS = "Duration in Minutes"
 
     df[MINS] = df["duration"] / (60 * 1000)
@@ -84,16 +90,17 @@ def main() -> None:
     PERC_IMPR_RMRR = "Relative Makespan compared to RankMin-RR Median"
     df[PERC_IMPR_RMRR] = df["relative_to_rankminrr"].map(lambda x: (x - 1) * 100)
 
-    plot_y = PERC_IMPR_RMRR
-
     print(df)
 
-    # sns.boxplot(data=df, x=WF, y="minutes", hue=SA)
-    # sns.boxplot(data=df, x=WF, y="relative_duration", hue=SA)
-    # sns.boxplot(data=df, x=WF, y="percentage_improvement", hue=SA)
+    # plot_y = PERC_IMPR_RMRR
+    plot_y = MINS
+    # plot_y = "relative_duration"
+    # plot_y = "percentage_improvement"
+
     bp = sns.boxplot(data=df, x=WF, y=plot_y, hue=SA)
 
-    bp.yaxis.set_major_formatter(StrMethodFormatter("${x:+.0f}$\\%%"))
+    if plot_y == PERC_IMPR_RMRR or plot_y == "percentage_improvement":
+        bp.yaxis.set_major_formatter(StrMethodFormatter("${x:+.0f}$\\%%"))
 
     print(f"Currently at Runtime plot ({plot_y})")
     if SAVE:
