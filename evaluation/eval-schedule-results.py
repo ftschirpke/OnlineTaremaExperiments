@@ -92,8 +92,16 @@ def main() -> None:
 
     print(df)
 
-    # plot_y = PERC_IMPR_RMRR
-    plot_y = MINS
+    total_time = df[MINS].sum()
+    print(f"Total time: {total_time} minutes")
+
+    print("Duration per workflow:")
+    print(df.groupby(WF)[MINS].sum())
+    print("Average duration per workflow:")
+    print(df.groupby(WF)[MINS].mean())
+
+    plot_y = PERC_IMPR_RMRR
+    # plot_y = MINS
     # plot_y = "relative_duration"
     # plot_y = "percentage_improvement"
 
