@@ -17,7 +17,6 @@ spec:
     spec:
       nodeSelector:
         usedby: ftschirpke
-        usedby: neuhausl
       containers:
       - name: main
         image: ubuntu:latest
