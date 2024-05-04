@@ -1,0 +1,1 @@
+2024-04-30 11:44:12	49m 5s	wise_lamport	OK	4451c09db58548a1caab3e78d50306ce	240ca96a-ef66-4c4b-8d4c-c1f869b6fe94	nextflow run /input/workflows/Synthetic_Seismology -c /experiments/experiment/Synthetic_Seismology/nextflow.config -c /experiments/experiment/configs/nextflow_benchmark_tarema.config -c /experiments/experiment/configs/nextflow_main.config

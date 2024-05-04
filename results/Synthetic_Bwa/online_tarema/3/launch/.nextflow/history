@@ -1,0 +1,1 @@
+2024-05-03 09:54:23	53m 22s	agitated_mccarthy	OK	6bc36bd432c3420d93c4159ebe31e6b4	e50380e8-3a05-46e2-9fb8-f39d01fcd8e1	nextflow run /input/workflows/Synthetic_Bwa -c /experiments/experiment/Synthetic_Bwa/nextflow.config -c /experiments/experiment/configs/nextflow_online_tarema.config -c /experiments/experiment/configs/nextflow_main.config

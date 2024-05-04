@@ -1,0 +1,1 @@
+2024-05-01 04:57:11	56m 21s	small_hawking	OK	6bc36bd432c3420d93c4159ebe31e6b4	2c344077-ca16-408c-b3ae-89cb4c971f84	nextflow run /input/workflows/Synthetic_Bwa -c /experiments/experiment/Synthetic_Bwa/nextflow.config -c /experiments/experiment/configs/nextflow_rankminrr.config -c /experiments/experiment/configs/nextflow_main.config

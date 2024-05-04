@@ -1,0 +1,1 @@
+2024-04-29 18:34:17	49m 15s	mighty_bohr	OK	3d786acf75344b943c55c28941c2d8ec	a49f756b-7be9-4da6-a05f-9a67e7468ccc	nextflow run /input/workflows/Synthetic_Blast -c /experiments/experiment/Synthetic_Blast/nextflow.config -c /experiments/experiment/configs/nextflow_rankminrr.config -c /experiments/experiment/configs/nextflow_main.config

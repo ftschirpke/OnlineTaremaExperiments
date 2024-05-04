@@ -1,0 +1,1 @@
+2024-05-01 00:17:55	50m 44s	angry_curry	OK	3d786acf75344b943c55c28941c2d8ec	dd05401e-6795-4f71-9556-8d734136bde9	nextflow run /input/workflows/Synthetic_Blast -c /experiments/experiment/Synthetic_Blast/nextflow.config -c /experiments/experiment/configs/nextflow_rankminrr.config -c /experiments/experiment/configs/nextflow_main.config

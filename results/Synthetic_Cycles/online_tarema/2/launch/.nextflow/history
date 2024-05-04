@@ -1,0 +1,1 @@
+2024-05-01 06:49:57	47m 44s	evil_euclid	OK	872a3279a47d21b4bb095c07733a7c1f	cf87b981-4cd6-401d-9f16-400314c7c35b	nextflow run /input/workflows/Synthetic_Cycles -c /experiments/experiment/Synthetic_Cycles/nextflow.config -c /experiments/experiment/configs/nextflow_online_tarema.config -c /experiments/experiment/configs/nextflow_main.config

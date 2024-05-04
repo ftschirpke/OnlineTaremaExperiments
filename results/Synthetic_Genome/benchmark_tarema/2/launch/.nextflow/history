@@ -1,0 +1,1 @@
+2024-05-01 13:15:26	48m 24s	gigantic_ampere	OK	9c2a4a023eb65273f7a732187858f607	c7d647fa-cf8b-4368-81f6-426fcf10e53b	nextflow run /input/workflows/Synthetic_Genome -c /experiments/experiment/Synthetic_Genome/nextflow.config -c /experiments/experiment/configs/nextflow_benchmark_tarema.config -c /experiments/experiment/configs/nextflow_main.config

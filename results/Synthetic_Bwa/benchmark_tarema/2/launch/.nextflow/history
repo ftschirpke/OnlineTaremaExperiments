@@ -1,0 +1,1 @@
+2024-05-03 11:45:34	53m 17s	ridiculous_mcclintock	OK	6bc36bd432c3420d93c4159ebe31e6b4	2e039f91-bb76-490b-9e09-a5a55e7b365e	nextflow run /input/workflows/Synthetic_Bwa -c /experiments/experiment/Synthetic_Bwa/nextflow.config -c /experiments/experiment/configs/nextflow_benchmark_tarema.config -c /experiments/experiment/configs/nextflow_main.config

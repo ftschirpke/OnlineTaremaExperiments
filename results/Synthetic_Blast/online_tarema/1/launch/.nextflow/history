@@ -1,0 +1,1 @@
+2024-04-29 16:55:46	48m 58s	compassionate_angela	OK	3d786acf75344b943c55c28941c2d8ec	14869fca-fe86-4b66-b4c0-22b2d5be9648	nextflow run /input/workflows/Synthetic_Blast -c /experiments/experiment/Synthetic_Blast/nextflow.config -c /experiments/experiment/configs/nextflow_online_tarema.config -c /experiments/experiment/configs/nextflow_main.config

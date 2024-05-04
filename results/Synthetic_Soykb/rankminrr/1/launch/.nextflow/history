@@ -1,0 +1,1 @@
+2024-04-30 15:25:45	58m 26s	intergalactic_einstein	OK	c5f12876eaf14a9e076eb66ccc4835d3	7c03d59b-3408-4ec1-9e27-9488e943a911	nextflow run /input/workflows/Synthetic_Soykb -c /experiments/experiment/Synthetic_Soykb/nextflow.config -c /experiments/experiment/configs/nextflow_rankminrr.config -c /experiments/experiment/configs/nextflow_main.config

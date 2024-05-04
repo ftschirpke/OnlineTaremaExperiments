@@ -1,0 +1,1 @@
+2024-05-01 10:01:35	47m 35s	elated_hugle	OK	872a3279a47d21b4bb095c07733a7c1f	e0be0ee1-d482-49c0-bae1-7a40e8da8fa3	nextflow run /input/workflows/Synthetic_Cycles -c /experiments/experiment/Synthetic_Cycles/nextflow.config -c /experiments/experiment/configs/nextflow_rankminrr.config -c /experiments/experiment/configs/nextflow_main.config

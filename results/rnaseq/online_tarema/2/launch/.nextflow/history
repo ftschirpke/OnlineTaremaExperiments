@@ -1,0 +1,1 @@
+2024-04-12 15:40:21	4h 49m	condescending_mayer	OK	f421ddc35d81a0561685927c03e03995	c2b10f67-2357-4e81-9499-87d960e27348	nextflow run /input/workflows/rnaseq -profile test_full -c /experiments/experiment/rnaseq/nextflow.config -c /experiments/experiment/configs/nextflow_online_tarema.config -c /experiments/experiment/configs/nextflow_main.config

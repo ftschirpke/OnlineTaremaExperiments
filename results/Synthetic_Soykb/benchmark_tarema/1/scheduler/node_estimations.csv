@@ -1,0 +1,4 @@
+{"iteration": 0, "hu-worker-c43": 954.95, "hu-worker-c29": 559.98, "hu-worker-c40": 724.9, "hu-worker-c23": 955.2, "target": "%cpu"}
+{"iteration": 0, "hu-worker-c43": 21432.3, "hu-worker-c29": 12527.77, "hu-worker-c40": 16085.38, "hu-worker-c23": 21442.25, "target": "rss"}
+{"iteration": 0, "hu-worker-c43": 697.0, "hu-worker-c29": 712.0, "hu-worker-c40": 679.0, "hu-worker-c23": 714.0, "target": "rchar"}
+{"iteration": 0, "hu-worker-c43": 696.0, "hu-worker-c29": 712.0, "hu-worker-c40": 678.0, "hu-worker-c23": 713.0, "target": "wchar"}

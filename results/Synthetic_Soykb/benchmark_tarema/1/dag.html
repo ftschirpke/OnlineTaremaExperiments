@@ -1,0 +1,287 @@
+<!--
+  ~ Copyright 2013-2023, Seqera Labs
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<html>
+
+    <head>
+        <title>Nextflow Cytoscape.js with Dagre</title>
+
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+
+        <script type="text/javascript">
+        var prot = (("https:" == document.location.protocol) ? "https://" : "http://");
+        document.write(unescape("%3Cscript src='" + prot + "code.jquery.com/jquery-2.0.3.min.js' type='text/javascript' %3E%3C/script%3E"));
+        document.write(unescape("%3Cscript src='" + prot + "cdnjs.cloudflare.com/ajax/libs/cytoscape/2.6.12/cytoscape.min.js' type='text/javascript' %3E%3C/script%3E"));
+        document.write(unescape("%3Cscript src='" + prot + "cdn.rawgit.com/cpettitt/dagre/v0.7.4/dist/dagre.min.js' type='text/javascript' %3E%3C/script%3E"));
+        document.write(unescape("%3Cscript src='" + prot + "cdn.rawgit.com/cytoscape/cytoscape.js-dagre/1.1.2/cytoscape-dagre.js' type='text/javascript' %3E%3C/script%3E"));
+        </script>
+
+        <style>
+            body {
+                font-family: helvetica;
+                font-size: 14px;
+            }
+
+            #cy {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                left: 0;
+                top: 0;
+                z-index: 999;
+            }
+
+            h1 {
+                opacity: 0.5;
+                font-size: 1em;
+            }
+        </style>
+
+        <script>
+            $(function(){
+                var cy = window.cy = cytoscape({
+                    container: document.getElementById('cy'),
+                    boxSelectionEnabled: false,
+                    autounselectify: true,
+
+                    layout: {
+                        name: 'dagre'
+                    },
+
+                    style: cytoscape.stylesheet()
+                        .selector( 'node')
+                            .css({
+                                'width': 10,
+                                'height': 10,
+                                'content': 'data(label)',
+                                'text-valign': 'center',
+                                'text-halign': 'center',
+                                'text-opacity': 0.5,
+                            })
+                        .selector('node.PROCESS')
+                            .css({
+                                'width': 100,
+                                'height': 50,
+                                'text-opacity': 0.9,
+                                'background-color': '#009911'
+                            })
+                        .selector('node.OPERATOR')
+                            .css({
+                                'background-color': '#11479e',
+                                'text-halign': 'right',
+                            })
+                        .selector('node.ORIGIN')
+                            .css({
+                                'background-color': '#999999',
+                                'text-halign': 'right',
+                            })
+                        .selector('node.TERMINATION')
+                            .css({
+                                'background-color': '#999999',
+                                'text-halign': 'right',
+                            })
+                        .selector('edge')
+                            .css({
+                                'content': 'data(label)',
+                                'text-opacity': 0.5,
+                                'width': 4,
+                                'target-arrow-shape': 'triangle',
+                                'line-color': '#9dbaea',
+                                'target-arrow-color': '#9dbaea'
+                            }),
+
+elements: {
+nodes: [
+{ data: { id: 'p0', label: 'Channel.fromPath'}, classes: 'ORIGIN' },
+{ data: { id: 'p1', label: 'flatten'}, classes: 'OPERATOR' },
+{ data: { id: 'p2', label: 'flatMap'}, classes: 'OPERATOR' },
+{ data: { id: 'p3', label: 'groupTuple'}, classes: 'OPERATOR' },
+{ data: { id: 'p4', label: 'task_alignment_to_reference'}, classes: 'PROCESS' },
+{ data: { id: 'p5', label: 'concat'}, classes: 'OPERATOR' },
+{ data: { id: 'p6', label: 'flatten'}, classes: 'OPERATOR' },
+{ data: { id: 'p7', label: 'flatMap'}, classes: 'OPERATOR' },
+{ data: { id: 'p8', label: 'groupTuple'}, classes: 'OPERATOR' },
+{ data: { id: 'p9', label: 'task_sort_sam'}, classes: 'PROCESS' },
+{ data: { id: 'p10', label: 'concat'}, classes: 'OPERATOR' },
+{ data: { id: 'p11', label: 'flatten'}, classes: 'OPERATOR' },
+{ data: { id: 'p12', label: 'flatMap'}, classes: 'OPERATOR' },
+{ data: { id: 'p13', label: 'groupTuple'}, classes: 'OPERATOR' },
+{ data: { id: 'p14', label: 'task_dedup'}, classes: 'PROCESS' },
+{ data: { id: 'p15', label: 'concat'}, classes: 'OPERATOR' },
+{ data: { id: 'p16', label: 'flatten'}, classes: 'OPERATOR' },
+{ data: { id: 'p17', label: 'flatMap'}, classes: 'OPERATOR' },
+{ data: { id: 'p18', label: 'groupTuple'}, classes: 'OPERATOR' },
+{ data: { id: 'p19', label: 'task_add_replace'}, classes: 'PROCESS' },
+{ data: { id: 'p20', label: 'concat'}, classes: 'OPERATOR' },
+{ data: { id: 'p21', label: 'flatten'}, classes: 'OPERATOR' },
+{ data: { id: 'p22', label: 'flatMap'}, classes: 'OPERATOR' },
+{ data: { id: 'p23', label: 'groupTuple'}, classes: 'OPERATOR' },
+{ data: { id: 'p24', label: 'task_realign_target_creator'}, classes: 'PROCESS' },
+{ data: { id: 'p25', label: 'concat'}, classes: 'OPERATOR' },
+{ data: { id: 'p26', label: 'flatten'}, classes: 'OPERATOR' },
+{ data: { id: 'p27', label: 'flatMap'}, classes: 'OPERATOR' },
+{ data: { id: 'p28', label: 'groupTuple'}, classes: 'OPERATOR' },
+{ data: { id: 'p29', label: 'task_indel_realign'}, classes: 'PROCESS' },
+{ data: { id: 'p30', label: 'concat'}, classes: 'OPERATOR' },
+{ data: { id: 'p31', label: 'flatten'}, classes: 'OPERATOR' },
+{ data: { id: 'p32', label: 'flatMap'}, classes: 'OPERATOR' },
+{ data: { id: 'p33', label: 'map'}, classes: 'OPERATOR' },
+{ data: { id: 'p34', label: 'groupTuple'}, classes: 'OPERATOR' },
+{ data: { id: 'p35', label: 'task_haplotype_caller'}, classes: 'PROCESS' },
+{ data: { id: 'p36', label: 'concat'}, classes: 'OPERATOR' },
+{ data: { id: 'p37', label: 'flatten'}, classes: 'OPERATOR' },
+{ data: { id: 'p38', label: 'flatMap'}, classes: 'OPERATOR' },
+{ data: { id: 'p39', label: 'groupTuple'}, classes: 'OPERATOR' },
+{ data: { id: 'p40', label: 'task_merge_gcvf'}, classes: 'PROCESS' },
+{ data: { id: 'p41'}, classes: 'NODE' },
+{ data: { id: 'p42', label: 'concat'}, classes: 'OPERATOR' },
+{ data: { id: 'p43', label: 'flatten'}, classes: 'OPERATOR' },
+{ data: { id: 'p44', label: 'flatMap'}, classes: 'OPERATOR' },
+{ data: { id: 'p45', label: 'map'}, classes: 'OPERATOR' },
+{ data: { id: 'p46', label: 'groupTuple'}, classes: 'OPERATOR' },
+{ data: { id: 'p47', label: 'task_genotype_gvcfs'}, classes: 'PROCESS' },
+{ data: { id: 'p48', label: 'concat'}, classes: 'OPERATOR' },
+{ data: { id: 'p49', label: 'flatten'}, classes: 'OPERATOR' },
+{ data: { id: 'p50', label: 'flatMap'}, classes: 'OPERATOR' },
+{ data: { id: 'p51', label: 'groupTuple'}, classes: 'OPERATOR' },
+{ data: { id: 'p52', label: 'task_combine_variants'}, classes: 'PROCESS' },
+{ data: { id: 'p53', label: 'concat'}, classes: 'OPERATOR' },
+{ data: { id: 'p54', label: 'flatten'}, classes: 'OPERATOR' },
+{ data: { id: 'p55', label: 'flatMap'}, classes: 'OPERATOR' },
+{ data: { id: 'p56', label: 'groupTuple'}, classes: 'OPERATOR' },
+{ data: { id: 'p57', label: 'task_select_variants_snp'}, classes: 'PROCESS' },
+{ data: { id: 'p58', label: 'concat'}, classes: 'OPERATOR' },
+{ data: { id: 'p59', label: 'flatten'}, classes: 'OPERATOR' },
+{ data: { id: 'p60', label: 'flatMap'}, classes: 'OPERATOR' },
+{ data: { id: 'p61', label: 'groupTuple'}, classes: 'OPERATOR' },
+{ data: { id: 'p62', label: 'task_filtering_snp'}, classes: 'PROCESS' },
+{ data: { id: 'p63'}, classes: 'NODE' },
+{ data: { id: 'p64', label: 'concat'}, classes: 'OPERATOR' },
+{ data: { id: 'p65', label: 'flatten'}, classes: 'OPERATOR' },
+{ data: { id: 'p66', label: 'flatMap'}, classes: 'OPERATOR' },
+{ data: { id: 'p67', label: 'groupTuple'}, classes: 'OPERATOR' },
+{ data: { id: 'p68', label: 'task_select_variants_indel'}, classes: 'PROCESS' },
+{ data: { id: 'p69', label: 'concat'}, classes: 'OPERATOR' },
+{ data: { id: 'p70', label: 'flatten'}, classes: 'OPERATOR' },
+{ data: { id: 'p71', label: 'flatMap'}, classes: 'OPERATOR' },
+{ data: { id: 'p72', label: 'groupTuple'}, classes: 'OPERATOR' },
+{ data: { id: 'p73', label: 'task_filtering_indel'}, classes: 'PROCESS' },
+{ data: { id: 'p74'}, classes: 'NODE' },
+],
+edges: [
+{ data: { source: 'p0', target: 'p1', label: 'workflow_inputs' } },
+{ data: { source: 'p1', target: 'p2'} },
+{ data: { source: 'p2', target: 'p3'} },
+{ data: { source: 'p3', target: 'p4', label: 'alignment_to_reference_in' } },
+{ data: { source: 'p4', target: 'p5'} },
+{ data: { source: 'p0', target: 'p5', label: 'workflow_inputs' } },
+{ data: { source: 'p5', target: 'p6', label: 'concatenated_FOR_sort_sam' } },
+{ data: { source: 'p6', target: 'p7'} },
+{ data: { source: 'p7', target: 'p8'} },
+{ data: { source: 'p8', target: 'p9', label: 'sort_sam_in' } },
+{ data: { source: 'p9', target: 'p10'} },
+{ data: { source: 'p0', target: 'p10', label: 'workflow_inputs' } },
+{ data: { source: 'p10', target: 'p11', label: 'concatenated_FOR_dedup' } },
+{ data: { source: 'p11', target: 'p12'} },
+{ data: { source: 'p12', target: 'p13'} },
+{ data: { source: 'p13', target: 'p14', label: 'dedup_in' } },
+{ data: { source: 'p14', target: 'p15'} },
+{ data: { source: 'p0', target: 'p15', label: 'workflow_inputs' } },
+{ data: { source: 'p15', target: 'p16', label: 'concatenated_FOR_add_replace' } },
+{ data: { source: 'p16', target: 'p17'} },
+{ data: { source: 'p17', target: 'p18'} },
+{ data: { source: 'p18', target: 'p19', label: 'add_replace_in' } },
+{ data: { source: 'p19', target: 'p20'} },
+{ data: { source: 'p0', target: 'p20', label: 'workflow_inputs' } },
+{ data: { source: 'p20', target: 'p21', label: 'concatenated_FOR_realign_target_creator' } },
+{ data: { source: 'p21', target: 'p22'} },
+{ data: { source: 'p22', target: 'p23'} },
+{ data: { source: 'p23', target: 'p24', label: 'realign_target_creator_in' } },
+{ data: { source: 'p24', target: 'p25'} },
+{ data: { source: 'p0', target: 'p25', label: 'workflow_inputs' } },
+{ data: { source: 'p19', target: 'p25'} },
+{ data: { source: 'p25', target: 'p26', label: 'concatenated_FOR_indel_realign' } },
+{ data: { source: 'p26', target: 'p27'} },
+{ data: { source: 'p27', target: 'p28'} },
+{ data: { source: 'p28', target: 'p29', label: 'indel_realign_in' } },
+{ data: { source: 'p29', target: 'p30'} },
+{ data: { source: 'p0', target: 'p30', label: 'workflow_inputs' } },
+{ data: { source: 'p30', target: 'p31', label: 'concatenated_FOR_haplotype_caller' } },
+{ data: { source: 'p31', target: 'p32'} },
+{ data: { source: 'p32', target: 'p33'} },
+{ data: { source: 'p33', target: 'p34'} },
+{ data: { source: 'p34', target: 'p35', label: 'haplotype_caller_in' } },
+{ data: { source: 'p35', target: 'p36'} },
+{ data: { source: 'p0', target: 'p36', label: 'workflow_inputs' } },
+{ data: { source: 'p36', target: 'p37', label: 'concatenated_FOR_merge_gcvf' } },
+{ data: { source: 'p37', target: 'p38'} },
+{ data: { source: 'p38', target: 'p39'} },
+{ data: { source: 'p39', target: 'p40', label: 'merge_gcvf_in' } },
+{ data: { source: 'p40', target: 'p41'} },
+{ data: { source: 'p35', target: 'p42'} },
+{ data: { source: 'p0', target: 'p42', label: 'workflow_inputs' } },
+{ data: { source: 'p42', target: 'p43', label: 'concatenated_FOR_genotype_gvcfs' } },
+{ data: { source: 'p43', target: 'p44'} },
+{ data: { source: 'p44', target: 'p45'} },
+{ data: { source: 'p45', target: 'p46'} },
+{ data: { source: 'p46', target: 'p47', label: 'genotype_gvcfs_in' } },
+{ data: { source: 'p47', target: 'p48'} },
+{ data: { source: 'p0', target: 'p48', label: 'workflow_inputs' } },
+{ data: { source: 'p48', target: 'p49', label: 'concatenated_FOR_combine_variants' } },
+{ data: { source: 'p49', target: 'p50'} },
+{ data: { source: 'p50', target: 'p51'} },
+{ data: { source: 'p51', target: 'p52', label: 'combine_variants_in' } },
+{ data: { source: 'p52', target: 'p53'} },
+{ data: { source: 'p0', target: 'p53', label: 'workflow_inputs' } },
+{ data: { source: 'p53', target: 'p54', label: 'concatenated_FOR_select_variants_snp' } },
+{ data: { source: 'p54', target: 'p55'} },
+{ data: { source: 'p55', target: 'p56'} },
+{ data: { source: 'p56', target: 'p57', label: 'select_variants_snp_in' } },
+{ data: { source: 'p57', target: 'p58'} },
+{ data: { source: 'p0', target: 'p58', label: 'workflow_inputs' } },
+{ data: { source: 'p58', target: 'p59', label: 'concatenated_FOR_filtering_snp' } },
+{ data: { source: 'p59', target: 'p60'} },
+{ data: { source: 'p60', target: 'p61'} },
+{ data: { source: 'p61', target: 'p62', label: 'filtering_snp_in' } },
+{ data: { source: 'p62', target: 'p63'} },
+{ data: { source: 'p52', target: 'p64'} },
+{ data: { source: 'p0', target: 'p64', label: 'workflow_inputs' } },
+{ data: { source: 'p64', target: 'p65', label: 'concatenated_FOR_select_variants_indel' } },
+{ data: { source: 'p65', target: 'p66'} },
+{ data: { source: 'p66', target: 'p67'} },
+{ data: { source: 'p67', target: 'p68', label: 'select_variants_indel_in' } },
+{ data: { source: 'p68', target: 'p69'} },
+{ data: { source: 'p0', target: 'p69', label: 'workflow_inputs' } },
+{ data: { source: 'p69', target: 'p70', label: 'concatenated_FOR_filtering_indel' } },
+{ data: { source: 'p70', target: 'p71'} },
+{ data: { source: 'p71', target: 'p72'} },
+{ data: { source: 'p72', target: 'p73', label: 'filtering_indel_in' } },
+{ data: { source: 'p73', target: 'p74'} },
+],
+},
+
+                });
+
+            });
+        </script>
+    </head>
+
+    <body>
+        <h1>Nextflow Cytoscape.js with Dagre</h1>
+        <div id="cy"></div>
+    </body>
+
+</html>

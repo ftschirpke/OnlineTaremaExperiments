@@ -1,0 +1,1019 @@
+Apr-30 22:37:26.251 [main] DEBUG nextflow.cli.Launcher - $> nextflow run /input/workflows/Synthetic_Blast -c /experiments/experiment/Synthetic_Blast/nextflow.config -c /experiments/experiment/configs/nextflow_benchmark_tarema.config -c /experiments/experiment/configs/nextflow_main.config
+Apr-30 22:37:26.341 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 23.07.0-edge
+Apr-30 22:37:26.369 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/.nextflow/plugins; core-plugins: nf-amazon@2.1.0,nf-azure@1.1.4,nf-cloudcache@0.1.0,nf-codecommit@0.1.5,nf-console@1.0.6,nf-ga4gh@1.1.0,nf-google@1.8.1,nf-tower@1.5.15,nf-wave@0.11.0
+Apr-30 22:37:26.384 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Apr-30 22:37:26.385 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Apr-30 22:37:26.389 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Apr-30 22:37:26.402 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Apr-30 22:37:26.431 [main] DEBUG nextflow.scm.AssetManager - Project manifest does not exist: /input/workflows/Synthetic_Blast/nextflow.config (No such file or directory)
+Apr-30 22:37:26.464 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /experiments/experiment/Synthetic_Blast/nextflow.config
+Apr-30 22:37:26.464 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /experiments/experiment/configs/nextflow_benchmark_tarema.config
+Apr-30 22:37:26.464 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /experiments/experiment/configs/nextflow_main.config
+Apr-30 22:37:26.464 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /experiments/experiment/Synthetic_Blast/nextflow.config
+Apr-30 22:37:26.464 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /experiments/experiment/configs/nextflow_benchmark_tarema.config
+Apr-30 22:37:26.465 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /experiments/experiment/configs/nextflow_main.config
+Apr-30 22:37:26.488 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Apr-30 22:37:27.232 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Apr-30 22:37:27.260 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Apr-30 22:37:27.434 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+Apr-30 22:37:27.458 [main] INFO  nextflow.cli.CmdRun - Launching `/input/workflows/Synthetic_Blast/main.nf` [grave_curran] DSL2 - revision: 3d786acf75
+Apr-30 22:37:27.459 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Apr-30 22:37:27.459 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Apr-30 22:37:27.470 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /.nextflow/secrets/store.json
+Apr-30 22:37:27.474 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@366d8b97] - activable => nextflow.secret.LocalSecretsProvider@366d8b97
+Apr-30 22:37:27.557 [main] DEBUG nextflow.Session - Session UUID: 84726828-37c2-4ceb-97da-9393fa65a6eb
+Apr-30 22:37:27.557 [main] DEBUG nextflow.Session - Run name: grave_curran
+Apr-30 22:37:27.558 [main] DEBUG nextflow.Session - Executor pool size: 32
+Apr-30 22:37:27.567 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Apr-30 22:37:27.572 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=96; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Apr-30 22:37:27.607 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 23.07.0-edge build 5875
+  Created: 28-07-2023 20:27 UTC (20:27 GMT)
+  System: Linux 5.15.0-102-generic
+  Runtime: Groovy 3.0.18 on OpenJDK 64-Bit Server VM 17.0.6+10-LTS
+  Encoding: UTF-8 (UTF-8)
+  Process: 342812@nextflow [10.233.74.24]
+  CPUs: 32 - Mem: 251.4 GB (222.4 GB) - Swap: 0 (0)
+Apr-30 22:37:27.647 [main] DEBUG nextflow.Session - Work-dir: /input/data/work [ceph]
+Apr-30 22:37:27.648 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /input/workflows/Synthetic_Blast/bin
+Apr-30 22:37:27.662 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Apr-30 22:37:27.674 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Apr-30 22:37:27.719 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Apr-30 22:37:27.731 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 33; maxThreads: 1000
+Apr-30 22:37:27.876 [main] DEBUG nextflow.Session - Session start
+Apr-30 22:37:27.881 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /input/data/output/trace.csv
+Apr-30 22:37:28.438 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Apr-30 22:37:28.698 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:task_split_fasta` matches process task_split_fasta
+Apr-30 22:37:28.712 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: k8s
+Apr-30 22:37:28.712 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'k8s'
+Apr-30 22:37:28.726 [main] DEBUG nextflow.executor.Executor - [warm up] executor > k8s
+Apr-30 22:37:28.754 [main] DEBUG n.processor.TaskPollingMonitor - Creating task monitor for executor 'k8s' > capacity: 300; pollInterval: 5s; dumpInterval: 5m; schedulerBatch: null
+Apr-30 22:37:28.774 [main] DEBUG nextflow.k8s.client.ConfigDiscovery - K8s config file does not exist: /root/.kube/config
+Apr-30 22:37:28.791 [main] DEBUG nextflow.k8s.K8sExecutor - [K8s] config=[scheduler:[strategy:benchmark_tarema, name:workflow-scheduler, autoClose:false, nodeSelector:usedby=ftschirpke], debug:[yaml:true], namespace:ftschirpke, serviceAccount:nextflow, workDir:/input/data/work/, projectDir:/input/data/project/, imagePullPolicy:IfNotPresent, runAsUser:0, fetchNodeName:true, storageMountPath:/input, storageClaimName:ceph-data, pod:[nodeSelector:usedby=ftschirpke]]; API client config=ClientConfig[ server=10.233.0.1:443, namespace=ftschirpke, serviceAccount=nextflow, token=eyJhbGciOiJ.., sslCert=LS0tLS1CRUd.., clientCert=-, clientKey=-, verifySsl=false, fromFile=true, httpReadTimeout=null, httpConnectTimeout=null, maxErrorRetry=4 ]
+Apr-30 22:37:29.629 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:task_blastall` matches process task_blastall
+Apr-30 22:37:29.631 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: k8s
+Apr-30 22:37:29.631 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'k8s'
+Apr-30 22:37:29.681 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:task_cat_blast` matches process task_cat_blast
+Apr-30 22:37:29.682 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: k8s
+Apr-30 22:37:29.682 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'k8s'
+Apr-30 22:37:29.735 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:task_cat` matches process task_cat
+Apr-30 22:37:29.736 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: k8s
+Apr-30 22:37:29.736 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'k8s'
+Apr-30 22:37:29.749 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: task_blastall, task_split_fasta, task_cat_blast, task_cat
+Apr-30 22:37:29.750 [main] DEBUG nextflow.Session - Igniting dataflow network (5)
+Apr-30 22:37:29.757 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: /input/workflow-inputs/Synthetic_Blast/; pattern: *; options: [:]
+Apr-30 22:37:29.757 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > task_split_fasta
+Apr-30 22:37:29.759 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > task_blastall
+Apr-30 22:37:29.760 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > task_cat_blast
+Apr-30 22:37:29.760 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > task_cat
+Apr-30 22:37:29.761 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Apr-30 22:37:29.761 [main] DEBUG nextflow.Session - Session await
+Apr-30 22:37:30.113 [Task submitter] INFO  nextflow.Session - [f5/d8d25b] Submitted process > task_split_fasta (1)
+Apr-30 22:37:43.877 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: task_split_fasta (1); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/f5/d8d25b202573666ad70a394d71990e]
+Apr-30 22:37:43.976 [Task submitter] INFO  nextflow.Session - [d6/f32dc7] Submitted process > task_blastall (12)
+Apr-30 22:37:44.052 [Task submitter] INFO  nextflow.Session - [16/7d0a04] Submitted process > task_blastall (2)
+Apr-30 22:37:44.106 [Task submitter] INFO  nextflow.Session - [bc/e57bec] Submitted process > task_blastall (3)
+Apr-30 22:37:44.151 [Task submitter] INFO  nextflow.Session - [af/7e2fa8] Submitted process > task_blastall (13)
+Apr-30 22:37:44.199 [Task submitter] INFO  nextflow.Session - [97/ed5bc3] Submitted process > task_blastall (5)
+Apr-30 22:37:44.233 [Task submitter] INFO  nextflow.Session - [c0/9600d2] Submitted process > task_blastall (4)
+Apr-30 22:37:44.281 [Task submitter] INFO  nextflow.Session - [37/9ed930] Submitted process > task_blastall (9)
+Apr-30 22:37:44.328 [Task submitter] INFO  nextflow.Session - [26/a20779] Submitted process > task_blastall (7)
+Apr-30 22:37:44.361 [Task submitter] INFO  nextflow.Session - [d6/eb5372] Submitted process > task_blastall (25)
+Apr-30 22:37:44.402 [Task submitter] INFO  nextflow.Session - [8e/5b38fd] Submitted process > task_blastall (11)
+Apr-30 22:37:44.450 [Task submitter] INFO  nextflow.Session - [75/2a951d] Submitted process > task_blastall (1)
+Apr-30 22:37:44.497 [Task submitter] INFO  nextflow.Session - [89/5aca16] Submitted process > task_blastall (10)
+Apr-30 22:37:44.544 [Task submitter] INFO  nextflow.Session - [97/9add61] Submitted process > task_blastall (32)
+Apr-30 22:37:44.586 [Task submitter] INFO  nextflow.Session - [f0/a71683] Submitted process > task_blastall (8)
+Apr-30 22:37:44.630 [Task submitter] INFO  nextflow.Session - [d0/97fb64] Submitted process > task_blastall (29)
+Apr-30 22:37:44.671 [Task submitter] INFO  nextflow.Session - [d8/1f920b] Submitted process > task_blastall (6)
+Apr-30 22:37:44.713 [Task submitter] INFO  nextflow.Session - [99/c2e69b] Submitted process > task_blastall (21)
+Apr-30 22:37:44.752 [Task submitter] INFO  nextflow.Session - [33/2f4279] Submitted process > task_blastall (31)
+Apr-30 22:37:44.795 [Task submitter] INFO  nextflow.Session - [73/233207] Submitted process > task_blastall (16)
+Apr-30 22:37:44.833 [Task submitter] INFO  nextflow.Session - [4e/9d3d5d] Submitted process > task_blastall (24)
+Apr-30 22:37:44.879 [Task submitter] INFO  nextflow.Session - [de/f4f7d9] Submitted process > task_blastall (19)
+Apr-30 22:37:45.014 [Task submitter] INFO  nextflow.Session - [23/0940dc] Submitted process > task_blastall (27)
+Apr-30 22:37:45.055 [Task submitter] INFO  nextflow.Session - [f5/c52a57] Submitted process > task_blastall (34)
+Apr-30 22:37:45.097 [Task submitter] INFO  nextflow.Session - [7a/6d3e8e] Submitted process > task_blastall (26)
+Apr-30 22:37:45.143 [Task submitter] INFO  nextflow.Session - [db/d59d78] Submitted process > task_blastall (46)
+Apr-30 22:37:45.251 [Task submitter] INFO  nextflow.Session - [79/9267e5] Submitted process > task_blastall (33)
+Apr-30 22:37:45.291 [Task submitter] INFO  nextflow.Session - [6f/171eb4] Submitted process > task_blastall (28)
+Apr-30 22:37:45.353 [Task submitter] INFO  nextflow.Session - [ad/857580] Submitted process > task_blastall (17)
+Apr-30 22:37:45.476 [Task submitter] INFO  nextflow.Session - [a9/87e9da] Submitted process > task_blastall (23)
+Apr-30 22:37:45.507 [Task submitter] INFO  nextflow.Session - [9d/751223] Submitted process > task_blastall (18)
+Apr-30 22:37:45.545 [Task submitter] INFO  nextflow.Session - [6b/4c47fd] Submitted process > task_blastall (15)
+Apr-30 22:37:45.583 [Task submitter] INFO  nextflow.Session - [66/5f204c] Submitted process > task_blastall (51)
+Apr-30 22:37:45.616 [Task submitter] INFO  nextflow.Session - [79/d53d3e] Submitted process > task_blastall (20)
+Apr-30 22:37:45.657 [Task submitter] INFO  nextflow.Session - [67/d608b0] Submitted process > task_blastall (14)
+Apr-30 22:37:45.696 [Task submitter] INFO  nextflow.Session - [77/67efc9] Submitted process > task_blastall (22)
+Apr-30 22:37:45.735 [Task submitter] INFO  nextflow.Session - [3d/1d6c23] Submitted process > task_blastall (30)
+Apr-30 22:37:45.773 [Task submitter] INFO  nextflow.Session - [b9/34caad] Submitted process > task_blastall (61)
+Apr-30 22:37:45.821 [Task submitter] INFO  nextflow.Session - [9f/296415] Submitted process > task_blastall (35)
+Apr-30 22:37:45.867 [Task submitter] INFO  nextflow.Session - [a1/5d3edc] Submitted process > task_blastall (36)
+Apr-30 22:37:45.909 [Task submitter] INFO  nextflow.Session - [4f/9115af] Submitted process > task_blastall (37)
+Apr-30 22:37:45.954 [Task submitter] INFO  nextflow.Session - [52/5adbfb] Submitted process > task_blastall (38)
+Apr-30 22:37:46.004 [Task submitter] INFO  nextflow.Session - [56/4a23cf] Submitted process > task_blastall (39)
+Apr-30 22:37:46.042 [Task submitter] INFO  nextflow.Session - [12/864f67] Submitted process > task_blastall (40)
+Apr-30 22:37:46.088 [Task submitter] INFO  nextflow.Session - [b5/a83dfd] Submitted process > task_blastall (41)
+Apr-30 22:37:46.133 [Task submitter] INFO  nextflow.Session - [12/7ba060] Submitted process > task_blastall (42)
+Apr-30 22:37:46.171 [Task submitter] INFO  nextflow.Session - [0b/33d4cb] Submitted process > task_blastall (43)
+Apr-30 22:37:46.213 [Task submitter] INFO  nextflow.Session - [ac/8b9c9a] Submitted process > task_blastall (44)
+Apr-30 22:37:46.253 [Task submitter] INFO  nextflow.Session - [75/7c7684] Submitted process > task_blastall (47)
+Apr-30 22:37:46.287 [Task submitter] INFO  nextflow.Session - [95/39e36f] Submitted process > task_blastall (45)
+Apr-30 22:37:46.333 [Task submitter] INFO  nextflow.Session - [1f/5ab3a2] Submitted process > task_blastall (49)
+Apr-30 22:37:46.376 [Task submitter] INFO  nextflow.Session - [08/5ef7ed] Submitted process > task_blastall (48)
+Apr-30 22:37:46.426 [Task submitter] INFO  nextflow.Session - [d1/a8b68d] Submitted process > task_blastall (50)
+Apr-30 22:37:46.474 [Task submitter] INFO  nextflow.Session - [b2/8ec582] Submitted process > task_blastall (52)
+Apr-30 22:37:46.521 [Task submitter] INFO  nextflow.Session - [ac/c82752] Submitted process > task_blastall (55)
+Apr-30 22:37:46.565 [Task submitter] INFO  nextflow.Session - [2a/a42d86] Submitted process > task_blastall (53)
+Apr-30 22:37:46.607 [Task submitter] INFO  nextflow.Session - [b0/eae648] Submitted process > task_blastall (54)
+Apr-30 22:37:46.648 [Task submitter] INFO  nextflow.Session - [6c/516530] Submitted process > task_blastall (57)
+Apr-30 22:37:46.690 [Task submitter] INFO  nextflow.Session - [31/dc4089] Submitted process > task_blastall (56)
+Apr-30 22:37:46.732 [Task submitter] INFO  nextflow.Session - [f1/3b01a9] Submitted process > task_blastall (59)
+Apr-30 22:37:46.775 [Task submitter] INFO  nextflow.Session - [ad/79e5c1] Submitted process > task_blastall (62)
+Apr-30 22:37:46.818 [Task submitter] INFO  nextflow.Session - [10/43fb38] Submitted process > task_blastall (60)
+Apr-30 22:37:46.861 [Task submitter] INFO  nextflow.Session - [46/4e6d20] Submitted process > task_blastall (58)
+Apr-30 22:37:46.904 [Task submitter] INFO  nextflow.Session - [5d/c83c5a] Submitted process > task_blastall (63)
+Apr-30 22:37:46.945 [Task submitter] INFO  nextflow.Session - [3f/ec298a] Submitted process > task_blastall (64)
+Apr-30 22:37:46.987 [Task submitter] INFO  nextflow.Session - [16/9719b4] Submitted process > task_blastall (67)
+Apr-30 22:37:47.027 [Task submitter] INFO  nextflow.Session - [bf/2f1bae] Submitted process > task_blastall (65)
+Apr-30 22:37:47.068 [Task submitter] INFO  nextflow.Session - [0d/8db654] Submitted process > task_blastall (66)
+Apr-30 22:37:47.109 [Task submitter] INFO  nextflow.Session - [8e/420098] Submitted process > task_blastall (69)
+Apr-30 22:37:47.151 [Task submitter] INFO  nextflow.Session - [b8/f4aee6] Submitted process > task_blastall (68)
+Apr-30 22:37:47.192 [Task submitter] INFO  nextflow.Session - [b9/f4b863] Submitted process > task_blastall (71)
+Apr-30 22:37:47.235 [Task submitter] INFO  nextflow.Session - [98/0aea2a] Submitted process > task_blastall (70)
+Apr-30 22:37:47.280 [Task submitter] INFO  nextflow.Session - [59/f9f7c6] Submitted process > task_blastall (72)
+Apr-30 22:37:47.322 [Task submitter] INFO  nextflow.Session - [5f/d76acf] Submitted process > task_blastall (73)
+Apr-30 22:37:47.363 [Task submitter] INFO  nextflow.Session - [96/dbab24] Submitted process > task_blastall (77)
+Apr-30 22:37:47.406 [Task submitter] INFO  nextflow.Session - [fd/32e7cf] Submitted process > task_blastall (78)
+Apr-30 22:37:47.469 [Task submitter] INFO  nextflow.Session - [05/a49a5a] Submitted process > task_blastall (75)
+Apr-30 22:37:47.514 [Task submitter] INFO  nextflow.Session - [35/cb5717] Submitted process > task_blastall (76)
+Apr-30 22:37:47.556 [Task submitter] INFO  nextflow.Session - [9c/24cea2] Submitted process > task_blastall (74)
+Apr-30 22:37:47.600 [Task submitter] INFO  nextflow.Session - [d3/6ba177] Submitted process > task_blastall (79)
+Apr-30 22:37:47.645 [Task submitter] INFO  nextflow.Session - [70/8e6e1c] Submitted process > task_blastall (83)
+Apr-30 22:37:47.687 [Task submitter] INFO  nextflow.Session - [ef/296cb7] Submitted process > task_blastall (82)
+Apr-30 22:37:47.730 [Task submitter] INFO  nextflow.Session - [86/c6dd29] Submitted process > task_blastall (81)
+Apr-30 22:37:47.770 [Task submitter] INFO  nextflow.Session - [3a/cc4f47] Submitted process > task_blastall (80)
+Apr-30 22:37:47.811 [Task submitter] INFO  nextflow.Session - [8c/41976f] Submitted process > task_blastall (84)
+Apr-30 22:37:47.860 [Task submitter] INFO  nextflow.Session - [c5/885511] Submitted process > task_blastall (85)
+Apr-30 22:37:47.892 [Task submitter] INFO  nextflow.Session - [56/7843ad] Submitted process > task_blastall (96)
+Apr-30 22:37:47.939 [Task submitter] INFO  nextflow.Session - [81/d1c284] Submitted process > task_blastall (89)
+Apr-30 22:37:47.972 [Task submitter] INFO  nextflow.Session - [a8/cdffaa] Submitted process > task_blastall (88)
+Apr-30 22:37:48.008 [Task submitter] INFO  nextflow.Session - [b3/6521c3] Submitted process > task_blastall (99)
+Apr-30 22:37:48.048 [Task submitter] INFO  nextflow.Session - [5c/55e22c] Submitted process > task_blastall (87)
+Apr-30 22:37:48.083 [Task submitter] INFO  nextflow.Session - [06/d798ef] Submitted process > task_blastall (86)
+Apr-30 22:37:48.134 [Task submitter] INFO  nextflow.Session - [53/e62312] Submitted process > task_blastall (97)
+Apr-30 22:37:48.175 [Task submitter] INFO  nextflow.Session - [7a/96bba2] Submitted process > task_blastall (101)
+Apr-30 22:37:48.214 [Task submitter] INFO  nextflow.Session - [e7/405d0e] Submitted process > task_blastall (91)
+Apr-30 22:37:48.252 [Task submitter] INFO  nextflow.Session - [4d/09645d] Submitted process > task_blastall (90)
+Apr-30 22:37:48.290 [Task submitter] INFO  nextflow.Session - [9a/332071] Submitted process > task_blastall (95)
+Apr-30 22:37:48.328 [Task submitter] INFO  nextflow.Session - [0c/7d07a8] Submitted process > task_blastall (94)
+Apr-30 22:37:48.367 [Task submitter] INFO  nextflow.Session - [85/4a0409] Submitted process > task_blastall (93)
+Apr-30 22:37:48.407 [Task submitter] INFO  nextflow.Session - [d1/3ac215] Submitted process > task_blastall (104)
+Apr-30 22:37:48.455 [Task submitter] INFO  nextflow.Session - [98/6f005c] Submitted process > task_blastall (106)
+Apr-30 22:37:48.501 [Task submitter] INFO  nextflow.Session - [e0/7e6fd1] Submitted process > task_blastall (92)
+Apr-30 22:37:48.544 [Task submitter] INFO  nextflow.Session - [a1/298dcb] Submitted process > task_blastall (108)
+Apr-30 22:37:48.583 [Task submitter] INFO  nextflow.Session - [a5/4056f6] Submitted process > task_blastall (98)
+Apr-30 22:37:48.626 [Task submitter] INFO  nextflow.Session - [d6/b75348] Submitted process > task_blastall (110)
+Apr-30 22:37:48.666 [Task submitter] INFO  nextflow.Session - [a1/71c376] Submitted process > task_blastall (112)
+Apr-30 22:37:48.707 [Task submitter] INFO  nextflow.Session - [3e/0ebf15] Submitted process > task_blastall (103)
+Apr-30 22:37:48.749 [Task submitter] INFO  nextflow.Session - [e4/1c7d11] Submitted process > task_blastall (105)
+Apr-30 22:37:48.792 [Task submitter] INFO  nextflow.Session - [3e/da0a59] Submitted process > task_blastall (132)
+Apr-30 22:37:48.834 [Task submitter] INFO  nextflow.Session - [68/a858e1] Submitted process > task_blastall (111)
+Apr-30 22:37:48.891 [Task submitter] INFO  nextflow.Session - [09/6b5446] Submitted process > task_blastall (109)
+Apr-30 22:37:48.939 [Task submitter] INFO  nextflow.Session - [8e/4aa518] Submitted process > task_blastall (115)
+Apr-30 22:37:48.991 [Task submitter] INFO  nextflow.Session - [e1/135d4e] Submitted process > task_blastall (107)
+Apr-30 22:37:49.032 [Task submitter] INFO  nextflow.Session - [08/255a9a] Submitted process > task_blastall (120)
+Apr-30 22:37:49.071 [Task submitter] INFO  nextflow.Session - [21/7fc202] Submitted process > task_blastall (102)
+Apr-30 22:37:49.105 [Task submitter] INFO  nextflow.Session - [d3/57bc00] Submitted process > task_blastall (122)
+Apr-30 22:37:49.137 [Task submitter] INFO  nextflow.Session - [e5/e0e2d8] Submitted process > task_blastall (100)
+Apr-30 22:37:49.178 [Task submitter] INFO  nextflow.Session - [f8/794fbb] Submitted process > task_blastall (114)
+Apr-30 22:37:49.217 [Task submitter] INFO  nextflow.Session - [1a/5d2384] Submitted process > task_blastall (116)
+Apr-30 22:37:49.256 [Task submitter] INFO  nextflow.Session - [c8/9484d6] Submitted process > task_blastall (113)
+Apr-30 22:37:49.295 [Task submitter] INFO  nextflow.Session - [a2/20800b] Submitted process > task_blastall (118)
+Apr-30 22:37:49.333 [Task submitter] INFO  nextflow.Session - [eb/7ba63a] Submitted process > task_blastall (119)
+Apr-30 22:37:49.376 [Task submitter] INFO  nextflow.Session - [5d/9eec48] Submitted process > task_blastall (127)
+Apr-30 22:37:49.415 [Task submitter] INFO  nextflow.Session - [30/ff4c06] Submitted process > task_blastall (117)
+Apr-30 22:37:49.464 [Task submitter] INFO  nextflow.Session - [38/e4e684] Submitted process > task_blastall (121)
+Apr-30 22:37:49.504 [Task submitter] INFO  nextflow.Session - [76/5289f7] Submitted process > task_blastall (123)
+Apr-30 22:37:49.543 [Task submitter] INFO  nextflow.Session - [f5/22a8e2] Submitted process > task_blastall (129)
+Apr-30 22:37:49.584 [Task submitter] INFO  nextflow.Session - [0b/303da8] Submitted process > task_blastall (128)
+Apr-30 22:37:49.626 [Task submitter] INFO  nextflow.Session - [f1/7b3f64] Submitted process > task_blastall (130)
+Apr-30 22:37:49.710 [Task submitter] INFO  nextflow.Session - [ca/072e7f] Submitted process > task_blastall (124)
+Apr-30 22:37:49.751 [Task submitter] INFO  nextflow.Session - [93/94ef63] Submitted process > task_blastall (126)
+Apr-30 22:37:49.792 [Task submitter] INFO  nextflow.Session - [f3/b18b66] Submitted process > task_blastall (125)
+Apr-30 22:37:49.834 [Task submitter] INFO  nextflow.Session - [16/2ab5d4] Submitted process > task_blastall (134)
+Apr-30 22:37:49.867 [Task submitter] INFO  nextflow.Session - [83/9dd08b] Submitted process > task_blastall (131)
+Apr-30 22:37:49.907 [Task submitter] INFO  nextflow.Session - [83/b44774] Submitted process > task_blastall (133)
+Apr-30 22:37:49.952 [Task submitter] INFO  nextflow.Session - [c5/fa5080] Submitted process > task_blastall (138)
+Apr-30 22:37:49.995 [Task submitter] INFO  nextflow.Session - [16/eb95bd] Submitted process > task_blastall (139)
+Apr-30 22:37:50.037 [Task submitter] INFO  nextflow.Session - [fe/7e5585] Submitted process > task_blastall (160)
+Apr-30 22:37:50.079 [Task submitter] INFO  nextflow.Session - [b2/d35ef6] Submitted process > task_blastall (140)
+Apr-30 22:37:50.170 [Task submitter] INFO  nextflow.Session - [b6/2c88cf] Submitted process > task_blastall (137)
+Apr-30 22:37:50.212 [Task submitter] INFO  nextflow.Session - [ff/d7c2cb] Submitted process > task_blastall (135)
+Apr-30 22:37:50.261 [Task submitter] INFO  nextflow.Session - [2e/76e4a9] Submitted process > task_blastall (136)
+Apr-30 22:37:50.301 [Task submitter] INFO  nextflow.Session - [73/2ea2cd] Submitted process > task_blastall (141)
+Apr-30 22:37:50.342 [Task submitter] INFO  nextflow.Session - [fc/d18b08] Submitted process > task_blastall (142)
+Apr-30 22:37:50.380 [Task submitter] INFO  nextflow.Session - [fe/93fd83] Submitted process > task_blastall (144)
+Apr-30 22:37:50.419 [Task submitter] INFO  nextflow.Session - [ea/a44a3e] Submitted process > task_blastall (143)
+Apr-30 22:37:50.460 [Task submitter] INFO  nextflow.Session - [4c/b5af1c] Submitted process > task_blastall (145)
+Apr-30 22:37:50.500 [Task submitter] INFO  nextflow.Session - [5e/7135b9] Submitted process > task_blastall (170)
+Apr-30 22:37:50.540 [Task submitter] INFO  nextflow.Session - [83/aa36b6] Submitted process > task_blastall (150)
+Apr-30 22:37:50.581 [Task submitter] INFO  nextflow.Session - [59/2d3863] Submitted process > task_blastall (149)
+Apr-30 22:37:50.623 [Task submitter] INFO  nextflow.Session - [98/d456f8] Submitted process > task_blastall (147)
+Apr-30 22:37:50.664 [Task submitter] INFO  nextflow.Session - [5f/3bab96] Submitted process > task_blastall (154)
+Apr-30 22:37:50.703 [Task submitter] INFO  nextflow.Session - [53/acef1d] Submitted process > task_blastall (151)
+Apr-30 22:37:50.748 [Task submitter] INFO  nextflow.Session - [be/6d5487] Submitted process > task_blastall (148)
+Apr-30 22:37:50.788 [Task submitter] INFO  nextflow.Session - [09/94246b] Submitted process > task_blastall (156)
+Apr-30 22:37:50.828 [Task submitter] INFO  nextflow.Session - [39/5fc91e] Submitted process > task_blastall (146)
+Apr-30 22:37:50.869 [Task submitter] INFO  nextflow.Session - [be/ab4914] Submitted process > task_blastall (155)
+Apr-30 22:37:50.912 [Task submitter] INFO  nextflow.Session - [b4/18ee1b] Submitted process > task_blastall (152)
+Apr-30 22:37:50.952 [Task submitter] INFO  nextflow.Session - [40/81057c] Submitted process > task_blastall (153)
+Apr-30 22:37:50.993 [Task submitter] INFO  nextflow.Session - [de/a626b0] Submitted process > task_blastall (158)
+Apr-30 22:37:51.033 [Task submitter] INFO  nextflow.Session - [39/8723f3] Submitted process > task_blastall (159)
+Apr-30 22:37:51.072 [Task submitter] INFO  nextflow.Session - [92/a8d9c2] Submitted process > task_blastall (157)
+Apr-30 22:37:51.102 [Task submitter] INFO  nextflow.Session - [19/f3629a] Submitted process > task_blastall (161)
+Apr-30 22:37:51.140 [Task submitter] INFO  nextflow.Session - [da/c7a282] Submitted process > task_blastall (185)
+Apr-30 22:37:51.180 [Task submitter] INFO  nextflow.Session - [8f/8a9dbe] Submitted process > task_blastall (162)
+Apr-30 22:37:51.221 [Task submitter] INFO  nextflow.Session - [b6/0b8057] Submitted process > task_blastall (163)
+Apr-30 22:37:51.262 [Task submitter] INFO  nextflow.Session - [2b/6a895d] Submitted process > task_blastall (164)
+Apr-30 22:37:51.304 [Task submitter] INFO  nextflow.Session - [77/04bfa3] Submitted process > task_blastall (167)
+Apr-30 22:37:51.346 [Task submitter] INFO  nextflow.Session - [7d/4399b1] Submitted process > task_blastall (165)
+Apr-30 22:37:51.392 [Task submitter] INFO  nextflow.Session - [a1/ef55c4] Submitted process > task_blastall (169)
+Apr-30 22:37:51.432 [Task submitter] INFO  nextflow.Session - [89/1305db] Submitted process > task_blastall (171)
+Apr-30 22:37:51.473 [Task submitter] INFO  nextflow.Session - [e8/f0b8a8] Submitted process > task_blastall (166)
+Apr-30 22:37:51.512 [Task submitter] INFO  nextflow.Session - [14/7fab8b] Submitted process > task_blastall (168)
+Apr-30 22:37:51.552 [Task submitter] INFO  nextflow.Session - [fe/3f0c88] Submitted process > task_blastall (173)
+Apr-30 22:37:51.593 [Task submitter] INFO  nextflow.Session - [17/2bf870] Submitted process > task_blastall (172)
+Apr-30 22:37:51.632 [Task submitter] INFO  nextflow.Session - [27/abb1a5] Submitted process > task_blastall (174)
+Apr-30 22:37:51.673 [Task submitter] INFO  nextflow.Session - [5c/24136c] Submitted process > task_blastall (176)
+Apr-30 22:37:51.719 [Task submitter] INFO  nextflow.Session - [71/e8a799] Submitted process > task_blastall (175)
+Apr-30 22:37:51.758 [Task submitter] INFO  nextflow.Session - [85/90f4a2] Submitted process > task_blastall (178)
+Apr-30 22:37:51.798 [Task submitter] INFO  nextflow.Session - [d1/edd555] Submitted process > task_blastall (179)
+Apr-30 22:37:51.838 [Task submitter] INFO  nextflow.Session - [d3/4c414c] Submitted process > task_blastall (177)
+Apr-30 22:37:51.876 [Task submitter] INFO  nextflow.Session - [2b/6afd42] Submitted process > task_blastall (180)
+Apr-30 22:37:51.916 [Task submitter] INFO  nextflow.Session - [19/cd5bf3] Submitted process > task_blastall (181)
+Apr-30 22:37:51.955 [Task submitter] INFO  nextflow.Session - [3a/318ee7] Submitted process > task_blastall (183)
+Apr-30 22:37:51.994 [Task submitter] INFO  nextflow.Session - [e4/c355cb] Submitted process > task_blastall (182)
+Apr-30 22:37:52.032 [Task submitter] INFO  nextflow.Session - [71/74507e] Submitted process > task_blastall (186)
+Apr-30 22:37:52.074 [Task submitter] INFO  nextflow.Session - [56/f0341d] Submitted process > task_blastall (187)
+Apr-30 22:37:52.114 [Task submitter] INFO  nextflow.Session - [fa/c60c82] Submitted process > task_blastall (184)
+Apr-30 22:37:52.158 [Task submitter] INFO  nextflow.Session - [16/51c0ee] Submitted process > task_blastall (188)
+Apr-30 22:37:52.200 [Task submitter] INFO  nextflow.Session - [e4/b83b74] Submitted process > task_blastall (189)
+Apr-30 22:37:52.240 [Task submitter] INFO  nextflow.Session - [d6/5b10a8] Submitted process > task_blastall (191)
+Apr-30 22:37:52.282 [Task submitter] INFO  nextflow.Session - [03/1c2907] Submitted process > task_blastall (190)
+Apr-30 22:37:52.324 [Task submitter] INFO  nextflow.Session - [99/ebfe10] Submitted process > task_blastall (193)
+Apr-30 22:37:52.364 [Task submitter] INFO  nextflow.Session - [69/fb38ef] Submitted process > task_blastall (192)
+Apr-30 22:37:52.406 [Task submitter] INFO  nextflow.Session - [ad/eab844] Submitted process > task_blastall (195)
+Apr-30 22:37:52.457 [Task submitter] INFO  nextflow.Session - [47/66d0a4] Submitted process > task_blastall (194)
+Apr-30 22:37:52.500 [Task submitter] INFO  nextflow.Session - [3c/e483dc] Submitted process > task_blastall (196)
+Apr-30 22:37:52.541 [Task submitter] INFO  nextflow.Session - [01/99d024] Submitted process > task_blastall (197)
+Apr-30 22:37:52.587 [Task submitter] INFO  nextflow.Session - [b9/25434b] Submitted process > task_blastall (198)
+Apr-30 22:37:52.629 [Task submitter] INFO  nextflow.Session - [e1/4c4aee] Submitted process > task_blastall (202)
+Apr-30 22:37:52.670 [Task submitter] INFO  nextflow.Session - [81/3f62e8] Submitted process > task_blastall (200)
+Apr-30 22:37:52.714 [Task submitter] INFO  nextflow.Session - [79/80967e] Submitted process > task_blastall (199)
+Apr-30 22:37:52.758 [Task submitter] INFO  nextflow.Session - [e6/653593] Submitted process > task_blastall (201)
+Apr-30 22:37:52.800 [Task submitter] INFO  nextflow.Session - [4e/d0089b] Submitted process > task_blastall (203)
+Apr-30 22:37:52.854 [Task submitter] INFO  nextflow.Session - [e2/4f8145] Submitted process > task_blastall (205)
+Apr-30 22:37:52.895 [Task submitter] INFO  nextflow.Session - [5f/cb4108] Submitted process > task_blastall (209)
+Apr-30 22:37:52.936 [Task submitter] INFO  nextflow.Session - [8d/65a0ef] Submitted process > task_blastall (207)
+Apr-30 22:37:52.976 [Task submitter] INFO  nextflow.Session - [c4/8bf9dd] Submitted process > task_blastall (206)
+Apr-30 22:37:53.018 [Task submitter] INFO  nextflow.Session - [8b/d75ee9] Submitted process > task_blastall (208)
+Apr-30 22:37:53.057 [Task submitter] INFO  nextflow.Session - [12/a4cb7f] Submitted process > task_blastall (211)
+Apr-30 22:37:53.096 [Task submitter] INFO  nextflow.Session - [a1/ac8750] Submitted process > task_blastall (212)
+Apr-30 22:37:53.137 [Task submitter] INFO  nextflow.Session - [e3/23da4c] Submitted process > task_blastall (204)
+Apr-30 22:37:53.177 [Task submitter] INFO  nextflow.Session - [23/cd4c83] Submitted process > task_blastall (213)
+Apr-30 22:37:53.217 [Task submitter] INFO  nextflow.Session - [4d/aca309] Submitted process > task_blastall (216)
+Apr-30 22:37:53.260 [Task submitter] INFO  nextflow.Session - [b5/92328f] Submitted process > task_blastall (217)
+Apr-30 22:37:53.294 [Task submitter] INFO  nextflow.Session - [dd/035b78] Submitted process > task_blastall (210)
+Apr-30 22:37:53.344 [Task submitter] INFO  nextflow.Session - [d7/9d8521] Submitted process > task_blastall (214)
+Apr-30 22:37:53.386 [Task submitter] INFO  nextflow.Session - [83/3a6cca] Submitted process > task_blastall (218)
+Apr-30 22:37:53.423 [Task submitter] INFO  nextflow.Session - [0f/5a653d] Submitted process > task_blastall (215)
+Apr-30 22:37:53.464 [Task submitter] INFO  nextflow.Session - [c4/87659b] Submitted process > task_blastall (220)
+Apr-30 22:37:53.506 [Task submitter] INFO  nextflow.Session - [5b/5b8ee0] Submitted process > task_blastall (221)
+Apr-30 22:37:53.553 [Task submitter] INFO  nextflow.Session - [c7/cb029a] Submitted process > task_blastall (219)
+Apr-30 22:37:53.592 [Task submitter] INFO  nextflow.Session - [6c/695d35] Submitted process > task_blastall (222)
+Apr-30 22:37:53.634 [Task submitter] INFO  nextflow.Session - [d0/763d20] Submitted process > task_blastall (226)
+Apr-30 22:37:53.680 [Task submitter] INFO  nextflow.Session - [94/11dbdc] Submitted process > task_blastall (223)
+Apr-30 22:37:53.724 [Task submitter] INFO  nextflow.Session - [45/a51cef] Submitted process > task_blastall (224)
+Apr-30 22:37:53.766 [Task submitter] INFO  nextflow.Session - [86/c01b5e] Submitted process > task_blastall (228)
+Apr-30 22:37:53.812 [Task submitter] INFO  nextflow.Session - [e8/e7e9cd] Submitted process > task_blastall (229)
+Apr-30 22:37:53.854 [Task submitter] INFO  nextflow.Session - [b6/0b09f3] Submitted process > task_blastall (231)
+Apr-30 22:37:53.895 [Task submitter] INFO  nextflow.Session - [41/791724] Submitted process > task_blastall (225)
+Apr-30 22:37:53.936 [Task submitter] INFO  nextflow.Session - [75/2effc1] Submitted process > task_blastall (230)
+Apr-30 22:37:53.983 [Task submitter] INFO  nextflow.Session - [b8/d27ce1] Submitted process > task_blastall (232)
+Apr-30 22:37:54.052 [Task submitter] INFO  nextflow.Session - [59/f09331] Submitted process > task_blastall (234)
+Apr-30 22:37:54.094 [Task submitter] INFO  nextflow.Session - [9f/2796ba] Submitted process > task_blastall (233)
+Apr-30 22:37:54.130 [Task submitter] INFO  nextflow.Session - [ec/671dbb] Submitted process > task_blastall (227)
+Apr-30 22:37:54.169 [Task submitter] INFO  nextflow.Session - [9d/698906] Submitted process > task_blastall (236)
+Apr-30 22:37:54.226 [Task submitter] INFO  nextflow.Session - [2f/79fa15] Submitted process > task_blastall (235)
+Apr-30 22:37:54.269 [Task submitter] INFO  nextflow.Session - [f5/4bb9b9] Submitted process > task_blastall (241)
+Apr-30 22:37:54.313 [Task submitter] INFO  nextflow.Session - [34/9278a9] Submitted process > task_blastall (237)
+Apr-30 22:37:54.355 [Task submitter] INFO  nextflow.Session - [9c/3cfbce] Submitted process > task_blastall (243)
+Apr-30 22:37:54.396 [Task submitter] INFO  nextflow.Session - [6a/c2fa07] Submitted process > task_blastall (239)
+Apr-30 22:37:54.436 [Task submitter] INFO  nextflow.Session - [dc/82d49d] Submitted process > task_blastall (240)
+Apr-30 22:37:54.473 [Task submitter] INFO  nextflow.Session - [f5/c8f6f3] Submitted process > task_blastall (244)
+Apr-30 22:37:54.519 [Task submitter] INFO  nextflow.Session - [82/e67995] Submitted process > task_blastall (238)
+Apr-30 22:37:54.560 [Task submitter] INFO  nextflow.Session - [1c/2b575e] Submitted process > task_blastall (245)
+Apr-30 22:37:54.601 [Task submitter] INFO  nextflow.Session - [a7/ea4892] Submitted process > task_blastall (242)
+Apr-30 22:37:54.650 [Task submitter] INFO  nextflow.Session - [ad/5f246b] Submitted process > task_blastall (249)
+Apr-30 22:37:54.690 [Task submitter] INFO  nextflow.Session - [26/3088c1] Submitted process > task_blastall (251)
+Apr-30 22:37:54.731 [Task submitter] INFO  nextflow.Session - [31/04a520] Submitted process > task_blastall (252)
+Apr-30 22:37:54.772 [Task submitter] INFO  nextflow.Session - [f5/4d0520] Submitted process > task_blastall (250)
+Apr-30 22:37:54.814 [Task submitter] INFO  nextflow.Session - [c5/d2388f] Submitted process > task_blastall (254)
+Apr-30 22:37:54.856 [Task submitter] INFO  nextflow.Session - [c7/a53efa] Submitted process > task_blastall (256)
+Apr-30 22:37:54.895 [Task submitter] INFO  nextflow.Session - [2c/cdc54d] Submitted process > task_blastall (246)
+Apr-30 22:37:54.936 [Task submitter] INFO  nextflow.Session - [7b/2bfbf4] Submitted process > task_blastall (247)
+Apr-30 22:37:54.993 [Task submitter] INFO  nextflow.Session - [74/16c039] Submitted process > task_blastall (248)
+Apr-30 22:37:55.047 [Task submitter] INFO  nextflow.Session - [c4/d837d2] Submitted process > task_blastall (260)
+Apr-30 22:37:55.097 [Task submitter] INFO  nextflow.Session - [38/3390a8] Submitted process > task_blastall (258)
+Apr-30 22:37:55.144 [Task submitter] INFO  nextflow.Session - [c7/532a5d] Submitted process > task_blastall (259)
+Apr-30 22:37:55.192 [Task submitter] INFO  nextflow.Session - [18/7eb396] Submitted process > task_blastall (257)
+Apr-30 22:37:55.229 [Task submitter] INFO  nextflow.Session - [ed/6c4c49] Submitted process > task_blastall (255)
+Apr-30 22:37:55.270 [Task submitter] INFO  nextflow.Session - [6d/402e7d] Submitted process > task_blastall (253)
+Apr-30 22:37:55.308 [Task submitter] INFO  nextflow.Session - [22/46fcf2] Submitted process > task_blastall (261)
+Apr-30 22:37:55.347 [Task submitter] INFO  nextflow.Session - [52/718738] Submitted process > task_blastall (264)
+Apr-30 22:37:55.381 [Task submitter] INFO  nextflow.Session - [95/e72b95] Submitted process > task_blastall (262)
+Apr-30 22:37:55.413 [Task submitter] INFO  nextflow.Session - [8e/032faf] Submitted process > task_blastall (265)
+Apr-30 22:37:55.453 [Task submitter] INFO  nextflow.Session - [be/1d474e] Submitted process > task_blastall (263)
+Apr-30 22:37:55.493 [Task submitter] INFO  nextflow.Session - [4d/1d73e3] Submitted process > task_blastall (266)
+Apr-30 22:37:55.558 [Task submitter] INFO  nextflow.Session - [16/aee206] Submitted process > task_blastall (270)
+Apr-30 22:37:55.589 [Task submitter] INFO  nextflow.Session - [f2/9f7a37] Submitted process > task_blastall (267)
+Apr-30 22:37:55.627 [Task submitter] INFO  nextflow.Session - [67/ab7900] Submitted process > task_blastall (271)
+Apr-30 22:37:55.672 [Task submitter] INFO  nextflow.Session - [7d/5db09a] Submitted process > task_blastall (272)
+Apr-30 22:37:55.712 [Task submitter] INFO  nextflow.Session - [62/19dc12] Submitted process > task_blastall (268)
+Apr-30 22:37:55.753 [Task submitter] INFO  nextflow.Session - [1d/752f7c] Submitted process > task_blastall (269)
+Apr-30 22:37:55.792 [Task submitter] INFO  nextflow.Session - [76/5fa7ec] Submitted process > task_blastall (273)
+Apr-30 22:37:55.833 [Task submitter] INFO  nextflow.Session - [f7/720443] Submitted process > task_blastall (274)
+Apr-30 22:37:55.872 [Task submitter] INFO  nextflow.Session - [40/86ecbc] Submitted process > task_blastall (275)
+Apr-30 22:37:55.912 [Task submitter] INFO  nextflow.Session - [47/30a7a4] Submitted process > task_blastall (276)
+Apr-30 22:37:55.953 [Task submitter] INFO  nextflow.Session - [b1/f2ffd8] Submitted process > task_blastall (277)
+Apr-30 22:37:55.992 [Task submitter] INFO  nextflow.Session - [67/16a9c9] Submitted process > task_blastall (278)
+Apr-30 22:37:56.024 [Task submitter] INFO  nextflow.Session - [e1/c71d54] Submitted process > task_blastall (279)
+Apr-30 22:37:56.063 [Task submitter] INFO  nextflow.Session - [a9/4aa881] Submitted process > task_blastall (280)
+Apr-30 22:37:56.098 [Task submitter] INFO  nextflow.Session - [58/66c321] Submitted process > task_blastall (281)
+Apr-30 22:37:56.141 [Task submitter] INFO  nextflow.Session - [ac/7cc0c4] Submitted process > task_blastall (284)
+Apr-30 22:37:56.181 [Task submitter] INFO  nextflow.Session - [ee/347916] Submitted process > task_blastall (282)
+Apr-30 22:37:56.223 [Task submitter] INFO  nextflow.Session - [9c/0f104e] Submitted process > task_blastall (283)
+Apr-30 22:37:56.264 [Task submitter] INFO  nextflow.Session - [fa/0871db] Submitted process > task_blastall (285)
+Apr-30 22:37:56.304 [Task submitter] INFO  nextflow.Session - [c8/ace1f0] Submitted process > task_blastall (287)
+Apr-30 22:37:56.342 [Task submitter] INFO  nextflow.Session - [d8/36e61a] Submitted process > task_blastall (290)
+Apr-30 22:37:56.382 [Task submitter] INFO  nextflow.Session - [45/22e764] Submitted process > task_blastall (303)
+Apr-30 22:37:56.424 [Task submitter] INFO  nextflow.Session - [75/b60580] Submitted process > task_blastall (289)
+Apr-30 22:37:56.465 [Task submitter] INFO  nextflow.Session - [55/8f99fb] Submitted process > task_blastall (286)
+Apr-30 22:37:56.506 [Task submitter] INFO  nextflow.Session - [31/3175ba] Submitted process > task_blastall (294)
+Apr-30 22:37:56.549 [Task submitter] INFO  nextflow.Session - [0b/a97ba9] Submitted process > task_blastall (293)
+Apr-30 22:37:56.590 [Task submitter] INFO  nextflow.Session - [08/57cec4] Submitted process > task_blastall (295)
+Apr-30 22:37:56.633 [Task submitter] INFO  nextflow.Session - [b7/512d82] Submitted process > task_blastall (288)
+Apr-30 22:37:56.674 [Task submitter] INFO  nextflow.Session - [f7/e6362d] Submitted process > task_blastall (318)
+Apr-30 22:37:56.715 [Task submitter] INFO  nextflow.Session - [b1/eb2fe1] Submitted process > task_blastall (297)
+Apr-30 22:37:56.755 [Task submitter] INFO  nextflow.Session - [d4/3982df] Submitted process > task_blastall (291)
+Apr-30 22:37:56.798 [Task submitter] INFO  nextflow.Session - [27/79c504] Submitted process > task_blastall (301)
+Apr-30 22:37:56.840 [Task submitter] INFO  nextflow.Session - [14/c76737] Submitted process > task_blastall (307)
+Apr-30 22:37:56.893 [Task submitter] INFO  nextflow.Session - [08/f84c01] Submitted process > task_blastall (299)
+Apr-30 22:38:19.102 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: task_blastall (1); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/75/2a951dd0256a18b5f2b3d67d431ffc]
+Apr-30 22:38:19.155 [Task submitter] INFO  nextflow.Session - [8e/4c31da] Submitted process > task_blastall (305)
+Apr-30 22:39:02.092 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 8; name: task_blastall (7); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/26/a207794c2c5b0549e2a44bb1c366ee]
+Apr-30 22:39:02.147 [Task submitter] INFO  nextflow.Session - [62/9bb268] Submitted process > task_blastall (302)
+Apr-30 22:39:15.738 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 13; name: task_blastall (12); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/d6/f32dc74346fef7d0cc0cb34707c448]
+Apr-30 22:39:15.778 [Task submitter] INFO  nextflow.Session - [e6/578f59] Submitted process > task_blastall (300)
+Apr-30 22:39:16.031 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 11; name: task_blastall (10); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/89/5aca164e2434e344bf1c4a5382cb2b]
+Apr-30 22:39:16.079 [Task submitter] INFO  nextflow.Session - [75/731f80] Submitted process > task_blastall (304)
+Apr-30 22:39:29.806 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: task_blastall (2); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/16/7d0a0429cbc68cf8e35189f87e1d9f]
+Apr-30 22:39:29.847 [Task submitter] INFO  nextflow.Session - [0c/0f00f8] Submitted process > task_blastall (312)
+Apr-30 22:39:30.115 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: task_blastall (3); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/bc/e57becb8184cb911b09bb45518ac72]
+Apr-30 22:39:30.161 [Task submitter] INFO  nextflow.Session - [61/bb45d1] Submitted process > task_blastall (292)
+Apr-30 22:39:30.280 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 10; name: task_blastall (9); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/37/9ed930e1af63f5dc2d404dbac47970]
+Apr-30 22:39:30.327 [Task submitter] INFO  nextflow.Session - [f6/0093e2] Submitted process > task_blastall (313)
+Apr-30 22:39:30.379 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 26; name: task_blastall (25); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/d6/eb537214a654d278e54c30438f459a]
+Apr-30 22:39:30.417 [Task submitter] INFO  nextflow.Session - [0a/e3527b] Submitted process > task_blastall (296)
+Apr-30 22:39:44.113 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 14; name: task_blastall (13); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/af/7e2fa8ffde04178b721689b89bd6ae]
+Apr-30 22:39:44.164 [Task submitter] INFO  nextflow.Session - [e4/ccc945] Submitted process > task_blastall (316)
+Apr-30 22:39:44.300 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 6; name: task_blastall (5); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/97/ed5bc356b360ab8ee641f1ceab85ad]
+Apr-30 22:39:44.368 [Task submitter] INFO  nextflow.Session - [3b/332d78] Submitted process > task_blastall (298)
+Apr-30 22:40:11.999 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 12; name: task_blastall (11); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/8e/5b38fd36b81c0b311bf5b5d28c81bf]
+Apr-30 22:40:12.046 [Task submitter] INFO  nextflow.Session - [0a/9981b8] Submitted process > task_blastall (314)
+Apr-30 22:40:17.637 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 134; name: task_blastall (133); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/83/b447749a9a7355a8d3e91de58c2af7]
+Apr-30 22:40:17.686 [Task submitter] INFO  nextflow.Session - [b0/bebce8] Submitted process > task_blastall (319)
+Apr-30 22:41:07.036 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: task_blastall (4); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/c0/9600d284a5288da33b1daf1329d84f]
+Apr-30 22:41:07.084 [Task submitter] INFO  nextflow.Session - [2c/fb5721] Submitted process > task_blastall (317)
+Apr-30 22:41:16.344 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 113; name: task_blastall (112); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/a1/71c376232f54de5a20f0dcd2c6f0be]
+Apr-30 22:41:16.392 [Task submitter] INFO  nextflow.Session - [17/8eb067] Submitted process > task_blastall (322)
+Apr-30 22:41:23.155 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 249; name: task_blastall (248); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/74/16c039e13077b9973675095c6f114f]
+Apr-30 22:41:23.194 [Task submitter] INFO  nextflow.Session - [e2/c636dc] Submitted process > task_blastall (324)
+Apr-30 22:41:24.287 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 279; name: task_blastall (278); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/67/16a9c98d3cb1e3a95c5dc358c7c78c]
+Apr-30 22:41:24.326 [Task submitter] INFO  nextflow.Session - [5d/4cd237] Submitted process > task_blastall (321)
+Apr-30 22:41:26.907 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 15; name: task_blastall (14); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/67/d608b01b15d321659f3ba83b1a0343]
+Apr-30 22:41:26.952 [Task submitter] INFO  nextflow.Session - [65/e00f7a] Submitted process > task_blastall (310)
+Apr-30 22:41:34.779 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 207; name: task_blastall (206); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/c4/8bf9dde2867823a4084ddbc0825b67]
+Apr-30 22:41:34.819 [Task submitter] INFO  nextflow.Session - [1a/aac1a6] Submitted process > task_blastall (325)
+Apr-30 22:41:36.455 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 245; name: task_blastall (244); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/f5/c8f6f3c498190310670d64e186c8da]
+Apr-30 22:41:36.494 [Task submitter] INFO  nextflow.Session - [85/5b8a10] Submitted process > task_blastall (323)
+Apr-30 22:41:57.963 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 116; name: task_blastall (115); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/8e/4aa518ae6fb328eaca086ae7843a8f]
+Apr-30 22:41:58.003 [Task submitter] INFO  nextflow.Session - [f7/f83631] Submitted process > task_blastall (327)
+Apr-30 22:42:01.355 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 187; name: task_blastall (186); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/71/74507e9460b09c28baae4531db8c83]
+Apr-30 22:42:01.408 [Task submitter] INFO  nextflow.Session - [57/238c81] Submitted process > task_blastall (306)
+Apr-30 22:42:13.190 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 171; name: task_blastall (170); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/5e/7135b9d049de290f377796d7c96596]
+Apr-30 22:42:13.230 [Task submitter] INFO  nextflow.Session - [28/d1a4b7] Submitted process > task_blastall (308)
+Apr-30 22:42:34.180 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor k8s > tasks to be completed: 300 -- submitted tasks are shown below
+~> TaskHandler[id: 33; name: task_blastall (32); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/97/9add61b9233cb6fd4934bd372fcddf]
+~> TaskHandler[id: 9; name: task_blastall (8); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/f0/a71683e584efa2a7f60fdf09808b72]
+~> TaskHandler[id: 30; name: task_blastall (29); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/d0/97fb64869f3c05bcc6f39b8a50bc3e]
+~> TaskHandler[id: 7; name: task_blastall (6); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/d8/1f920b6381efff6f8b1eced6f3c265]
+~> TaskHandler[id: 22; name: task_blastall (21); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/99/c2e69bd58d6651acd10491c0c23c8c]
+~> TaskHandler[id: 32; name: task_blastall (31); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/33/2f427933654ce9e2665bd49da9959c]
+~> TaskHandler[id: 17; name: task_blastall (16); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/73/23320703650b14fb872a7cb1673109]
+~> TaskHandler[id: 25; name: task_blastall (24); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/4e/9d3d5db2d48359c73b53cc4eb95222]
+~> TaskHandler[id: 20; name: task_blastall (19); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/de/f4f7d9e49653603abef39744f5a1bd]
+~> TaskHandler[id: 28; name: task_blastall (27); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/23/0940dc9835890c0000132e00ad9f7e]
+.. remaining tasks omitted.
+Apr-30 22:42:39.225 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 131; name: task_blastall (130); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/f1/7b3f649ffdc095a2364396d0bbc265]
+Apr-30 22:42:39.276 [Task submitter] INFO  nextflow.Session - [46/8feba3] Submitted process > task_blastall (329)
+Apr-30 22:42:51.036 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 35; name: task_blastall (34); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/f5/c52a570f16c7c23152fda6e91046c4]
+Apr-30 22:42:51.074 [Task submitter] INFO  nextflow.Session - [57/78da50] Submitted process > task_blastall (328)
+Apr-30 22:42:57.076 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor k8s > tasks in the submission queue: 71 -- tasks to be submitted are shown below
+~> TaskHandler[id: 333; name: task_blastall (332); status: NEW; exit: -; error: -; workDir: /input/data/work/fe/034f21f2771af3f034b2ba41799f2e]
+~> TaskHandler[id: 312; name: task_blastall (311); status: NEW; exit: -; error: -; workDir: /input/data/work/63/b4d58a7b2e8aac6f858f9eaed324d8]
+~> TaskHandler[id: 316; name: task_blastall (315); status: NEW; exit: -; error: -; workDir: /input/data/work/07/e34844987bf18f95ab15174f7c20bf]
+~> TaskHandler[id: 310; name: task_blastall (309); status: NEW; exit: -; error: -; workDir: /input/data/work/87/fccf6519d49140ac4e27a9cc69ed06]
+~> TaskHandler[id: 321; name: task_blastall (320); status: NEW; exit: -; error: -; workDir: /input/data/work/df/a08153dbec1428979cef12841215a1]
+~> TaskHandler[id: 336; name: task_blastall (335); status: NEW; exit: -; error: -; workDir: /input/data/work/f7/cbb0714f497be198b2221c894795e1]
+~> TaskHandler[id: 332; name: task_blastall (331); status: NEW; exit: -; error: -; workDir: /input/data/work/07/014071bea1f35b4ceb2e0fbdf89f74]
+~> TaskHandler[id: 337; name: task_blastall (336); status: NEW; exit: -; error: -; workDir: /input/data/work/0d/fe2756f828925c0d9db4e514f0a224]
+~> TaskHandler[id: 334; name: task_blastall (333); status: NEW; exit: -; error: -; workDir: /input/data/work/85/afca29e52e99ead4a1bc539a080eb2]
+~> TaskHandler[id: 338; name: task_blastall (337); status: NEW; exit: -; error: -; workDir: /input/data/work/8c/3863b205408ab7e6d935efa1d8f259]
+.. remaining tasks omitted.
+Apr-30 22:43:06.901 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 78; name: task_blastall (77); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/96/dbab24e0c316de822c0e99f6928c13]
+Apr-30 22:43:06.940 [Task submitter] INFO  nextflow.Session - [fe/034f21] Submitted process > task_blastall (332)
+Apr-30 22:43:15.363 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 264; name: task_blastall (263); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/be/1d474e6c9e0be933983c924ce90de4]
+Apr-30 22:43:15.412 [Task submitter] INFO  nextflow.Session - [63/b4d58a] Submitted process > task_blastall (311)
+Apr-30 22:43:17.307 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 313; name: task_blastall (312); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/0c/0f00f8025c6631e162bf61f928f49f]
+Apr-30 22:43:17.356 [Task submitter] INFO  nextflow.Session - [07/e34844] Submitted process > task_blastall (315)
+Apr-30 22:43:21.915 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 91; name: task_blastall (90); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/4d/09645d27b54e9b2a33a416525b9221]
+Apr-30 22:43:21.955 [Task submitter] INFO  nextflow.Session - [87/fccf65] Submitted process > task_blastall (309)
+Apr-30 22:43:22.833 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 103; name: task_blastall (102); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/21/7fc202aa4f1c4fc71a2235edc0d50c]
+Apr-30 22:43:22.872 [Task submitter] INFO  nextflow.Session - [df/a08153] Submitted process > task_blastall (320)
+Apr-30 22:43:48.647 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 77; name: task_blastall (76); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/35/cb5717d0da05cc88da0743a64446da]
+Apr-30 22:43:48.696 [Task submitter] INFO  nextflow.Session - [f7/cbb071] Submitted process > task_blastall (335)
+Apr-30 22:43:50.746 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 122; name: task_blastall (121); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/38/e4e684c89456a784c2a715d5dee2c8]
+Apr-30 22:43:50.793 [Task submitter] INFO  nextflow.Session - [07/014071] Submitted process > task_blastall (331)
+Apr-30 22:43:55.118 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 220; name: task_blastall (219); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/c7/cb029a28e93a22c3c298cd86ec02cb]
+Apr-30 22:43:55.158 [Task submitter] INFO  nextflow.Session - [0d/fe2756] Submitted process > task_blastall (336)
+Apr-30 22:44:21.900 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 206; name: task_blastall (205); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/e2/4f8145ff10e06a4d78301714c6589b]
+Apr-30 22:44:21.956 [Task submitter] INFO  nextflow.Session - [85/afca29] Submitted process > task_blastall (333)
+Apr-30 22:44:28.676 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 37; name: task_blastall (36); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/a1/5d3edce968355c6b05b3a384678621]
+Apr-30 22:44:28.725 [Task submitter] INFO  nextflow.Session - [8c/3863b2] Submitted process > task_blastall (337)
+Apr-30 22:44:42.261 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 21; name: task_blastall (20); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/79/d53d3e46e6ff8e70527133af2acdcb]
+Apr-30 22:44:42.300 [Task submitter] INFO  nextflow.Session - [b9/3a8752] Submitted process > task_blastall (338)
+Apr-30 22:44:44.461 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 97; name: task_blastall (96); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/56/7843ad52e0fd8ed904acaa8de89889]
+Apr-30 22:44:44.501 [Task submitter] INFO  nextflow.Session - [d9/fa6e5c] Submitted process > task_blastall (326)
+Apr-30 22:44:52.072 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 263; name: task_blastall (262); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/95/e72b95ded8a4bbcb8b02de3e045e0a]
+Apr-30 22:44:52.121 [Task submitter] INFO  nextflow.Session - [19/7278a5] Submitted process > task_blastall (339)
+Apr-30 22:44:57.547 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 67; name: task_blastall (66); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/0d/8db65438c52163371715ad1d97b4e2]
+Apr-30 22:44:57.595 [Task submitter] INFO  nextflow.Session - [c6/c9b597] Submitted process > task_blastall (330)
+Apr-30 22:45:01.135 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 156; name: task_blastall (155); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/be/ab4914927321ed74b54fa4053251aa]
+Apr-30 22:45:01.173 [Task submitter] INFO  nextflow.Session - [9f/514794] Submitted process > task_blastall (342)
+Apr-30 22:45:33.127 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 247; name: task_blastall (246); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/2c/cdc54daf97a2463a47a266243b65cf]
+Apr-30 22:45:33.175 [Task submitter] INFO  nextflow.Session - [20/ad6f82] Submitted process > task_blastall (334)
+Apr-30 22:45:39.170 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 65; name: task_blastall (64); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/3f/ec298a3bf759e95236a77d722070b4]
+Apr-30 22:45:39.218 [Task submitter] INFO  nextflow.Session - [21/c57469] Submitted process > task_blastall (344)
+Apr-30 22:46:03.371 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 323; name: task_blastall (322); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/17/8eb067eca5ca5ce45ef0cba50742c2]
+Apr-30 22:46:03.406 [Task submitter] INFO  nextflow.Session - [1f/0a4bf0] Submitted process > task_blastall (341)
+Apr-30 22:46:18.005 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 334; name: task_blastall (333); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/85/afca29e52e99ead4a1bc539a080eb2]
+Apr-30 22:46:18.052 [Task submitter] INFO  nextflow.Session - [d7/767ebb] Submitted process > task_blastall (346)
+Apr-30 22:46:20.132 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 53; name: task_blastall (52); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/b2/8ec5823305fe1dc23048f9b235bc90]
+Apr-30 22:46:20.187 [Task submitter] INFO  nextflow.Session - [40/66c570] Submitted process > task_blastall (349)
+Apr-30 22:46:21.509 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 86; name: task_blastall (85); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/c5/885511ac79874feddb6bbad1d9a348]
+Apr-30 22:46:21.551 [Task submitter] INFO  nextflow.Session - [e3/3760f1] Submitted process > task_blastall (348)
+Apr-30 22:46:32.208 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 338; name: task_blastall (337); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/8c/3863b205408ab7e6d935efa1d8f259]
+Apr-30 22:46:32.249 [Task submitter] INFO  nextflow.Session - [ef/b49e59] Submitted process > task_blastall (352)
+Apr-30 22:46:38.448 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 160; name: task_blastall (159); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/39/8723f3e2335ac3a0d963510963c5eb]
+Apr-30 22:46:38.499 [Task submitter] INFO  nextflow.Session - [f9/9bd4a8] Submitted process > task_blastall (340)
+Apr-30 22:46:45.976 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 327; name: task_blastall (326); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/d9/fa6e5c88713c541662f421652437d2]
+Apr-30 22:46:46.017 [Task submitter] INFO  nextflow.Session - [09/a6b70a] Submitted process > task_blastall (351)
+Apr-30 22:46:46.092 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 340; name: task_blastall (339); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/19/7278a5665deb58df1387b294101ee9]
+Apr-30 22:46:46.146 [Task submitter] INFO  nextflow.Session - [09/f4759b] Submitted process > task_blastall (354)
+Apr-30 22:46:46.201 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 331; name: task_blastall (330); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/c6/c9b597e4dfe067507f480101380348]
+Apr-30 22:46:46.241 [Task submitter] INFO  nextflow.Session - [48/c6651a] Submitted process > task_blastall (345)
+Apr-30 22:47:20.968 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 195; name: task_blastall (194); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/47/66d0a41050eed525ebcc029242dd95]
+Apr-30 22:47:21.015 [Task submitter] INFO  nextflow.Session - [8d/5f8d09] Submitted process > task_blastall (355)
+Apr-30 22:47:32.451 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 140; name: task_blastall (139); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/16/eb95bdb33527d6bb5d1bb3ab000976]
+Apr-30 22:47:32.507 [Task submitter] INFO  nextflow.Session - [7c/78ce53] Submitted process > task_blastall (343)
+Apr-30 22:47:41.574 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor k8s > tasks to be completed: 300 -- submitted tasks are shown below
+~> TaskHandler[id: 33; name: task_blastall (32); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/97/9add61b9233cb6fd4934bd372fcddf]
+~> TaskHandler[id: 9; name: task_blastall (8); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/f0/a71683e584efa2a7f60fdf09808b72]
+~> TaskHandler[id: 30; name: task_blastall (29); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/d0/97fb64869f3c05bcc6f39b8a50bc3e]
+~> TaskHandler[id: 7; name: task_blastall (6); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/d8/1f920b6381efff6f8b1eced6f3c265]
+~> TaskHandler[id: 22; name: task_blastall (21); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/99/c2e69bd58d6651acd10491c0c23c8c]
+~> TaskHandler[id: 32; name: task_blastall (31); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/33/2f427933654ce9e2665bd49da9959c]
+~> TaskHandler[id: 17; name: task_blastall (16); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/73/23320703650b14fb872a7cb1673109]
+~> TaskHandler[id: 25; name: task_blastall (24); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/4e/9d3d5db2d48359c73b53cc4eb95222]
+~> TaskHandler[id: 20; name: task_blastall (19); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/de/f4f7d9e49653603abef39744f5a1bd]
+~> TaskHandler[id: 28; name: task_blastall (27); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/23/0940dc9835890c0000132e00ad9f7e]
+.. remaining tasks omitted.
+Apr-30 22:47:55.667 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 18; name: task_blastall (17); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/ad/8575805566080ee779b0411e698627]
+Apr-30 22:47:55.711 [Task submitter] INFO  nextflow.Session - [cc/f8c7a5] Submitted process > task_blastall (347)
+Apr-30 22:47:57.712 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor k8s > tasks in the submission queue: 42 -- tasks to be submitted are shown below
+~> TaskHandler[id: 354; name: task_blastall (353); status: NEW; exit: -; error: -; workDir: /input/data/work/8a/cf82e611f41b64ff25ffa61f2c1373]
+~> TaskHandler[id: 359; name: task_blastall (358); status: NEW; exit: -; error: -; workDir: /input/data/work/c5/5e5c9ee998c1ac0f7e6269dfde09cc]
+~> TaskHandler[id: 357; name: task_blastall (356); status: NEW; exit: -; error: -; workDir: /input/data/work/c0/2ddbe59a56e8e6a3ba7b987a2df70f]
+~> TaskHandler[id: 351; name: task_blastall (350); status: NEW; exit: -; error: -; workDir: /input/data/work/c3/5fa2071b1af5361b4fa9f594722394]
+~> TaskHandler[id: 360; name: task_blastall (359); status: NEW; exit: -; error: -; workDir: /input/data/work/f2/2f0d6afc2c32272839b4ca9f80ecf7]
+~> TaskHandler[id: 358; name: task_blastall (357); status: NEW; exit: -; error: -; workDir: /input/data/work/60/9cbc08503d48de83ddd0ca4d6e88dc]
+~> TaskHandler[id: 362; name: task_blastall (361); status: NEW; exit: -; error: -; workDir: /input/data/work/07/83c37593553ca4e487bd9de5dd9570]
+~> TaskHandler[id: 361; name: task_blastall (360); status: NEW; exit: -; error: -; workDir: /input/data/work/99/7be50732e6ae0e0d5701ab59bcf782]
+~> TaskHandler[id: 363; name: task_blastall (362); status: NEW; exit: -; error: -; workDir: /input/data/work/89/8b9858852a5bf418aa7d3c80fd9633]
+~> TaskHandler[id: 365; name: task_blastall (364); status: NEW; exit: -; error: -; workDir: /input/data/work/bc/7f4ece2ef3d54e8005f6dd336d4d0b]
+.. remaining tasks omitted.
+Apr-30 22:48:06.079 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 287; name: task_blastall (286); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/55/8f99fb66f4f3d168eff2b16de22f70]
+Apr-30 22:48:06.119 [Task submitter] INFO  nextflow.Session - [8a/cf82e6] Submitted process > task_blastall (353)
+Apr-30 22:48:22.740 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 16; name: task_blastall (15); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/6b/4c47fdbb3c29c5052c98200d0296cf]
+Apr-30 22:48:22.779 [Task submitter] INFO  nextflow.Session - [c5/5e5c9e] Submitted process > task_blastall (358)
+Apr-30 22:48:25.745 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 101; name: task_blastall (100); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/e5/e0e2d8d4b45e2cf61eb02591af306f]
+Apr-30 22:48:25.783 [Task submitter] INFO  nextflow.Session - [c0/2ddbe5] Submitted process > task_blastall (356)
+Apr-30 22:48:25.863 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 117; name: task_blastall (116); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/1a/5d2384c3409af1772da1c790046a8e]
+Apr-30 22:48:25.917 [Task submitter] INFO  nextflow.Session - [c3/5fa207] Submitted process > task_blastall (350)
+Apr-30 22:48:27.485 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 164; name: task_blastall (163); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/b6/0b8057964812ee65b00c765d93f6be]
+Apr-30 22:48:27.531 [Task submitter] INFO  nextflow.Session - [f2/2f0d6a] Submitted process > task_blastall (359)
+Apr-30 22:48:35.198 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 34; name: task_blastall (33); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/79/9267e5a387546b5471a39d5696a271]
+Apr-30 22:48:35.231 [Task submitter] INFO  nextflow.Session - [60/9cbc08] Submitted process > task_blastall (357)
+Apr-30 22:48:40.399 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 166; name: task_blastall (165); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/7d/4399b1352d86557cc1a609b61a4814]
+Apr-30 22:48:40.438 [Task submitter] INFO  nextflow.Session - [07/83c375] Submitted process > task_blastall (361)
+Apr-30 22:48:47.028 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 329; name: task_blastall (328); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/57/78da504ee68b1ec894ccc50ab9be2d]
+Apr-30 22:48:47.070 [Task submitter] INFO  nextflow.Session - [99/7be507] Submitted process > task_blastall (360)
+Apr-30 22:48:54.032 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 162; name: task_blastall (161); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/19/f3629a0e4aeec7f1210e1ff74a2d60]
+Apr-30 22:48:54.080 [Task submitter] INFO  nextflow.Session - [89/8b9858] Submitted process > task_blastall (362)
+Apr-30 22:49:01.873 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 355; name: task_blastall (354); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/09/f4759bf648ca48d98d54ce0e90c81e]
+Apr-30 22:49:01.924 [Task submitter] INFO  nextflow.Session - [bc/7f4ece] Submitted process > task_blastall (364)
+Apr-30 22:49:33.189 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 105; name: task_blastall (104); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/d1/3ac215f0843ecbe0ff1a5cca0aa05b]
+Apr-30 22:49:33.236 [Task submitter] INFO  nextflow.Session - [0f/e5c4d5] Submitted process > task_blastall (363)
+Apr-30 22:49:51.753 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 230; name: task_blastall (229); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/e8/e7e9cdce2effdd2d7fc51d5a76f6d7]
+Apr-30 22:49:51.786 [Task submitter] INFO  nextflow.Session - [e0/56c5eb] Submitted process > task_blastall (365)
+Apr-30 22:50:00.024 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 85; name: task_blastall (84); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/8c/41976f16cb08aa1fa494b19e3eaf3d]
+Apr-30 22:50:00.080 [Task submitter] INFO  nextflow.Session - [41/da4147] Submitted process > task_blastall (367)
+Apr-30 22:50:02.179 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 142; name: task_blastall (141); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/73/2ea2cde66293aba76cb1fe588ec290]
+Apr-30 22:50:02.217 [Task submitter] INFO  nextflow.Session - [51/5b59d4] Submitted process > task_blastall (366)
+Apr-30 22:50:12.589 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 45; name: task_blastall (44); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/ac/8b9c9acd0be1110ed76ef58c907db2]
+Apr-30 22:50:12.626 [Task submitter] INFO  nextflow.Session - [96/68791a] Submitted process > task_blastall (382)
+Apr-30 22:50:20.900 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 244; name: task_blastall (243); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/9c/3cfbcedfba7038798304d98163b723]
+Apr-30 22:50:20.938 [Task submitter] INFO  nextflow.Session - [ef/fdbd9f] Submitted process > task_blastall (368)
+Apr-30 22:50:32.653 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 190; name: task_blastall (189); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/e4/b83b74eb63d792b00b5cf73882c1f2]
+Apr-30 22:50:32.693 [Task submitter] INFO  nextflow.Session - [38/2efccd] Submitted process > task_blastall (369)
+Apr-30 22:50:47.873 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 225; name: task_blastall (224); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/45/a51cef5e92d5e178021fb08cda01d9]
+Apr-30 22:50:47.917 [Task submitter] INFO  nextflow.Session - [99/a8dcc6] Submitted process > task_blastall (370)
+Apr-30 22:50:49.094 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 259; name: task_blastall (258); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/38/3390a85dcb012dcb48b414ded5fb3a]
+Apr-30 22:50:49.144 [Task submitter] INFO  nextflow.Session - [84/d0a103] Submitted process > task_blastall (371)
+Apr-30 22:51:06.791 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 358; name: task_blastall (357); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/60/9cbc08503d48de83ddd0ca4d6e88dc]
+Apr-30 22:51:06.837 [Task submitter] INFO  nextflow.Session - [d9/7d747a] Submitted process > task_blastall (372)
+Apr-30 22:51:09.100 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 57; name: task_blastall (56); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/31/dc4089289548b97d0b5bab5275f6be]
+Apr-30 22:51:09.139 [Task submitter] INFO  nextflow.Session - [28/68ab94] Submitted process > task_blastall (373)
+Apr-30 22:51:30.186 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 302; name: task_blastall (301); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/27/79c504d5fa486d95a69cf4f601b97a]
+Apr-30 22:51:30.229 [Task submitter] INFO  nextflow.Session - [68/b6e6c8] Submitted process > task_blastall (374)
+Apr-30 22:51:32.055 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 356; name: task_blastall (355); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/8d/5f8d099e11eb879c288179f9869f8b]
+Apr-30 22:51:32.095 [Task submitter] INFO  nextflow.Session - [2b/7b3894] Submitted process > task_blastall (376)
+Apr-30 22:51:36.042 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 107; name: task_blastall (106); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/98/6f005cbe802830904a1966de83b52c]
+Apr-30 22:51:36.092 [Task submitter] INFO  nextflow.Session - [b7/474477] Submitted process > task_blastall (379)
+Apr-30 22:51:40.797 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 223; name: task_blastall (222); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/6c/695d35e1ecd81ee46bee80e1408834]
+Apr-30 22:51:40.845 [Task submitter] INFO  nextflow.Session - [37/3bc67d] Submitted process > task_blastall (381)
+Apr-30 22:51:47.489 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 24; name: task_blastall (23); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/a9/87e9da84f0f83641a293e63c7f14e2]
+Apr-30 22:51:47.529 [Task submitter] INFO  nextflow.Session - [8a/cd848b] Submitted process > task_blastall (378)
+Apr-30 22:51:56.747 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 285; name: task_blastall (284); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/ac/7cc0c48a08a86acf74d454906a0cb5]
+Apr-30 22:51:56.786 [Task submitter] INFO  nextflow.Session - [b1/4701a8] Submitted process > task_blastall (388)
+Apr-30 22:52:36.708 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 258; name: task_blastall (257); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/18/7eb3969d34ecba872d45399d954cfd]
+Apr-30 22:52:36.756 [Task submitter] INFO  nextflow.Session - [41/e7c9d2] Submitted process > task_blastall (394)
+Apr-30 22:52:48.027 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 196; name: task_blastall (195); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/ad/eab8440cf7b2f4aebfcb34440a1f07]
+Apr-30 22:52:48.074 [Task submitter] INFO  nextflow.Session - [f3/66563a] Submitted process > task_blastall (387)
+Apr-30 22:52:54.959 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 371; name: task_blastall (370); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/99/a8dcc657236d9a78d436860ccafc5a]
+Apr-30 22:52:55.040 [Task submitter] INFO  nextflow.Session - [bf/fa8f44] Submitted process > task_blastall (385)
+Apr-30 22:52:55.401 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor k8s > tasks to be completed: 300 -- submitted tasks are shown below
+~> TaskHandler[id: 33; name: task_blastall (32); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/97/9add61b9233cb6fd4934bd372fcddf]
+~> TaskHandler[id: 9; name: task_blastall (8); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/f0/a71683e584efa2a7f60fdf09808b72]
+~> TaskHandler[id: 30; name: task_blastall (29); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/d0/97fb64869f3c05bcc6f39b8a50bc3e]
+~> TaskHandler[id: 7; name: task_blastall (6); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/d8/1f920b6381efff6f8b1eced6f3c265]
+~> TaskHandler[id: 22; name: task_blastall (21); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/99/c2e69bd58d6651acd10491c0c23c8c]
+~> TaskHandler[id: 32; name: task_blastall (31); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/33/2f427933654ce9e2665bd49da9959c]
+~> TaskHandler[id: 17; name: task_blastall (16); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/73/23320703650b14fb872a7cb1673109]
+~> TaskHandler[id: 25; name: task_blastall (24); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/4e/9d3d5db2d48359c73b53cc4eb95222]
+~> TaskHandler[id: 20; name: task_blastall (19); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/de/f4f7d9e49653603abef39744f5a1bd]
+~> TaskHandler[id: 28; name: task_blastall (27); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/23/0940dc9835890c0000132e00ad9f7e]
+.. remaining tasks omitted.
+Apr-30 22:52:58.042 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor k8s > tasks in the submission queue: 12 -- tasks to be submitted are shown below
+~> TaskHandler[id: 387; name: task_blastall (386); status: NEW; exit: -; error: -; workDir: /input/data/work/9f/e01cfa47226163d1b14cea74da732e]
+~> TaskHandler[id: 384; name: task_blastall (383); status: NEW; exit: -; error: -; workDir: /input/data/work/35/7685b76412868828124ebe8ddd13d9]
+~> TaskHandler[id: 385; name: task_blastall (384); status: NEW; exit: -; error: -; workDir: /input/data/work/f0/d1d5b29264b1426cdb45f7dd8e7755]
+~> TaskHandler[id: 376; name: task_blastall (375); status: NEW; exit: -; error: -; workDir: /input/data/work/cd/7e7a157e9ae12c1352046c0345fa86]
+~> TaskHandler[id: 392; name: task_blastall (391); status: NEW; exit: -; error: -; workDir: /input/data/work/b2/bbba9bd83e2fa6c5c9a49b8bd436ed]
+~> TaskHandler[id: 390; name: task_blastall (389); status: NEW; exit: -; error: -; workDir: /input/data/work/ea/3ca73a12653db77b6796f56d8e502f]
+~> TaskHandler[id: 393; name: task_blastall (392); status: NEW; exit: -; error: -; workDir: /input/data/work/a2/c4a14030397be25979e90be4ae162c]
+~> TaskHandler[id: 391; name: task_blastall (390); status: NEW; exit: -; error: -; workDir: /input/data/work/67/ba1f650dfeb9c87403a545db11f88e]
+~> TaskHandler[id: 394; name: task_blastall (393); status: NEW; exit: -; error: -; workDir: /input/data/work/45/287917ac16dff26e61672eb4cc0ffe]
+~> TaskHandler[id: 396; name: task_blastall (395); status: NEW; exit: -; error: -; workDir: /input/data/work/ec/9d60d5c9eb13185265d1cfb8934ccb]
+.. remaining tasks omitted.
+Apr-30 22:52:58.449 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 94; name: task_blastall (93); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/85/4a04096efb1988a2301ba73ef82cb5]
+Apr-30 22:52:58.494 [Task submitter] INFO  nextflow.Session - [9f/e01cfa] Submitted process > task_blastall (386)
+Apr-30 22:53:00.191 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 111; name: task_blastall (110); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/d6/b7534884a8636d91fcc5f9cf8e0395]
+Apr-30 22:53:00.236 [Task submitter] INFO  nextflow.Session - [35/7685b7] Submitted process > task_blastall (383)
+Apr-30 22:53:07.969 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 320; name: task_blastall (319); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/b0/bebce86a8fa5156aee719a76029418]
+Apr-30 22:53:08.006 [Task submitter] INFO  nextflow.Session - [f0/d1d5b2] Submitted process > task_blastall (384)
+Apr-30 22:53:13.159 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 83; name: task_blastall (82); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/ef/296cb7b7f844b45db1406cbdee4c9d]
+Apr-30 22:53:13.203 [Task submitter] INFO  nextflow.Session - [cd/7e7a15] Submitted process > task_blastall (375)
+Apr-30 22:53:23.799 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 372; name: task_blastall (371); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/84/d0a1039ea888ee8f47da701290104f]
+Apr-30 22:53:23.846 [Task submitter] INFO  nextflow.Session - [b2/bbba9b] Submitted process > task_blastall (391)
+Apr-30 22:53:37.596 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 374; name: task_blastall (373); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/28/68ab941440e850b4659425ea8f10db]
+Apr-30 22:53:37.644 [Task submitter] INFO  nextflow.Session - [ea/3ca73a] Submitted process > task_blastall (389)
+Apr-30 22:53:37.797 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 380; name: task_blastall (379); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/b7/47447734a862c7310a5bdd42b96fe2]
+Apr-30 22:53:37.837 [Task submitter] INFO  nextflow.Session - [a2/c4a140] Submitted process > task_blastall (392)
+Apr-30 22:54:18.757 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 40; name: task_blastall (39); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/56/4a23cf66f6fbafe414be6be7096a2a]
+Apr-30 22:54:18.805 [Task submitter] INFO  nextflow.Session - [67/ba1f65] Submitted process > task_blastall (390)
+Apr-30 22:54:21.511 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 114; name: task_blastall (113); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/c8/9484d63cc1ab4a19efb9f93c4e63d9]
+Apr-30 22:54:21.559 [Task submitter] INFO  nextflow.Session - [45/287917] Submitted process > task_blastall (393)
+Apr-30 22:54:21.733 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 118; name: task_blastall (117); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/30/ff4c068cf8458a23e0d22c301a4887]
+Apr-30 22:54:21.771 [Task submitter] INFO  nextflow.Session - [ec/9d60d5] Submitted process > task_blastall (395)
+Apr-30 22:54:28.331 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 300; name: task_blastall (299); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/08/f84c019716d38f9425445ba597b738]
+Apr-30 22:54:28.370 [Task submitter] INFO  nextflow.Session - [c9/26500e] Submitted process > task_blastall (380)
+Apr-30 22:54:41.720 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 232; name: task_blastall (231); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/b6/0b09f3636632135e9ecd16b223e9ff]
+Apr-30 22:54:41.760 [Task submitter] INFO  nextflow.Session - [6e/dfdfe3] Submitted process > task_blastall (377)
+Apr-30 22:54:52.529 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 146; name: task_blastall (145); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/4c/b5af1c426c5a4e5bdc3ed93598ee98]
+Apr-30 22:54:54.153 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 192; name: task_blastall (191); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/d6/5b10a86f3eb1d1b8576c16ccbc8e67]
+Apr-30 22:55:00.781 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 367; name: task_blastall (366); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/51/5b59d43c3ca5b6f542ff5a33fbc26e]
+Apr-30 22:55:07.173 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 169; name: task_blastall (168); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/14/7fab8b72906bfc8c1cc3d0d74938c7]
+Apr-30 22:55:20.461 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 158; name: task_blastall (157); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/92/a8d9c2859dc31f6608e33ef15d4ef8]
+Apr-30 22:55:42.247 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 376; name: task_blastall (375); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/cd/7e7a157e9ae12c1352046c0345fa86]
+Apr-30 22:55:50.523 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 243; name: task_blastall (242); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/a7/ea4892cd7d91b70c2e665432714064]
+Apr-30 22:55:57.243 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 390; name: task_blastall (389); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/ea/3ca73a12653db77b6796f56d8e502f]
+Apr-30 22:56:10.590 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 391; name: task_blastall (390); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/67/ba1f650dfeb9c87403a545db11f88e]
+Apr-30 22:56:18.392 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 242; name: task_blastall (241); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/f5/4bb9b92b6bd65530f65ed6a0ffedb2]
+Apr-30 22:56:26.192 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 74; name: task_blastall (73); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/5f/d76acfff7fb5d62c5bfe83105d3f33]
+Apr-30 22:56:47.732 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 324; name: task_blastall (323); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/85/5b8a10722287c8f754b36a1622bd5e]
+Apr-30 22:56:51.636 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 50; name: task_blastall (49); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/1f/5ab3a26b31c1d4c1ba96a5f9669455]
+Apr-30 22:56:54.338 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 150; name: task_blastall (149); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/59/2d3863d3c43fc8a2a5d654c20e4442]
+Apr-30 22:56:57.751 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 261; name: task_blastall (260); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/c4/d837d287bcba2ac2dd8c62524b00ad]
+Apr-30 22:57:11.295 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 301; name: task_blastall (300); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/e6/578f5970e86e6576f109007389f8bc]
+Apr-30 22:57:13.372 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 347; name: task_blastall (346); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/d7/767ebb03a03728d6cce6779c061673]
+Apr-30 22:57:32.986 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 49; name: task_blastall (48); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/08/5ef7edea65596e9b7755e0db3e981f]
+Apr-30 22:57:42.820 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 342; name: task_blastall (341); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/1f/0a4bf043a0e630285aa29cf7530272]
+Apr-30 22:57:46.417 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 68; name: task_blastall (67); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/16/9719b4bc211dfdbfd320ec6627244f]
+Apr-30 22:57:56.480 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 366; name: task_blastall (365); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/e0/56c5eb0fd119ca6f9fd0895b2d490c]
+Apr-30 22:57:57.499 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor k8s > tasks to be completed: 279 -- submitted tasks are shown below
+~> TaskHandler[id: 33; name: task_blastall (32); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/97/9add61b9233cb6fd4934bd372fcddf]
+~> TaskHandler[id: 9; name: task_blastall (8); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/f0/a71683e584efa2a7f60fdf09808b72]
+~> TaskHandler[id: 30; name: task_blastall (29); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/d0/97fb64869f3c05bcc6f39b8a50bc3e]
+~> TaskHandler[id: 7; name: task_blastall (6); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/d8/1f920b6381efff6f8b1eced6f3c265]
+~> TaskHandler[id: 22; name: task_blastall (21); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/99/c2e69bd58d6651acd10491c0c23c8c]
+~> TaskHandler[id: 32; name: task_blastall (31); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/33/2f427933654ce9e2665bd49da9959c]
+~> TaskHandler[id: 17; name: task_blastall (16); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/73/23320703650b14fb872a7cb1673109]
+~> TaskHandler[id: 25; name: task_blastall (24); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/4e/9d3d5db2d48359c73b53cc4eb95222]
+~> TaskHandler[id: 20; name: task_blastall (19); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/de/f4f7d9e49653603abef39744f5a1bd]
+~> TaskHandler[id: 28; name: task_blastall (27); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/23/0940dc9835890c0000132e00ad9f7e]
+.. remaining tasks omitted.
+Apr-30 22:58:00.509 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 106; name: task_blastall (105); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/e4/1c7d11329934c3a9b62cb8a148288d]
+Apr-30 22:58:20.831 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 343; name: task_blastall (342); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/9f/51479430a1da6ec891ddea965d6c5c]
+Apr-30 22:58:25.571 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 95; name: task_blastall (94); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/0c/7d07a83eb95eb51c5768ab11cb8566]
+Apr-30 22:58:26.731 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 161; name: task_blastall (160); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/fe/7e5585f8460605634dcebc24ec5c64]
+Apr-30 22:58:47.643 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 373; name: task_blastall (372); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/d9/7d747a3ceaa57cda5d3b663203d2f1]
+Apr-30 22:58:59.481 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 345; name: task_blastall (344); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/21/c574690ca4bfcc8e2e987ae66f611d]
+Apr-30 22:59:03.354 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 73; name: task_blastall (72); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/59/f9f7c680a8f8ae27be7352d45e2ded]
+Apr-30 22:59:10.677 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 289; name: task_blastall (288); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/b7/512d82c903eae88c2656cbed5d88b1]
+Apr-30 22:59:22.897 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 291; name: task_blastall (290); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/d8/36e61ae908cfc9cc54d4074f67730f]
+Apr-30 22:59:39.473 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 69; name: task_blastall (68); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/b8/f4aee6b1f6540621bd8849184cfff7]
+Apr-30 22:59:42.907 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 178; name: task_blastall (177); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/d3/4c414cbc701e722cc6e1636d26c267]
+Apr-30 22:59:46.135 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 256; name: task_blastall (255); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/ed/6c4c499f2e7bc61070792e94a5c3db]
+Apr-30 22:59:47.727 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 276; name: task_blastall (275); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/40/86ecbcc4b2021253ee3a77d9e4b18c]
+Apr-30 22:59:57.231 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 185; name: task_blastall (184); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/fa/c60c823510945895038bcfce259c88]
+Apr-30 22:59:57.502 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 197; name: task_blastall (196); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/3c/e483dcea741bae0299b2e7b19e3036]
+Apr-30 23:00:26.377 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 353; name: task_blastall (352); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/ef/b49e59ba622f2a26363754172c4451]
+Apr-30 23:00:44.377 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 186; name: task_blastall (185); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/da/c7a282bf62386cc3681f37bb573e1a]
+Apr-30 23:00:45.108 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 181; name: task_blastall (180); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/2b/6afd4263c1f2ec1451c4c3f4554a38]
+Apr-30 23:00:53.836 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 70; name: task_blastall (69); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/8e/4200985e790fdb35924731d37b0088]
+Apr-30 23:01:01.568 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 326; name: task_blastall (325); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/1a/aac1a62f5f7e3ebde749e50a2f2c78]
+Apr-30 23:01:03.292 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 377; name: task_blastall (376); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/2b/7b3894729f11104a8f8115485ce26d]
+Apr-30 23:01:14.783 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 351; name: task_blastall (350); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/c3/5fa2071b1af5361b4fa9f594722394]
+Apr-30 23:01:22.762 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 159; name: task_blastall (158); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/de/a626b0db271de51ae9202fd43d0a6d]
+Apr-30 23:01:33.583 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 132; name: task_blastall (131); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/83/9dd08b8b120cb145a4fe878e463593]
+Apr-30 23:01:40.551 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 359; name: task_blastall (358); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/c5/5e5c9ee998c1ac0f7e6269dfde09cc]
+Apr-30 23:02:00.999 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 290; name: task_blastall (289); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/75/b605809fcda4818ba473cc57676ea1]
+Apr-30 23:02:07.917 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 179; name: task_blastall (178); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/85/90f4a2abef0e5a8cfd42bb74fc85e0]
+Apr-30 23:02:15.833 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 61; name: task_blastall (60); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/10/43fb3874efff91ab87c6663e838c0f]
+Apr-30 23:02:18.165 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 93; name: task_blastall (92); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/e0/7e6fd1fa500380c6c84477678f4d2d]
+Apr-30 23:02:26.869 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 346; name: task_blastall (345); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/48/c6651a0e01bc3a435d63c1176011ce]
+Apr-30 23:02:37.058 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 297; name: task_blastall (296); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/0a/e3527b268b921c5588fb2043e37004]
+Apr-30 23:02:50.033 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 368; name: task_blastall (367); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/41/da414790278d2debdc74e4ed26399c]
+Apr-30 23:02:53.864 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 115; name: task_blastall (114); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/f8/794fbb0f0856510f6ba4733798c2b9]
+Apr-30 23:02:56.021 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 193; name: task_blastall (192); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/69/fb38efec0b5e48d6557bc0086f44ff]
+Apr-30 23:02:58.832 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 275; name: task_blastall (274); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/f7/72044313bc2205d3a2d162bc9536ba]
+Apr-30 23:03:02.390 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor k8s > tasks to be completed: 244 -- submitted tasks are shown below
+~> TaskHandler[id: 33; name: task_blastall (32); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/97/9add61b9233cb6fd4934bd372fcddf]
+~> TaskHandler[id: 9; name: task_blastall (8); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/f0/a71683e584efa2a7f60fdf09808b72]
+~> TaskHandler[id: 30; name: task_blastall (29); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/d0/97fb64869f3c05bcc6f39b8a50bc3e]
+~> TaskHandler[id: 7; name: task_blastall (6); status: RUNNING; exit: -; error: -; workDir: /input/data/work/d8/1f920b6381efff6f8b1eced6f3c265]
+~> TaskHandler[id: 22; name: task_blastall (21); status: RUNNING; exit: -; error: -; workDir: /input/data/work/99/c2e69bd58d6651acd10491c0c23c8c]
+~> TaskHandler[id: 32; name: task_blastall (31); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/33/2f427933654ce9e2665bd49da9959c]
+~> TaskHandler[id: 17; name: task_blastall (16); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/73/23320703650b14fb872a7cb1673109]
+~> TaskHandler[id: 25; name: task_blastall (24); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/4e/9d3d5db2d48359c73b53cc4eb95222]
+~> TaskHandler[id: 20; name: task_blastall (19); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/de/f4f7d9e49653603abef39744f5a1bd]
+~> TaskHandler[id: 28; name: task_blastall (27); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/23/0940dc9835890c0000132e00ad9f7e]
+.. remaining tasks omitted.
+Apr-30 23:03:35.569 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 22; name: task_blastall (21); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/99/c2e69bd58d6651acd10491c0c23c8c]
+Apr-30 23:03:35.966 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 29; name: task_blastall (28); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/6f/171eb471804420dcaaf28b3d36b6eb]
+Apr-30 23:03:37.927 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 99; name: task_blastall (98); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/a5/4056f67ee69a6fba3a24951e30b219]
+Apr-30 23:03:39.837 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 153; name: task_blastall (152); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/b4/18ee1b471a6995fde1ec9d89646aed]
+Apr-30 23:03:46.074 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 364; name: task_blastall (363); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/0f/e5c4d58969f1407c95352f934dc906]
+Apr-30 23:04:00.421 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 108; name: task_blastall (107); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/e1/135d4ecdd80ecbbd12cfb6c7ee126e]
+Apr-30 23:04:15.814 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 272; name: task_blastall (271); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/67/ab7900691d8734f53cc69c70f0bdb4]
+Apr-30 23:04:19.602 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 32; name: task_blastall (31); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/33/2f427933654ce9e2665bd49da9959c]
+Apr-30 23:04:40.128 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 7; name: task_blastall (6); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/d8/1f920b6381efff6f8b1eced6f3c265]
+Apr-30 23:04:40.945 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 43; name: task_blastall (42); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/12/7ba060d5eb82d97c9fb786ab4d5755]
+Apr-30 23:04:44.859 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 191; name: task_blastall (190); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/03/1c2907afda50d4e14ffb560d1c1159]
+Apr-30 23:04:50.555 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 363; name: task_blastall (362); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/89/8b9858852a5bf418aa7d3c80fd9633]
+Apr-30 23:04:57.065 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 216; name: task_blastall (215); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/0f/5a653d08eb3c8ac9ffa4a4e09fa22b]
+Apr-30 23:05:00.904 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 341; name: task_blastall (340); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/f9/9bd4a8c3ae1797fc7f5eee4328e3e2]
+Apr-30 23:05:10.092 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 296; name: task_blastall (295); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/08/57cec41307446e961910007dfb76d2]
+Apr-30 23:05:15.400 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 104; name: task_blastall (103); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/3e/0ebf1566cf73208d2fffa038c1fea5]
+Apr-30 23:05:28.008 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 167; name: task_blastall (166); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/e8/f0b8a8bf484f411542f93df83924bf]
+Apr-30 23:05:41.686 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 281; name: task_blastall (280); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/a9/4aa8818b1837d706892a1b7e4fb839]
+Apr-30 23:05:45.266 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 62; name: task_blastall (61); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/b9/34caad4c85ca137f92ffbf382bfb01]
+Apr-30 23:05:55.906 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 63; name: task_blastall (62); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/ad/79e5c1d99bdb0a4a3915948cff8a0c]
+Apr-30 23:06:13.462 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 349; name: task_blastall (348); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/e3/3760f1a0bd8372ee53e5629ff3a2c9]
+Apr-30 23:06:24.291 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 395; name: task_blastall (394); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/41/e7c9d23298ed5eaf67e87436a7c319]
+Apr-30 23:06:24.933 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 9; name: task_blastall (8); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/f0/a71683e584efa2a7f60fdf09808b72]
+Apr-30 23:06:28.233 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 141; name: task_blastall (140); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/b2/d35ef68e5f922f90338d6bae26b564]
+Apr-30 23:06:38.329 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 137; name: task_blastall (136); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/2e/76e4a9fd0cddc5a6000daa70617c1a]
+Apr-30 23:06:55.630 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 54; name: task_blastall (53); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/2a/a42d86553361a22840c3d7dac4bb4c]
+Apr-30 23:07:04.109 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 33; name: task_blastall (32); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/97/9add61b9233cb6fd4934bd372fcddf]
+Apr-30 23:07:04.362 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 28; name: task_blastall (27); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/23/0940dc9835890c0000132e00ad9f7e]
+Apr-30 23:07:04.635 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 19; name: task_blastall (18); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/9d/7512232157cfd599050ec9cba640f2]
+Apr-30 23:07:06.462 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 112; name: task_blastall (111); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/68/a858e1cbd309d469b505f1010ab71f]
+Apr-30 23:07:08.398 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 183; name: task_blastall (182); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/e4/c355cbe85bf45be0adc30580887b96]
+Apr-30 23:07:37.586 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 199; name: task_blastall (198); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/b9/25434bd4ef9ce0df3e7bcf2cc11444]
+Apr-30 23:07:47.777 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 205; name: task_blastall (204); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/e3/23da4c4ced15cc5a3046ad466ead6c]
+Apr-30 23:07:52.947 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 25; name: task_blastall (24); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/4e/9d3d5db2d48359c73b53cc4eb95222]
+Apr-30 23:08:02.661 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor k8s > tasks to be completed: 210 -- submitted tasks are shown below
+~> TaskHandler[id: 30; name: task_blastall (29); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/d0/97fb64869f3c05bcc6f39b8a50bc3e]
+~> TaskHandler[id: 17; name: task_blastall (16); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/73/23320703650b14fb872a7cb1673109]
+~> TaskHandler[id: 20; name: task_blastall (19); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/de/f4f7d9e49653603abef39744f5a1bd]
+~> TaskHandler[id: 27; name: task_blastall (26); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/7a/6d3e8e8d1df96266a900bfd2de8b4b]
+~> TaskHandler[id: 47; name: task_blastall (46); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/db/d59d783d8055153746adff58a467cc]
+~> TaskHandler[id: 52; name: task_blastall (51); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/66/5f204c06fa799452ed7e36e0399569]
+~> TaskHandler[id: 23; name: task_blastall (22); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/77/67efc9ad61236667de969bbcf5e569]
+~> TaskHandler[id: 31; name: task_blastall (30); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/3d/1d6c23f4a84d7f954adc89a7c8ccb0]
+~> TaskHandler[id: 36; name: task_blastall (35); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/9f/296415fe2075e5dae6a68f1538e154]
+~> TaskHandler[id: 38; name: task_blastall (37); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/4f/9115af7b67e38f5ff429cfd7df363c]
+.. remaining tasks omitted.
+Apr-30 23:08:09.962 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 317; name: task_blastall (316); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/e4/ccc945a3b02e7f2f26b89e4491fb5f]
+Apr-30 23:08:16.473 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 168; name: task_blastall (167); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/77/04bfa3f585e860b3e1e8c12b799559]
+Apr-30 23:08:17.497 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 208; name: task_blastall (207); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/8d/65a0ef373d63e0040d12655d2e36ff]
+Apr-30 23:08:20.290 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 271; name: task_blastall (270); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/16/aee2062f090fbc9d07931c95a2b31a]
+Apr-30 23:08:21.942 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 312; name: task_blastall (311); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/63/b4d58a7b2e8aac6f858f9eaed324d8]
+Apr-30 23:08:29.149 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 250; name: task_blastall (249); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/ad/5f246b25bb1d0a8e04d333e625d4a1]
+Apr-30 23:08:55.127 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 188; name: task_blastall (187); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/56/f0341d69b9bf19a08b4e06a4a5ff0e]
+Apr-30 23:08:57.753 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 282; name: task_blastall (281); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/58/66c32196aca6bd9fdd5a2d032b03a1]
+Apr-30 23:09:06.593 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 269; name: task_blastall (268); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/62/19dc120d7c44c99e6c4a877e7c891f]
+Apr-30 23:09:14.853 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 319; name: task_blastall (318); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/f7/e6362daaee92ea215caee356d1b57c]
+Apr-30 23:09:20.190 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 148; name: task_blastall (147); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/98/d456f87a27943f8dfbcdbeed238db3]
+Apr-30 23:09:25.617 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 294; name: task_blastall (293); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/0b/a97ba93c6192c0db361058a637bbc0]
+Apr-30 23:09:33.053 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 226; name: task_blastall (225); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/41/7917248c5f082de619bd4e0b4d6d0c]
+Apr-30 23:09:43.568 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 304; name: task_blastall (303); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/45/22e7643f3d23b23bb73fd749321e78]
+Apr-30 23:09:46.515 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 38; name: task_blastall (37); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/4f/9115af7b67e38f5ff429cfd7df363c]
+Apr-30 23:09:54.210 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 383; name: task_blastall (382); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/96/68791af70cfbd737b221b37d54a2e5]
+Apr-30 23:10:07.113 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 163; name: task_blastall (162); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/8f/8a9dbe00f8874da2d9faf9a4bb0679]
+Apr-30 23:10:19.300 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 314; name: task_blastall (313); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/f6/0093e24d6437296d5555318b18903a]
+Apr-30 23:10:25.540 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 212; name: task_blastall (211); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/12/a4cb7f4972a6110343a215de34c9cd]
+Apr-30 23:10:25.784 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 218; name: task_blastall (217); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/b5/92328fc81943d9fa4e360f6fce026d]
+Apr-30 23:10:25.884 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 211; name: task_blastall (210); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/dd/035b789748443db19db6fe5af07eb4]
+Apr-30 23:10:30.989 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 388; name: task_blastall (387); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/f3/66563ac235ff53e9a3685041fad4a6]
+Apr-30 23:10:53.283 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 240; name: task_blastall (239); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/6a/c2fa077f8cd725347942090a898e51]
+Apr-30 23:10:56.773 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 396; name: task_blastall (395); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/ec/9d60d5c9eb13185265d1cfb8934ccb]
+Apr-30 23:10:57.935 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 66; name: task_blastall (65); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/bf/2f1bae777fbdc9381c1d501ea2b16b]
+Apr-30 23:11:23.814 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 155; name: task_blastall (154); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/5f/3bab96d40213b690acfbb0a238353d]
+Apr-30 23:11:29.806 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 36; name: task_blastall (35); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/9f/296415fe2075e5dae6a68f1538e154]
+Apr-30 23:11:38.228 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 44; name: task_blastall (43); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/0b/33d4cb4035c5c9636d63b63e290c1c]
+Apr-30 23:11:40.980 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 175; name: task_blastall (174); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/27/abb1a58a65030a78e27982d3a4afac]
+Apr-30 23:11:42.386 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 234; name: task_blastall (233); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/9f/2796ba751357c6a9f2e955c4ed5ca9]
+Apr-30 23:11:43.389 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 267; name: task_blastall (266); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/4d/1d73e3a24077bfc6c76f6db73cc70e]
+Apr-30 23:11:44.907 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 321; name: task_blastall (320); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/df/a08153dbec1428979cef12841215a1]
+Apr-30 23:12:03.753 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 361; name: task_blastall (360); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/99/7be50732e6ae0e0d5701ab59bcf782]
+Apr-30 23:12:05.288 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 58; name: task_blastall (57); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/6c/516530ee11bc065fda9aa04e986c87]
+Apr-30 23:12:14.772 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 138; name: task_blastall (137); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/b6/2c88cf0e478cbeac032a219cee0c5b]
+Apr-30 23:12:16.945 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 241; name: task_blastall (240); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/dc/82d49d11880f9e9b01900de4239909]
+Apr-30 23:12:26.540 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 328; name: task_blastall (327); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/f7/f836314ae236b00e2b03866429b48d]
+Apr-30 23:12:45.009 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 80; name: task_blastall (79); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/d3/6ba177a7e8941aa66e35ac7c08da5f]
+Apr-30 23:12:52.851 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 82; name: task_blastall (81); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/86/c6dd29d60dc46821d3af364e145274]
+Apr-30 23:12:55.697 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 224; name: task_blastall (223); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/94/11dbdc8925b33de0039a5ddab70349]
+Apr-30 23:13:06.969 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor k8s > tasks to be completed: 170 -- submitted tasks are shown below
+~> TaskHandler[id: 30; name: task_blastall (29); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/d0/97fb64869f3c05bcc6f39b8a50bc3e]
+~> TaskHandler[id: 17; name: task_blastall (16); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/73/23320703650b14fb872a7cb1673109]
+~> TaskHandler[id: 20; name: task_blastall (19); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/de/f4f7d9e49653603abef39744f5a1bd]
+~> TaskHandler[id: 27; name: task_blastall (26); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/7a/6d3e8e8d1df96266a900bfd2de8b4b]
+~> TaskHandler[id: 47; name: task_blastall (46); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/db/d59d783d8055153746adff58a467cc]
+~> TaskHandler[id: 52; name: task_blastall (51); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/66/5f204c06fa799452ed7e36e0399569]
+~> TaskHandler[id: 23; name: task_blastall (22); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/77/67efc9ad61236667de969bbcf5e569]
+~> TaskHandler[id: 31; name: task_blastall (30); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/3d/1d6c23f4a84d7f954adc89a7c8ccb0]
+~> TaskHandler[id: 39; name: task_blastall (38); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/52/5adbfbc0f1442fee51928024e226b5]
+~> TaskHandler[id: 41; name: task_blastall (40); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/12/864f677f790d96af87c1327899abff]
+.. remaining tasks omitted.
+Apr-30 23:13:09.572 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 157; name: task_blastall (156); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/09/94246baa76e31dc731ab9769918683]
+Apr-30 23:13:12.669 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 303; name: task_blastall (302); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/62/9bb268b6db5963cc381c345fd46cd1]
+Apr-30 23:13:15.310 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 51; name: task_blastall (50); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/d1/a8b68dfa4dcc70ef030d3597b46cf7]
+Apr-30 23:13:18.303 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 214; name: task_blastall (213); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/23/cd4c834edef1f70933d3cf2c11aa02]
+Apr-30 23:13:25.494 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 202; name: task_blastall (201); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/e6/65359312d2eb2691c99275474258ac]
+Apr-30 23:13:25.873 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 229; name: task_blastall (228); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/86/c01b5e1faffa60a2bed1a4eae284b5]
+Apr-30 23:13:39.351 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 165; name: task_blastall (164); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/2b/6a895dd00aec6a24bc8c45c4800b41]
+Apr-30 23:13:43.962 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 392; name: task_blastall (391); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/b2/bbba9bd83e2fa6c5c9a49b8bd436ed]
+Apr-30 23:13:55.043 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 219; name: task_blastall (218); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/83/3a6ccaaa2bbf7768869018e035780e]
+Apr-30 23:14:06.663 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 72; name: task_blastall (71); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/b9/f4b8638b24b230e8d91a65ae639db3]
+Apr-30 23:14:06.757 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 71; name: task_blastall (70); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/98/0aea2a1d7f305c394d182e644ded2d]
+Apr-30 23:14:26.005 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 332; name: task_blastall (331); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/07/014071bea1f35b4ceb2e0fbdf89f74]
+Apr-30 23:14:26.223 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 350; name: task_blastall (349); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/40/66c570b2ed0da39795de72da4972a2]
+Apr-30 23:14:28.601 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 100; name: task_blastall (99); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/b3/6521c38fcbe761ca8535ac13c4eeff]
+Apr-30 23:14:34.282 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 330; name: task_blastall (329); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/46/8feba3ce59786b8bac6f7149cd6b80]
+Apr-30 23:14:38.867 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 209; name: task_blastall (208); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/8b/d75ee91967a35aaa2d7a53d8a3191c]
+Apr-30 23:14:43.261 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 60; name: task_blastall (59); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/f1/3b01a9c1d691aa8459752f2c4f5378]
+Apr-30 23:15:00.066 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 238; name: task_blastall (237); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/34/9278a928d6b9ee170a677c439231f4]
+Apr-30 23:15:05.397 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 144; name: task_blastall (143); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/ea/a44a3ecc12bb7b3f702cb59880d89c]
+Apr-30 23:15:08.426 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 315; name: task_blastall (314); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/0a/9981b85c8c137325b4786f1f0731bd]
+Apr-30 23:15:12.660 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 177; name: task_blastall (176); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/5c/24136cdad86ad9345be44b9884e986]
+Apr-30 23:15:22.299 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 335; name: task_blastall (334); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/20/ad6f8209ee578b0ca65f9dba62af4f]
+Apr-30 23:15:30.163 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 20; name: task_blastall (19); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/de/f4f7d9e49653603abef39744f5a1bd]
+Apr-30 23:15:35.834 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 251; name: task_blastall (250); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/f5/4d0520c02398b1051857dfa6d8f1a6]
+Apr-30 23:15:39.994 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 102; name: task_blastall (101); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/7a/96bba2799b783cd4c05fb6c5408beb]
+Apr-30 23:15:42.226 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 200; name: task_blastall (199); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/79/80967e9f474988ebeb6ea3a7717af6]
+Apr-30 23:16:05.804 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 384; name: task_blastall (383); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/35/7685b76412868828124ebe8ddd13d9]
+Apr-30 23:16:11.367 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 268; name: task_blastall (267); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/f2/9f7a37f44936fee7c547a3eaee07b1]
+Apr-30 23:16:14.544 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 84; name: task_blastall (83); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/70/8e6e1c1c43046d04e2f38fab8a7ed1]
+Apr-30 23:16:17.322 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 252; name: task_blastall (251); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/26/3088c1dc956775c775946a5d21488b]
+Apr-30 23:16:17.675 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 262; name: task_blastall (261); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/22/46fcf218263bf3ca78da93ddb84aa6]
+Apr-30 23:16:20.252 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 30; name: task_blastall (29); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/d0/97fb64869f3c05bcc6f39b8a50bc3e]
+Apr-30 23:16:28.487 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 139; name: task_blastall (138); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/c5/fa50809f8d0523df75ec04ab8e9907]
+Apr-30 23:16:33.014 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 357; name: task_blastall (356); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/c0/2ddbe59a56e8e6a3ba7b987a2df70f]
+Apr-30 23:16:41.496 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 125; name: task_blastall (124); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/ca/072e7f2d92c16def78e3db6b235828]
+Apr-30 23:16:47.604 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 130; name: task_blastall (129); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/f5/22a8e28b550669ff2f6d4f0dbc8e42]
+Apr-30 23:17:12.141 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 194; name: task_blastall (193); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/99/ebfe108766140bfc8859529c4a4486]
+Apr-30 23:17:12.221 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 198; name: task_blastall (197); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/01/99d02472143f7c5946c0d9b992d573]
+Apr-30 23:17:19.986 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 305; name: task_blastall (304); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/75/731f8011d422729f83066662e70bdd]
+Apr-30 23:17:21.902 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 31; name: task_blastall (30); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/3d/1d6c23f4a84d7f954adc89a7c8ccb0]
+Apr-30 23:17:24.005 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 173; name: task_blastall (172); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/17/2bf8701bfaee0c630eecb2130d9f3d]
+Apr-30 23:17:24.750 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 222; name: task_blastall (221); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/5b/5b8ee0b2f7a814ab6c45fe201a76e8]
+Apr-30 23:17:30.986 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 257; name: task_blastall (256); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/c7/a53efa8009353e37a5c1651d623bd4]
+Apr-30 23:17:35.305 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 152; name: task_blastall (151); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/53/acef1df00a9d8cf53df2b1bfaa8dd6]
+Apr-30 23:17:40.437 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 120; name: task_blastall (119); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/eb/7ba63a64e71891aa126338c427dff4]
+Apr-30 23:17:42.535 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 273; name: task_blastall (272); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/7d/5db09adc983d77757f86a972b2aaab]
+Apr-30 23:17:43.980 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 344; name: task_blastall (343); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/7c/78ce53f0de08b44c1cb76421850f6c]
+Apr-30 23:18:06.152 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 385; name: task_blastall (384); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/f0/d1d5b29264b1426cdb45f7dd8e7755]
+Apr-30 23:18:11.713 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor k8s > tasks to be completed: 122 -- submitted tasks are shown below
+~> TaskHandler[id: 17; name: task_blastall (16); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/73/23320703650b14fb872a7cb1673109]
+~> TaskHandler[id: 27; name: task_blastall (26); status: RUNNING; exit: -; error: -; workDir: /input/data/work/7a/6d3e8e8d1df96266a900bfd2de8b4b]
+~> TaskHandler[id: 47; name: task_blastall (46); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/db/d59d783d8055153746adff58a467cc]
+~> TaskHandler[id: 52; name: task_blastall (51); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/66/5f204c06fa799452ed7e36e0399569]
+~> TaskHandler[id: 23; name: task_blastall (22); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/77/67efc9ad61236667de969bbcf5e569]
+~> TaskHandler[id: 39; name: task_blastall (38); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/52/5adbfbc0f1442fee51928024e226b5]
+~> TaskHandler[id: 41; name: task_blastall (40); status: RUNNING; exit: -; error: -; workDir: /input/data/work/12/864f677f790d96af87c1327899abff]
+~> TaskHandler[id: 42; name: task_blastall (41); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/b5/a83dfd9c62f1649fd3e80594954fb4]
+~> TaskHandler[id: 48; name: task_blastall (47); status: RUNNING; exit: -; error: -; workDir: /input/data/work/75/7c7684d7aa7efaeefaebac306a2b27]
+~> TaskHandler[id: 46; name: task_blastall (45); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/95/39e36f0aff5d8a09c798d6d69180c7]
+.. remaining tasks omitted.
+Apr-30 23:18:17.626 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 64; name: task_blastall (63); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/5d/c83c5af3769254be0658dda0dd5f56]
+Apr-30 23:18:18.360 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 121; name: task_blastall (120); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/08/255a9a18c6ecf904ee42c7180da9e3]
+Apr-30 23:18:22.957 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 48; name: task_blastall (47); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/75/7c7684d7aa7efaeefaebac306a2b27]
+Apr-30 23:18:29.860 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 172; name: task_blastall (171); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/89/1305db73affb95ea53d020af1104ac]
+Apr-30 23:18:38.694 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 41; name: task_blastall (40); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/12/864f677f790d96af87c1327899abff]
+Apr-30 23:18:40.790 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 213; name: task_blastall (212); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/a1/ac8750155b70dfedaf9aa1baafef85]
+Apr-30 23:18:44.333 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 27; name: task_blastall (26); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/7a/6d3e8e8d1df96266a900bfd2de8b4b]
+Apr-30 23:18:47.457 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 277; name: task_blastall (276); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/47/30a7a4b90108d51f8184513db530b9]
+Apr-30 23:18:47.992 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 306; name: task_blastall (305); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/8e/4c31da5da9d53a3a1675e77319bc2b]
+Apr-30 23:19:01.422 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 180; name: task_blastall (179); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/d1/edd555ea897924a51d600d8db8224c]
+Apr-30 23:19:07.593 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 231; name: task_blastall (230); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/75/2effc13da49fae3d507dcebba4f4eb]
+Apr-30 23:19:15.958 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 87; name: task_blastall (86); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/06/d798efd425397d0f108451c5c7d0a8]
+Apr-30 23:19:17.267 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 203; name: task_blastall (202); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/e1/4c4aeee49295ade642005492e8d6b9]
+Apr-30 23:19:18.013 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 255; name: task_blastall (254); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/c5/d2388fa8c3ac9622ab8ec513ce28ee]
+Apr-30 23:19:24.902 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 393; name: task_blastall (392); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/a2/c4a14030397be25979e90be4ae162c]
+Apr-30 23:19:31.468 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 129; name: task_blastall (128); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/0b/303da8038c116cffc2a2084747a08e]
+Apr-30 23:19:34.204 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 336; name: task_blastall (335); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/f7/cbb0714f497be198b2221c894795e1]
+Apr-30 23:19:38.117 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 270; name: task_blastall (269); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/1d/752f7cc41f6b669df76e1a53f63ac3]
+Apr-30 23:19:45.952 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 204; name: task_blastall (203); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/4e/d0089b575e107c9e05634a5e98cc53]
+Apr-30 23:19:51.986 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 288; name: task_blastall (287); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/c8/ace1f0b7201c78dc05b3519de1db5f]
+Apr-30 23:20:05.569 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 154; name: task_blastall (153); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/40/81057c6b3aca43df841da2660bb70a]
+Apr-30 23:20:09.183 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 39; name: task_blastall (38); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/52/5adbfbc0f1442fee51928024e226b5]
+Apr-30 23:20:11.182 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 233; name: task_blastall (232); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/b8/d27ce124041fe9c9071919c24386db]
+Apr-30 23:20:11.793 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 266; name: task_blastall (265); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/8e/032faf4fec3b846281b9e1259125ff]
+Apr-30 23:20:13.442 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 379; name: task_blastall (378); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/8a/cd848bcebb1ae685788caf9314a0c1]
+Apr-30 23:20:13.685 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 394; name: task_blastall (393); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/45/287917ac16dff26e61672eb4cc0ffe]
+Apr-30 23:20:22.167 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 311; name: task_blastall (310); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/65/e00f7a579689e1905369dd01d09f96]
+Apr-30 23:20:26.103 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 236; name: task_blastall (235); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/2f/79fa1588741c10195f1ef85a0aa05f]
+Apr-30 23:20:33.991 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 17; name: task_blastall (16); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/73/23320703650b14fb872a7cb1673109]
+Apr-30 23:20:55.487 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 176; name: task_blastall (175); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/71/e8a799d021a288d723f2b4dad7d076]
+Apr-30 23:20:57.071 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 307; name: task_blastall (306); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/57/238c814d874f03e60896f5ac23bc95]
+Apr-30 23:20:59.048 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 52; name: task_blastall (51); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/66/5f204c06fa799452ed7e36e0399569]
+Apr-30 23:20:59.377 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 79; name: task_blastall (78); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/fd/32e7cf062493639525d3e5f7cacdf3]
+Apr-30 23:21:00.417 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 145; name: task_blastall (144); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/fe/93fd839414a12733950aef6fde9489]
+Apr-30 23:21:04.278 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 59; name: task_blastall (58); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/46/4e6d20b82dd347e5a6a5d2c45fc15e]
+Apr-30 23:21:06.622 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 308; name: task_blastall (307); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/14/c76737cbc39f3bb46c5fbfaa590113]
+Apr-30 23:21:09.386 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 90; name: task_blastall (89); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/81/d1c284e4345421d35a176e726c2d24]
+Apr-30 23:21:16.096 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 265; name: task_blastall (264); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/52/7187389674cac3b69a408ebd1c0ed1]
+Apr-30 23:21:17.526 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 387; name: task_blastall (386); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/9f/e01cfa47226163d1b14cea74da732e]
+Apr-30 23:21:34.472 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 98; name: task_blastall (97); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/53/e623120928826be6a9287bdf5222ee]
+Apr-30 23:21:42.528 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 378; name: task_blastall (377); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/6e/dfdfe3b4573def465e88327326b256]
+Apr-30 23:21:45.630 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 227; name: task_blastall (226); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/d0/763d205e2a1f03e6364affc81e5d33]
+Apr-30 23:21:46.330 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 295; name: task_blastall (294); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/31/3175ba92b634dc9345851fb2f82d50]
+Apr-30 23:21:47.363 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 365; name: task_blastall (364); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/bc/7f4ece2ef3d54e8005f6dd336d4d0b]
+Apr-30 23:21:47.665 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 389; name: task_blastall (388); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/b1/4701a8b5636268e0b78f4ab901e26c]
+Apr-30 23:21:49.630 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 133; name: task_blastall (132); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/3e/da0a59c1a5777969cd74522a211ba2]
+Apr-30 23:21:54.108 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 46; name: task_blastall (45); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/95/39e36f0aff5d8a09c798d6d69180c7]
+Apr-30 23:21:59.749 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 124; name: task_blastall (123); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/76/5289f70aa40ca4699843cd337faefb]
+Apr-30 23:21:59.896 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 126; name: task_blastall (125); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/f3/b18b6695125fb3d6686b0cc201217d]
+Apr-30 23:22:15.964 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 280; name: task_blastall (279); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/e1/c71d54d7f7296b6622de1e9aad9137]
+Apr-30 23:22:25.517 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 239; name: task_blastall (238); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/82/e679952447bc2287dc5ddce3be226a]
+Apr-30 23:22:29.765 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 135; name: task_blastall (134); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/16/2ab5d4a09ad9dd2bd856932b6c51a3]
+Apr-30 23:22:31.628 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 339; name: task_blastall (338); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/b9/3a8752645658ae1c2824810c3bd73d]
+Apr-30 23:22:31.847 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 354; name: task_blastall (353); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/8a/cf82e611f41b64ff25ffa61f2c1373]
+Apr-30 23:22:34.923 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 147; name: task_blastall (146); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/39/5fc91e618c938dc69f11f1f1eca804]
+Apr-30 23:22:35.005 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 170; name: task_blastall (169); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/a1/ef55c40e75bd4e4f77e5bdc9fe8e97]
+Apr-30 23:22:39.143 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 55; name: task_blastall (54); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/b0/eae648da5a6d1c25c0ef643f4acbf3]
+Apr-30 23:22:44.432 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 109; name: task_blastall (108); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/a1/298dcb40f6d454e330b2f83d760598]
+Apr-30 23:22:48.997 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 47; name: task_blastall (46); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/db/d59d783d8055153746adff58a467cc]
+Apr-30 23:22:55.420 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 253; name: task_blastall (252); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/31/04a5207416144e0e6b56c49d2a41c3]
+Apr-30 23:22:58.996 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 23; name: task_blastall (22); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/77/67efc9ad61236667de969bbcf5e569]
+Apr-30 23:23:04.112 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 76; name: task_blastall (75); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/05/a49a5abe2809d1ba29f74f6a03e6d3]
+Apr-30 23:23:05.424 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 260; name: task_blastall (259); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/c7/532a5d7e0be5b4dcf0859299488572]
+Apr-30 23:23:06.626 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 381; name: task_blastall (380); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/c9/26500e2b09b874d464e0909dd35990]
+Apr-30 23:23:10.728 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 228; name: task_blastall (227); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/ec/671dbb97c7b0213070a4c683d70442]
+Apr-30 23:23:11.157 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 237; name: task_blastall (236); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/9d/6989065c632be19217b5a1aff1c38c]
+Apr-30 23:23:12.122 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 337; name: task_blastall (336); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/0d/fe2756f828925c0d9db4e514f0a224]
+Apr-30 23:23:13.938 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor k8s > tasks to be completed: 55 -- submitted tasks are shown below
+~> TaskHandler[id: 42; name: task_blastall (41); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/b5/a83dfd9c62f1649fd3e80594954fb4]
+~> TaskHandler[id: 56; name: task_blastall (55); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/ac/c82752c5e5d3254bdcf570a869c953]
+~> TaskHandler[id: 75; name: task_blastall (74); status: RUNNING; exit: -; error: -; workDir: /input/data/work/9c/24cea29b50a2e024d8603997fa1335]
+~> TaskHandler[id: 81; name: task_blastall (80); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/3a/cc4f47ba6434df0610bb794e51fd44]
+~> TaskHandler[id: 89; name: task_blastall (88); status: RUNNING; exit: -; error: -; workDir: /input/data/work/a8/cdffaac871d353a4d33c8020b0cc1e]
+~> TaskHandler[id: 88; name: task_blastall (87); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/5c/55e22cfad155a2cf9be2e05f7710ba]
+~> TaskHandler[id: 92; name: task_blastall (91); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/e7/405d0ec67d8b14b91b94d5cdfc842b]
+~> TaskHandler[id: 96; name: task_blastall (95); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/9a/33207154a4e0dadc45cf3e8b1ae2cc]
+~> TaskHandler[id: 110; name: task_blastall (109); status: RUNNING; exit: -; error: -; workDir: /input/data/work/09/6b54468e1e598009fb299ae48eeb28]
+~> TaskHandler[id: 123; name: task_blastall (122); status: SUBMITTED; exit: -; error: -; workDir: /input/data/work/d3/57bc0011a34940e7f9d8dbbbe3e146]
+.. remaining tasks omitted.
+Apr-30 23:23:15.773 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 322; name: task_blastall (321); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/5d/4cd2376cb4763348c39e248fe42be6]
+Apr-30 23:23:30.316 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 274; name: task_blastall (273); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/76/5fa7ecd8524798e050b5011c128a5e]
+Apr-30 23:23:35.745 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 316; name: task_blastall (315); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/07/e34844987bf18f95ab15174f7c20bf]
+Apr-30 23:23:39.156 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 89; name: task_blastall (88); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/a8/cdffaac871d353a4d33c8020b0cc1e]
+Apr-30 23:23:39.463 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 119; name: task_blastall (118); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/a2/20800b208df259bc7ca3191e1bf642]
+Apr-30 23:23:44.116 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 81; name: task_blastall (80); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/3a/cc4f47ba6434df0610bb794e51fd44]
+Apr-30 23:23:44.571 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 143; name: task_blastall (142); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/fc/d18b080d0fafb624e09c9fbfffdfdc]
+Apr-30 23:23:44.843 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 189; name: task_blastall (188); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/16/51c0eedfe9821e914844736fa32a00]
+Apr-30 23:23:45.780 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 309; name: task_blastall (308); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/28/d1a4b7bd834b292c79e55eb04f8cf1]
+Apr-30 23:23:49.093 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 75; name: task_blastall (74); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/9c/24cea29b50a2e024d8603997fa1335]
+Apr-30 23:23:49.980 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 110; name: task_blastall (109); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/09/6b54468e1e598009fb299ae48eeb28]
+Apr-30 23:23:50.517 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 210; name: task_blastall (209); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/5f/cb410879b7892f21691fe26004d886]
+Apr-30 23:23:59.787 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 248; name: task_blastall (247); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/7b/2bfbf4fec1361fcb52a99933b6b9cc]
+Apr-30 23:24:10.080 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 293; name: task_blastall (292); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/61/bb45d1d8ebd014d8f09703402600f2]
+Apr-30 23:24:14.628 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 217; name: task_blastall (216); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/4d/aca3096dc01682b4b8c1dc5deb1b04]
+Apr-30 23:24:14.812 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 235; name: task_blastall (234); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/59/f0933153af456ccbf319b5bd9765cf]
+Apr-30 23:24:14.933 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 254; name: task_blastall (253); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/6d/402e7d8d9a2a233a38b8299da4b9b9]
+Apr-30 23:24:15.734 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 375; name: task_blastall (374); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/68/b6e6c8ca0a940f1a28cbc3ac525912]
+Apr-30 23:24:19.183 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 96; name: task_blastall (95); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/9a/33207154a4e0dadc45cf3e8b1ae2cc]
+Apr-30 23:24:19.668 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 215; name: task_blastall (214); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/d7/9d85217c578e3727c890aa4d105416]
+Apr-30 23:24:20.476 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 360; name: task_blastall (359); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/f2/2f0d6afc2c32272839b4ca9f80ecf7]
+Apr-30 23:24:24.200 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 127; name: task_blastall (126); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/93/94ef63f87c081d6e30cc0e2dc99f3d]
+Apr-30 23:24:24.445 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 182; name: task_blastall (181); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/19/cd5bf3f35f3d2a8c9388a27b9ab3b2]
+Apr-30 23:24:29.157 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 123; name: task_blastall (122); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/d3/57bc0011a34940e7f9d8dbbbe3e146]
+Apr-30 23:24:34.880 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 333; name: task_blastall (332); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/fe/034f21f2771af3f034b2ba41799f2e]
+Apr-30 23:24:39.050 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 56; name: task_blastall (55); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/ac/c82752c5e5d3254bdcf570a869c953]
+Apr-30 23:24:39.257 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 136; name: task_blastall (135); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/ff/d7c2cb0a08a40b94b57d52e37118bf]
+Apr-30 23:24:39.661 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 278; name: task_blastall (277); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/b1/f2ffd860b62c0ff6367dd7c796d5f8]
+Apr-30 23:24:39.994 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 299; name: task_blastall (298); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/3b/332d78037e6afe50d56943820a65aa]
+Apr-30 23:24:44.051 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 88; name: task_blastall (87); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/5c/55e22cfad155a2cf9be2e05f7710ba]
+Apr-30 23:24:45.002 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 370; name: task_blastall (369); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/38/2efccdae9f004be6b5602b2a7e890e]
+Apr-30 23:24:49.141 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 184; name: task_blastall (183); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/3a/318ee7b047717cf8849f9616391636]
+Apr-30 23:24:49.397 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 283; name: task_blastall (282); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/ee/34791604d26d812c721fc33eb9bfd9]
+Apr-30 23:24:49.824 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 352; name: task_blastall (351); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/09/a6b70a259bb0d51f85a00d1b3dd801]
+Apr-30 23:24:49.990 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 362; name: task_blastall (361); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/07/83c37593553ca4e487bd9de5dd9570]
+Apr-30 23:24:54.028 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 92; name: task_blastall (91); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/e7/405d0ec67d8b14b91b94d5cdfc842b]
+Apr-30 23:24:54.118 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 128; name: task_blastall (127); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/5d/9eec48de1c079eb001f1d177061305]
+Apr-30 23:24:54.223 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 151; name: task_blastall (150); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/83/aa36b6919c7b76e25dadb4377bb840]
+Apr-30 23:24:54.696 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 325; name: task_blastall (324); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/e2/c636dcec4e4748bd20c66d1fe04976]
+Apr-30 23:24:54.950 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 382; name: task_blastall (381); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/37/3bc67d22fd14901f8ca864c3faef98]
+Apr-30 23:24:59.010 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 149; name: task_blastall (148); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/be/6d5487c48879c7101c320766b8b56a]
+Apr-30 23:24:59.149 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 174; name: task_blastall (173); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/fe/3f0c8893140fde3e4e9ada66a8a961]
+Apr-30 23:25:03.996 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 42; name: task_blastall (41); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/b5/a83dfd9c62f1649fd3e80594954fb4]
+Apr-30 23:25:04.237 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 201; name: task_blastall (200); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/81/3f62e8b7932d5f5f0f956e776d2831]
+Apr-30 23:25:04.410 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 284; name: task_blastall (283); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/9c/0f104e24e3fde640b9078b477ab6aa]
+Apr-30 23:25:04.511 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 286; name: task_blastall (285); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/fa/0871db79825b00f09e97e1abcc6834]
+Apr-30 23:25:04.652 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 292; name: task_blastall (291); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/d4/3982df1a3afeb930b755af9a877326]
+Apr-30 23:25:09.064 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 221; name: task_blastall (220); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/c4/87659be28d080a12a7bcfc2939d168]
+Apr-30 23:25:09.505 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 246; name: task_blastall (245); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/1c/2b575e0f066cbb9bacbd3e728d1d3d]
+Apr-30 23:25:10.708 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 298; name: task_blastall (297); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/b1/eb2fe1519a607705a9c0457830b83d]
+Apr-30 23:25:10.780 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 318; name: task_blastall (317); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/2c/fb5721402a1c01989e780e4ab8d1b5]
+Apr-30 23:25:10.855 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 310; name: task_blastall (309); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/87/fccf6519d49140ac4e27a9cc69ed06]
+Apr-30 23:25:10.925 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 348; name: task_blastall (347); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/cc/f8c7a5d69f0be971f832f762636346]
+Apr-30 23:25:18.993 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 369; name: task_blastall (368); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/ef/fdbd9f9082ece968a4123875f96b51]
+Apr-30 23:25:19.064 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 386; name: task_blastall (385); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/bf/fa8f4427ab085fb2b66eab74f65e37]
+Apr-30 23:25:19.332 [Task submitter] INFO  nextflow.Session - [68/217b5a] Submitted process > task_cat (1)
+Apr-30 23:25:19.424 [Task submitter] INFO  nextflow.Session - [a0/7e0c1f] Submitted process > task_cat_blast (1)
+Apr-30 23:26:44.009 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 397; name: task_cat (1); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/68/217b5aca18ec80153ce8431dd49e60]
+Apr-30 23:27:13.993 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 398; name: task_cat_blast (1); status: COMPLETED; exit: 0; error: -; workDir: /input/data/work/a0/7e0c1f038b1f564fe2ee6a43ef0f52]
+Apr-30 23:27:13.999 [main] DEBUG nextflow.Session - Session await > all processes finished
+Apr-30 23:27:14.004 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Apr-30 23:27:14.016 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=398; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=3d 1h 5m 50s; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=14; peakCpus=112; peakMemory=305.1 GB; ]
+Apr-30 23:27:14.016 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow completed -- saving trace file
+Apr-30 23:27:14.018 [main] DEBUG nextflow.trace.ReportObserver - Workflow completed -- rendering execution report
+Apr-30 23:27:15.261 [main] DEBUG nextflow.trace.TimelineObserver - Workflow completed -- rendering execution timeline
+Apr-30 23:27:15.473 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Apr-30 23:27:15.505 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Apr-30 23:27:15.506 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

@@ -1,0 +1,1 @@
+2024-05-01 11:37:59	47m 56s	amazing_legentil	OK	9c2a4a023eb65273f7a732187858f607	97f52bd2-67fb-45bb-b36c-6e242117c94e	nextflow run /input/workflows/Synthetic_Genome -c /experiments/experiment/Synthetic_Genome/nextflow.config -c /experiments/experiment/configs/nextflow_online_tarema.config -c /experiments/experiment/configs/nextflow_main.config

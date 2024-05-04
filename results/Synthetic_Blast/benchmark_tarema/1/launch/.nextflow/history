@@ -1,0 +1,1 @@
+2024-04-29 17:45:05	48m 45s	prickly_snyder	OK	3d786acf75344b943c55c28941c2d8ec	13a03fc3-bdca-4e83-8c34-62124fa65004	nextflow run /input/workflows/Synthetic_Blast -c /experiments/experiment/Synthetic_Blast/nextflow.config -c /experiments/experiment/configs/nextflow_benchmark_tarema.config -c /experiments/experiment/configs/nextflow_main.config

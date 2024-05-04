@@ -1,0 +1,1 @@
+2024-05-01 10:49:43	47m 38s	drunk_volhard	OK	872a3279a47d21b4bb095c07733a7c1f	efb96aa5-e2eb-477d-8268-1ea3fe8bdaed	nextflow run /input/workflows/Synthetic_Cycles -c /experiments/experiment/Synthetic_Cycles/nextflow.config -c /experiments/experiment/configs/nextflow_rankminrr.config -c /experiments/experiment/configs/nextflow_main.config

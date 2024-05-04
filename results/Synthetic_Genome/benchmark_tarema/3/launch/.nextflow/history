@@ -1,0 +1,1 @@
+2024-05-01 14:04:25	48m 24s	voluminous_spence	OK	9c2a4a023eb65273f7a732187858f607	3547d022-d3db-4e75-b450-fb6f1bffbff4	nextflow run /input/workflows/Synthetic_Genome -c /experiments/experiment/Synthetic_Genome/nextflow.config -c /experiments/experiment/configs/nextflow_benchmark_tarema.config -c /experiments/experiment/configs/nextflow_main.config

@@ -1,0 +1,1 @@
+2024-04-30 22:37:27	49m 48s	grave_curran	OK	3d786acf75344b943c55c28941c2d8ec	84726828-37c2-4ceb-97da-9393fa65a6eb	nextflow run /input/workflows/Synthetic_Blast -c /experiments/experiment/Synthetic_Blast/nextflow.config -c /experiments/experiment/configs/nextflow_benchmark_tarema.config -c /experiments/experiment/configs/nextflow_main.config

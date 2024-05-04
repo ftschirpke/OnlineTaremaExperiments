@@ -1,0 +1,1 @@
+2024-05-02 15:35:35	49m 18s	boring_linnaeus	OK	4451c09db58548a1caab3e78d50306ce	987205f0-a68d-42a0-8dc7-ed42880dd7cc	nextflow run /input/workflows/Synthetic_Seismology -c /experiments/experiment/Synthetic_Seismology/nextflow.config -c /experiments/experiment/configs/nextflow_online_tarema.config -c /experiments/experiment/configs/nextflow_main.config

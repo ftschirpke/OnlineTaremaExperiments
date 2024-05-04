@@ -1,0 +1,1 @@
+2024-05-02 19:45:29	57m 48s	clever_booth	OK	c5f12876eaf14a9e076eb66ccc4835d3	695c947b-f115-435d-ba34-0477f60134aa	nextflow run /input/workflows/Synthetic_Soykb -c /experiments/experiment/Synthetic_Soykb/nextflow.config -c /experiments/experiment/configs/nextflow_online_tarema.config -c /experiments/experiment/configs/nextflow_main.config

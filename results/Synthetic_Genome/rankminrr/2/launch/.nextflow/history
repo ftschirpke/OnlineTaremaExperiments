@@ -1,0 +1,1 @@
+2024-05-01 14:53:25	49m 10s	elegant_woese	OK	9c2a4a023eb65273f7a732187858f607	1973c02d-9f6c-4293-914c-dba4ea7d62f7	nextflow run /input/workflows/Synthetic_Genome -c /experiments/experiment/Synthetic_Genome/nextflow.config -c /experiments/experiment/configs/nextflow_rankminrr.config -c /experiments/experiment/configs/nextflow_main.config

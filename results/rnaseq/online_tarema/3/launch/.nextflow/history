@@ -1,0 +1,1 @@
+2024-04-12 20:30:47	4h 45m 38s	condescending_lattes	OK	f421ddc35d81a0561685927c03e03995	892628a7-355c-464d-94b7-cea7e8ee549f	nextflow run /input/workflows/rnaseq -profile test_full -c /experiments/experiment/rnaseq/nextflow.config -c /experiments/experiment/configs/nextflow_online_tarema.config -c /experiments/experiment/configs/nextflow_main.config

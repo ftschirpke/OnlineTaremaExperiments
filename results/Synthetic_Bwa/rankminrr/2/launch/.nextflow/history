@@ -1,0 +1,1 @@
+2024-05-01 05:54:11	55m 3s	happy_rubens	OK	6bc36bd432c3420d93c4159ebe31e6b4	d5685cfe-026d-4fde-96d3-59c985c27c03	nextflow run /input/workflows/Synthetic_Bwa -c /experiments/experiment/Synthetic_Bwa/nextflow.config -c /experiments/experiment/configs/nextflow_rankminrr.config -c /experiments/experiment/configs/nextflow_main.config

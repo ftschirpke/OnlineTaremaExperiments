@@ -1,0 +1,1 @@
+2024-05-01 01:09:06	56m 2s	friendly_dijkstra	OK	6bc36bd432c3420d93c4159ebe31e6b4	e00b2ef4-0ab2-47c1-84ef-462126027dd3	nextflow run /input/workflows/Synthetic_Bwa -c /experiments/experiment/Synthetic_Bwa/nextflow.config -c /experiments/experiment/configs/nextflow_online_tarema.config -c /experiments/experiment/configs/nextflow_main.config

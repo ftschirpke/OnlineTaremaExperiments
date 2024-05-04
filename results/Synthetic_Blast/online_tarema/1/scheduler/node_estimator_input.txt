@@ -1,0 +1,796 @@
+{"node": "hu-worker-c29", "task": "task_split_fasta", "rchar": 10159859, "target": 1257}
+{"estimate": 1, "id": 0}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 73266535, "target": 12956}
+{"estimate": 4, "id": 1}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 73266534, "target": 14528}
+{"estimate": 4, "id": 2}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 104923941, "target": 56329}
+{"estimate": 4, "id": 3}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 73266535, "target": 13955}
+{"estimate": 4, "id": 4}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 116798844, "target": 67805}
+{"estimate": 4, "id": 5}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 73267166, "target": 9316}
+{"estimate": 4, "id": 6}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 73266531, "target": 10964}
+{"estimate": 4, "id": 7}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 128015713, "target": 71226}
+{"estimate": 4, "id": 8}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 128070456, "target": 79311}
+{"estimate": 4, "id": 9}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 73267169, "target": 10018}
+{"estimate": 4, "id": 10}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 73267167, "target": 9669}
+{"estimate": 4, "id": 11}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 73266531, "target": 11741}
+{"estimate": 4, "id": 12}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 73266533, "target": 12181}
+{"estimate": 4, "id": 13}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 73267169, "target": 10687}
+{"estimate": 4, "id": 14}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 73267166, "target": 9970}
+{"estimate": 4, "id": 15}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 73267167, "target": 10301}
+{"estimate": 4, "id": 16}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 148746098, "target": 93319}
+{"estimate": 4, "id": 17}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 73625885, "target": 8246}
+{"estimate": 4, "id": 18}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 73266556, "target": 9755}
+{"estimate": 4, "id": 19}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 76096715, "target": 14688}
+{"estimate": 4, "id": 20}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 77225672, "target": 16548}
+{"estimate": 4, "id": 21}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 130733607, "target": 117864}
+{"estimate": 4, "id": 22}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 82146542, "target": 20688}
+{"estimate": 4, "id": 23}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 82195074, "target": 21911}
+{"estimate": 4, "id": 24}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 134343106, "target": 129954}
+{"estimate": 4, "id": 25}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 120202570, "target": 129995}
+{"estimate": 4, "id": 26}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 82822631, "target": 21983}
+{"estimate": 4, "id": 27}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 82998208, "target": 23114}
+{"estimate": 4, "id": 28}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 141809780, "target": 133611}
+{"estimate": 4, "id": 29}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 83083282, "target": 22433}
+{"estimate": 4, "id": 30}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 127516018, "target": 139316}
+{"estimate": 4, "id": 31}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 83752767, "target": 22018}
+{"estimate": 4, "id": 32}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 83943344, "target": 23334}
+{"estimate": 4, "id": 33}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 73267105, "target": 11423}
+{"estimate": 4, "id": 34}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 84770760, "target": 27232}
+{"estimate": 4, "id": 35}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 74955124, "target": 19547}
+{"estimate": 4, "id": 36}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 85118062, "target": 24973}
+{"estimate": 4, "id": 37}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 85265162, "target": 25383}
+{"estimate": 4, "id": 38}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 137863098, "target": 161524}
+{"estimate": 4, "id": 39}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 86070718, "target": 26066}
+{"estimate": 4, "id": 40}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 87452758, "target": 43397}
+{"estimate": 4, "id": 41}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 149116121, "target": 105679}
+{"estimate": 4, "id": 42}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 149432173, "target": 114888}
+{"estimate": 4, "id": 43}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 148800174, "target": 112182}
+{"estimate": 4, "id": 44}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 148538822, "target": 109816}
+{"estimate": 4, "id": 45}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 148341868, "target": 105534}
+{"estimate": 4, "id": 46}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 148109887, "target": 110365}
+{"estimate": 4, "id": 47}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 149049647, "target": 142010}
+{"estimate": 4, "id": 48}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 149079199, "target": 145741}
+{"estimate": 4, "id": 49}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 147985421, "target": 142212}
+{"estimate": 4, "id": 50}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 149345683, "target": 188699}
+{"estimate": 4, "id": 51}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 148288276, "target": 184656}
+{"estimate": 4, "id": 52}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 148548160, "target": 194863}
+{"estimate": 4, "id": 53}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 147893984, "target": 103516}
+{"estimate": 4, "id": 54}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 146922992, "target": 101215}
+{"estimate": 4, "id": 55}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 147613446, "target": 111795}
+{"estimate": 4, "id": 56}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 146934705, "target": 106980}
+{"estimate": 4, "id": 57}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 147187077, "target": 107893}
+{"estimate": 4, "id": 58}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 146748165, "target": 101903}
+{"estimate": 4, "id": 59}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 146699074, "target": 133707}
+{"estimate": 4, "id": 60}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 146640905, "target": 138326}
+{"estimate": 4, "id": 61}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 145061459, "target": 97984}
+{"estimate": 4, "id": 62}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 144809241, "target": 103214}
+{"estimate": 4, "id": 63}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 144701668, "target": 103100}
+{"estimate": 4, "id": 64}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 146342854, "target": 146024}
+{"estimate": 4, "id": 65}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 144665377, "target": 105336}
+{"estimate": 4, "id": 66}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 144653173, "target": 103798}
+{"estimate": 4, "id": 67}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 144451867, "target": 103351}
+{"estimate": 4, "id": 68}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 145848420, "target": 179168}
+{"estimate": 4, "id": 69}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 145652611, "target": 175643}
+{"estimate": 4, "id": 70}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 145729427, "target": 184976}
+{"estimate": 4, "id": 71}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 144428248, "target": 103725}
+{"estimate": 4, "id": 72}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 144434522, "target": 124493}
+{"estimate": 4, "id": 73}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 149172703, "target": 134438}
+{"estimate": 4, "id": 74}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 144062323, "target": 99610}
+{"estimate": 4, "id": 75}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 144387617, "target": 103854}
+{"estimate": 4, "id": 76}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 143576414, "target": 98930}
+{"estimate": 4, "id": 77}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 143412362, "target": 99395}
+{"estimate": 4, "id": 78}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 143069896, "target": 104464}
+{"estimate": 4, "id": 79}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 143659284, "target": 141436}
+{"estimate": 4, "id": 80}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 142624658, "target": 100943}
+{"estimate": 4, "id": 81}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 147867202, "target": 100338}
+{"estimate": 4, "id": 82}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 148373066, "target": 106024}
+{"estimate": 4, "id": 83}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 144894035, "target": 172165}
+{"estimate": 4, "id": 84}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 142164110, "target": 102672}
+{"estimate": 4, "id": 85}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 145983781, "target": 106769}
+{"estimate": 4, "id": 86}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 142357869, "target": 134274}
+{"estimate": 4, "id": 87}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 142949966, "target": 168204}
+{"estimate": 4, "id": 88}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 145629704, "target": 107185}
+{"estimate": 4, "id": 89}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 142322948, "target": 139299}
+{"estimate": 4, "id": 90}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 142717994, "target": 173001}
+{"estimate": 4, "id": 91}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 142109680, "target": 123561}
+{"estimate": 4, "id": 92}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 142102932, "target": 99565}
+{"estimate": 4, "id": 93}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 142079498, "target": 95228}
+{"estimate": 4, "id": 94}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 142054627, "target": 95492}
+{"estimate": 4, "id": 95}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 141816756, "target": 94933}
+{"estimate": 4, "id": 96}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 141486263, "target": 97521}
+{"estimate": 4, "id": 97}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 141132276, "target": 101012}
+{"estimate": 4, "id": 98}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 141448763, "target": 133249}
+{"estimate": 4, "id": 99}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 141130773, "target": 127708}
+{"estimate": 4, "id": 100}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 142017403, "target": 163322}
+{"estimate": 4, "id": 101}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 140756121, "target": 101691}
+{"estimate": 4, "id": 102}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 141183093, "target": 171237}
+{"estimate": 4, "id": 103}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 140596726, "target": 93781}
+{"estimate": 4, "id": 104}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 140841980, "target": 130237}
+{"estimate": 4, "id": 105}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 140717946, "target": 96013}
+{"estimate": 4, "id": 106}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 141072549, "target": 168809}
+{"estimate": 4, "id": 107}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 140160354, "target": 95581}
+{"estimate": 4, "id": 108}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 140291353, "target": 102084}
+{"estimate": 4, "id": 109}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 146073074, "target": 104908}
+{"estimate": 4, "id": 110}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 140149316, "target": 121148}
+{"estimate": 4, "id": 111}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 139933602, "target": 93977}
+{"estimate": 4, "id": 112}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 140039184, "target": 134245}
+{"estimate": 4, "id": 113}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 139407272, "target": 87998}
+{"estimate": 4, "id": 114}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 139636502, "target": 92240}
+{"estimate": 4, "id": 115}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 139383508, "target": 91542}
+{"estimate": 4, "id": 116}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 138995079, "target": 90089}
+{"estimate": 4, "id": 117}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 139413644, "target": 118053}
+{"estimate": 4, "id": 118}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 138911833, "target": 93705}
+{"estimate": 4, "id": 119}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 140010977, "target": 160103}
+{"estimate": 4, "id": 120}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 139684672, "target": 167318}
+{"estimate": 4, "id": 121}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 139395019, "target": 167717}
+{"estimate": 4, "id": 122}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 138550501, "target": 89014}
+{"estimate": 4, "id": 123}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 138519620, "target": 94470}
+{"estimate": 4, "id": 124}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 138501266, "target": 93731}
+{"estimate": 4, "id": 125}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 138572188, "target": 117107}
+{"estimate": 4, "id": 126}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 138447064, "target": 91609}
+{"estimate": 4, "id": 127}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 138457023, "target": 99402}
+{"estimate": 4, "id": 128}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 138229096, "target": 87721}
+{"estimate": 4, "id": 129}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 138535136, "target": 126922}
+{"estimate": 4, "id": 130}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 138250441, "target": 115199}
+{"estimate": 4, "id": 131}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 137849176, "target": 93090}
+{"estimate": 4, "id": 132}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 137828714, "target": 94327}
+{"estimate": 4, "id": 133}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 137567554, "target": 94211}
+{"estimate": 4, "id": 134}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 137248192, "target": 93317}
+{"estimate": 4, "id": 135}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 137210557, "target": 88054}
+{"estimate": 4, "id": 136}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 138102542, "target": 163405}
+{"estimate": 4, "id": 137}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 138065301, "target": 148978}
+{"estimate": 4, "id": 138}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 136931608, "target": 92266}
+{"estimate": 4, "id": 139}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 137447946, "target": 123038}
+{"estimate": 4, "id": 140}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 136274431, "target": 116652}
+{"estimate": 4, "id": 141}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 138056864, "target": 169341}
+{"estimate": 4, "id": 142}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 135988475, "target": 117562}
+{"estimate": 4, "id": 143}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 135986151, "target": 86348}
+{"estimate": 4, "id": 144}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 135815939, "target": 88998}
+{"estimate": 4, "id": 145}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 135823882, "target": 90076}
+{"estimate": 4, "id": 146}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 135758155, "target": 90491}
+{"estimate": 4, "id": 147}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 135511178, "target": 96198}
+{"estimate": 4, "id": 148}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 135264524, "target": 93467}
+{"estimate": 4, "id": 149}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 134527686, "target": 77891}
+{"estimate": 4, "id": 150}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 135068661, "target": 119331}
+{"estimate": 4, "id": 151}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 135314015, "target": 146626}
+{"estimate": 4, "id": 152}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 134330948, "target": 76257}
+{"estimate": 4, "id": 153}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 134937700, "target": 119834}
+{"estimate": 4, "id": 154}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 134450178, "target": 83815}
+{"estimate": 4, "id": 155}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 135281348, "target": 156616}
+{"estimate": 4, "id": 156}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 134652141, "target": 113168}
+{"estimate": 4, "id": 157}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 133905659, "target": 88538}
+{"estimate": 4, "id": 158}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 133675452, "target": 88756}
+{"estimate": 4, "id": 159}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 133569351, "target": 88665}
+{"estimate": 4, "id": 160}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 134764970, "target": 160402}
+{"estimate": 4, "id": 161}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 133537802, "target": 87546}
+{"estimate": 4, "id": 162}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 133407959, "target": 91816}
+{"estimate": 4, "id": 163}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 132887807, "target": 86783}
+{"estimate": 4, "id": 164}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 133535639, "target": 112260}
+{"estimate": 4, "id": 165}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 132601634, "target": 81672}
+{"estimate": 4, "id": 166}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 132333672, "target": 82036}
+{"estimate": 4, "id": 167}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 133027783, "target": 111974}
+{"estimate": 4, "id": 168}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 132268072, "target": 81814}
+{"estimate": 4, "id": 169}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 132703995, "target": 117149}
+{"estimate": 4, "id": 170}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 133431203, "target": 147319}
+{"estimate": 4, "id": 171}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 132226083, "target": 91118}
+{"estimate": 4, "id": 172}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 132740438, "target": 150733}
+{"estimate": 4, "id": 173}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 132165202, "target": 82206}
+{"estimate": 4, "id": 174}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 132159890, "target": 81888}
+{"estimate": 4, "id": 175}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 132253285, "target": 140974}
+{"estimate": 4, "id": 176}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 132103146, "target": 85366}
+{"estimate": 4, "id": 177}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 132034893, "target": 82343}
+{"estimate": 4, "id": 178}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 132144444, "target": 110146}
+{"estimate": 4, "id": 179}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 131570058, "target": 85159}
+{"estimate": 4, "id": 180}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 131809877, "target": 106198}
+{"estimate": 4, "id": 181}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 131380282, "target": 108021}
+{"estimate": 4, "id": 182}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 131010904, "target": 84281}
+{"estimate": 4, "id": 183}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 129972728, "target": 78465}
+{"estimate": 4, "id": 184}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 130593183, "target": 83921}
+{"estimate": 4, "id": 185}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 129721347, "target": 79377}
+{"estimate": 4, "id": 186}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 129615194, "target": 81245}
+{"estimate": 4, "id": 187}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 131076500, "target": 140812}
+{"estimate": 4, "id": 188}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 128803415, "target": 74943}
+{"estimate": 4, "id": 189}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 130770057, "target": 142433}
+{"estimate": 4, "id": 190}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 129316479, "target": 113421}
+{"estimate": 4, "id": 191}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 128199988, "target": 76950}
+{"estimate": 4, "id": 192}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 128726959, "target": 112627}
+{"estimate": 4, "id": 193}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 129844337, "target": 148670}
+{"estimate": 4, "id": 194}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 128101328, "target": 79820}
+{"estimate": 4, "id": 195}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 127908641, "target": 82889}
+{"estimate": 4, "id": 196}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 128330691, "target": 99592}
+{"estimate": 4, "id": 197}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 127836278, "target": 81230}
+{"estimate": 4, "id": 198}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 127800705, "target": 79946}
+{"estimate": 4, "id": 199}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 127497835, "target": 76448}
+{"estimate": 4, "id": 200}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 127406396, "target": 75684}
+{"estimate": 4, "id": 201}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 127781227, "target": 133928}
+{"estimate": 4, "id": 202}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 126966819, "target": 78853}
+{"estimate": 4, "id": 203}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 126978881, "target": 83803}
+{"estimate": 4, "id": 204}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 127415376, "target": 101503}
+{"estimate": 4, "id": 205}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 126819389, "target": 73665}
+{"estimate": 4, "id": 206}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 126662466, "target": 75966}
+{"estimate": 4, "id": 207}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 127244663, "target": 105112}
+{"estimate": 4, "id": 208}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 127426484, "target": 136738}
+{"estimate": 4, "id": 209}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 126628549, "target": 80886}
+{"estimate": 4, "id": 210}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 126840126, "target": 106169}
+{"estimate": 4, "id": 211}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 127104576, "target": 131902}
+{"estimate": 4, "id": 212}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 126413572, "target": 76732}
+{"estimate": 4, "id": 213}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 125948496, "target": 75281}
+{"estimate": 4, "id": 214}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 125912149, "target": 76983}
+{"estimate": 4, "id": 215}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 125789490, "target": 77872}
+{"estimate": 4, "id": 216}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 125595096, "target": 77660}
+{"estimate": 4, "id": 217}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 125884930, "target": 94787}
+{"estimate": 4, "id": 218}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 124685489, "target": 76999}
+{"estimate": 4, "id": 219}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 126016607, "target": 127973}
+{"estimate": 4, "id": 220}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 125175825, "target": 102284}
+{"estimate": 4, "id": 221}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 124201021, "target": 71138}
+{"estimate": 4, "id": 222}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 124675427, "target": 103287}
+{"estimate": 4, "id": 223}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 123899555, "target": 71728}
+{"estimate": 4, "id": 224}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 123873326, "target": 72701}
+{"estimate": 4, "id": 225}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 124971628, "target": 134924}
+{"estimate": 4, "id": 226}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 123891696, "target": 76235}
+{"estimate": 4, "id": 227}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 123760183, "target": 71209}
+{"estimate": 4, "id": 228}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 124571791, "target": 126017}
+{"estimate": 4, "id": 229}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 123647492, "target": 77404}
+{"estimate": 4, "id": 230}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 123757233, "target": 101346}
+{"estimate": 4, "id": 231}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 122941300, "target": 72587}
+{"estimate": 4, "id": 232}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 123510474, "target": 93295}
+{"estimate": 4, "id": 233}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 122467388, "target": 67905}
+{"estimate": 4, "id": 234}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 122482961, "target": 92218}
+{"estimate": 4, "id": 235}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 122313983, "target": 70795}
+{"estimate": 4, "id": 236}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 122415744, "target": 73665}
+{"estimate": 4, "id": 237}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 121691884, "target": 68672}
+{"estimate": 4, "id": 238}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 123585343, "target": 124252}
+{"estimate": 4, "id": 239}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 121585260, "target": 73324}
+{"estimate": 4, "id": 240}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 121520413, "target": 70562}
+{"estimate": 4, "id": 241}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 121356111, "target": 71426}
+{"estimate": 4, "id": 242}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 121818711, "target": 124162}
+{"estimate": 4, "id": 243}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 121651317, "target": 122808}
+{"estimate": 4, "id": 244}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 120732941, "target": 69541}
+{"estimate": 4, "id": 245}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 121551531, "target": 99376}
+{"estimate": 4, "id": 246}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 120660114, "target": 70517}
+{"estimate": 4, "id": 247}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 120632598, "target": 69785}
+{"estimate": 4, "id": 248}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 121396882, "target": 96627}
+{"estimate": 4, "id": 249}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 120898423, "target": 90327}
+{"estimate": 4, "id": 250}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 120303976, "target": 71147}
+{"estimate": 4, "id": 251}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 119810583, "target": 58414}
+{"estimate": 4, "id": 252}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 119912014, "target": 73377}
+{"estimate": 4, "id": 253}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 119372087, "target": 59957}
+{"estimate": 4, "id": 254}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 120568151, "target": 119637}
+{"estimate": 4, "id": 255}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 119177477, "target": 66967}
+{"estimate": 4, "id": 256}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 118712649, "target": 72196}
+{"estimate": 4, "id": 257}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 118168151, "target": 66553}
+{"estimate": 4, "id": 258}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 119255298, "target": 94810}
+{"estimate": 4, "id": 259}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 118350668, "target": 85546}
+{"estimate": 4, "id": 260}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 119420419, "target": 121129}
+{"estimate": 4, "id": 261}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 118317320, "target": 97226}
+{"estimate": 4, "id": 262}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 117721795, "target": 68990}
+{"estimate": 4, "id": 263}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 117292364, "target": 68679}
+{"estimate": 4, "id": 264}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 119397156, "target": 125480}
+{"estimate": 4, "id": 265}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 117089719, "target": 61039}
+{"estimate": 4, "id": 266}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 116921402, "target": 62775}
+{"estimate": 4, "id": 267}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 116445318, "target": 66179}
+{"estimate": 4, "id": 268}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 116248707, "target": 67663}
+{"estimate": 4, "id": 269}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 117028828, "target": 112102}
+{"estimate": 4, "id": 270}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 114960349, "target": 60465}
+{"estimate": 4, "id": 271}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 114890909, "target": 60317}
+{"estimate": 4, "id": 272}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 114858479, "target": 61238}
+{"estimate": 4, "id": 273}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 116037585, "target": 88408}
+{"estimate": 4, "id": 274}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 116248193, "target": 91248}
+{"estimate": 4, "id": 275}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 114613602, "target": 60216}
+{"estimate": 4, "id": 276}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 115585587, "target": 81188}
+{"estimate": 4, "id": 277}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 114563486, "target": 68783}
+{"estimate": 4, "id": 278}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 115680242, "target": 107381}
+{"estimate": 4, "id": 279}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 114083545, "target": 56050}
+{"estimate": 4, "id": 280}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 114886493, "target": 106751}
+{"estimate": 4, "id": 281}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 113639032, "target": 61115}
+{"estimate": 4, "id": 282}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 113874845, "target": 64704}
+{"estimate": 4, "id": 283}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 113561023, "target": 61207}
+{"estimate": 4, "id": 284}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 113161368, "target": 58593}
+{"estimate": 4, "id": 285}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 113359035, "target": 84080}
+{"estimate": 4, "id": 286}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 113490498, "target": 85162}
+{"estimate": 4, "id": 287}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 112395261, "target": 58581}
+{"estimate": 4, "id": 288}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 112474723, "target": 83889}
+{"estimate": 4, "id": 289}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 112035933, "target": 58283}
+{"estimate": 4, "id": 290}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 114069305, "target": 105089}
+{"estimate": 4, "id": 291}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 111407857, "target": 56843}
+{"estimate": 4, "id": 292}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 111269147, "target": 56097}
+{"estimate": 4, "id": 293}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 110946214, "target": 58723}
+{"estimate": 4, "id": 294}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 110781542, "target": 56055}
+{"estimate": 4, "id": 295}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 112169795, "target": 105442}
+{"estimate": 4, "id": 296}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 109946965, "target": 48578}
+{"estimate": 4, "id": 297}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 111625375, "target": 104794}
+{"estimate": 4, "id": 298}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 110117292, "target": 57720}
+{"estimate": 4, "id": 299}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 110520554, "target": 78415}
+{"estimate": 4, "id": 300}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 110179515, "target": 79902}
+{"estimate": 4, "id": 301}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 109992673, "target": 73867}
+{"estimate": 4, "id": 302}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 109840408, "target": 56138}
+{"estimate": 4, "id": 303}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 109313503, "target": 58180}
+{"estimate": 4, "id": 304}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 109001433, "target": 56462}
+{"estimate": 4, "id": 305}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 108557595, "target": 57046}
+{"estimate": 4, "id": 306}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 109888433, "target": 98941}
+{"estimate": 4, "id": 307}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 107661116, "target": 54420}
+{"estimate": 4, "id": 308}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 107485101, "target": 52300}
+{"estimate": 4, "id": 309}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 107245379, "target": 50718}
+{"estimate": 4, "id": 310}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 106861176, "target": 47174}
+{"estimate": 4, "id": 311}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 106179326, "target": 53092}
+{"estimate": 4, "id": 312}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 107957627, "target": 94180}
+{"estimate": 4, "id": 313}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 105452453, "target": 52487}
+{"estimate": 4, "id": 314}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 107641978, "target": 92741}
+{"estimate": 4, "id": 315}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 107463523, "target": 74504}
+{"estimate": 4, "id": 316}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 107439296, "target": 75045}
+{"estimate": 4, "id": 317}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 107372479, "target": 74152}
+{"estimate": 4, "id": 318}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 105000914, "target": 49622}
+{"estimate": 4, "id": 319}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 104710580, "target": 47467}
+{"estimate": 4, "id": 320}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 104568695, "target": 48336}
+{"estimate": 4, "id": 321}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 104433939, "target": 50466}
+{"estimate": 4, "id": 322}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 104345601, "target": 50006}
+{"estimate": 4, "id": 323}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 103455896, "target": 46476}
+{"estimate": 4, "id": 324}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 105076200, "target": 93427}
+{"estimate": 4, "id": 325}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 102855477, "target": 46479}
+{"estimate": 4, "id": 326}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 102993006, "target": 47202}
+{"estimate": 4, "id": 327}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 103714518, "target": 74549}
+{"estimate": 4, "id": 328}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 103242681, "target": 68021}
+{"estimate": 4, "id": 329}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 103025050, "target": 67816}
+{"estimate": 4, "id": 330}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 103140007, "target": 66961}
+{"estimate": 4, "id": 331}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 102837552, "target": 45602}
+{"estimate": 4, "id": 332}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 103264463, "target": 80693}
+{"estimate": 4, "id": 333}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 102430839, "target": 48561}
+{"estimate": 4, "id": 334}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 101840432, "target": 44510}
+{"estimate": 4, "id": 335}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 101807009, "target": 47224}
+{"estimate": 4, "id": 336}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 101289132, "target": 44369}
+{"estimate": 4, "id": 337}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 101355215, "target": 52009}
+{"estimate": 4, "id": 338}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 99883314, "target": 38131}
+{"estimate": 4, "id": 339}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 101371368, "target": 79358}
+{"estimate": 4, "id": 340}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 99540817, "target": 42374}
+{"estimate": 4, "id": 341}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 99444606, "target": 40367}
+{"estimate": 4, "id": 342}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 100289638, "target": 60724}
+{"estimate": 4, "id": 343}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 101002270, "target": 64847}
+{"estimate": 4, "id": 344}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 99330578, "target": 41038}
+{"estimate": 4, "id": 345}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 100954845, "target": 64430}
+{"estimate": 4, "id": 346}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 101010934, "target": 76764}
+{"estimate": 4, "id": 347}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 98864509, "target": 41219}
+{"estimate": 4, "id": 348}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 99726376, "target": 72523}
+{"estimate": 4, "id": 349}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 98826130, "target": 40967}
+{"estimate": 4, "id": 350}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 98655211, "target": 42332}
+{"estimate": 4, "id": 351}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 98167980, "target": 38765}
+{"estimate": 4, "id": 352}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 98361211, "target": 41457}
+{"estimate": 4, "id": 353}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 97850791, "target": 39092}
+{"estimate": 4, "id": 354}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 95936386, "target": 38581}
+{"estimate": 4, "id": 355}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 98095632, "target": 58574}
+{"estimate": 4, "id": 356}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 95510452, "target": 37436}
+{"estimate": 4, "id": 357}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 98055514, "target": 59009}
+{"estimate": 4, "id": 358}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 97817380, "target": 58552}
+{"estimate": 4, "id": 359}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 98402565, "target": 72840}
+{"estimate": 4, "id": 360}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 94946315, "target": 37653}
+{"estimate": 4, "id": 361}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 94828936, "target": 35310}
+{"estimate": 4, "id": 362}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 94774212, "target": 36455}
+{"estimate": 4, "id": 363}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 93619515, "target": 34651}
+{"estimate": 4, "id": 364}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 96917572, "target": 67262}
+{"estimate": 4, "id": 365}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 95932603, "target": 67211}
+{"estimate": 4, "id": 366}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 93602021, "target": 37754}
+{"estimate": 4, "id": 367}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 92811598, "target": 34704}
+{"estimate": 4, "id": 368}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 91597626, "target": 32513}
+{"estimate": 4, "id": 369}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 91583263, "target": 31234}
+{"estimate": 4, "id": 370}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 92933627, "target": 48152}
+{"estimate": 4, "id": 371}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 92024929, "target": 45856}
+{"estimate": 4, "id": 372}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 91157519, "target": 31749}
+{"estimate": 4, "id": 373}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 91099844, "target": 32609}
+{"estimate": 4, "id": 374}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 92788881, "target": 49852}
+{"estimate": 4, "id": 375}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 90088049, "target": 31963}
+{"estimate": 4, "id": 376}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 91799733, "target": 56114}
+{"estimate": 4, "id": 377}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 89805565, "target": 31800}
+{"estimate": 4, "id": 378}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 90753057, "target": 53428}
+{"estimate": 4, "id": 379}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 89053998, "target": 30286}
+{"estimate": 4, "id": 380}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 88526483, "target": 28232}
+{"estimate": 4, "id": 381}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 87505565, "target": 27294}
+{"estimate": 4, "id": 382}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 85708903, "target": 26448}
+{"estimate": 4, "id": 383}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 90727892, "target": 56122}
+{"estimate": 4, "id": 384}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 79224592, "target": 15996}
+{"estimate": 4, "id": 385}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 83383589, "target": 21342}
+{"estimate": 4, "id": 386}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 73267171, "target": 9390}
+{"estimate": 4, "id": 387}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 84381216, "target": 34930}
+{"estimate": 4, "id": 388}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 88051963, "target": 39101}
+{"estimate": 4, "id": 389}
+{"node": "hu-worker-c23", "task": "task_blastall", "rchar": 78734691, "target": 14845}
+{"estimate": 4, "id": 390}
+{"node": "hu-worker-c40", "task": "task_blastall", "rchar": 88324226, "target": 41871}
+{"estimate": 4, "id": 391}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 73266549, "target": 10565}
+{"estimate": 4, "id": 392}
+{"node": "hu-worker-c43", "task": "task_blastall", "rchar": 73266548, "target": 9486}
+{"estimate": 4, "id": 393}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 81946341, "target": 29594}
+{"estimate": 4, "id": 394}
+{"node": "hu-worker-c29", "task": "task_blastall", "rchar": 77568475, "target": 22345}
+{"estimate": 4, "id": 395}
+{"node": "hu-worker-c43", "task": "task_cat", "rchar": 69562340642, "target": 54410}
+{"estimate": 4, "id": 396}
+{"node": "hu-worker-c29", "task": "task_cat_blast", "rchar": 69562348052, "target": 88105}
+{"estimate": 4, "id": 397}

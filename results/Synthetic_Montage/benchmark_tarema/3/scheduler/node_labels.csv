@@ -1,0 +1,4 @@
+{"iteration": 0, "hu-worker-c23": 2, "hu-worker-c40": 1, "hu-worker-c43": 2, "hu-worker-c29": 0, "target": "%cpu"}
+{"iteration": 0, "hu-worker-c23": 2, "hu-worker-c40": 1, "hu-worker-c43": 2, "hu-worker-c29": 0, "target": "rss"}
+{"iteration": 0, "hu-worker-c23": 2, "hu-worker-c40": 0, "hu-worker-c43": 1, "hu-worker-c29": 2, "target": "rchar"}
+{"iteration": 0, "hu-worker-c23": 2, "hu-worker-c40": 0, "hu-worker-c43": 1, "hu-worker-c29": 2, "target": "wchar"}

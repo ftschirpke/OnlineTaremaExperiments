@@ -1,0 +1,1 @@
+2024-04-30 20:09:18	48m 49s	goofy_darwin	OK	3d786acf75344b943c55c28941c2d8ec	5a74cb9d-f22d-4533-8be0-320e03eb59e1	nextflow run /input/workflows/Synthetic_Blast -c /experiments/experiment/Synthetic_Blast/nextflow.config -c /experiments/experiment/configs/nextflow_online_tarema.config -c /experiments/experiment/configs/nextflow_main.config

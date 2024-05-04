@@ -1,0 +1,1 @@
+2024-05-03 12:39:31	55m 59s	gigantic_boltzmann	OK	6bc36bd432c3420d93c4159ebe31e6b4	e25b7cd8-9e45-471b-b6b0-5312e04927c3	nextflow run /input/workflows/Synthetic_Bwa -c /experiments/experiment/Synthetic_Bwa/nextflow.config -c /experiments/experiment/configs/nextflow_benchmark_tarema.config -c /experiments/experiment/configs/nextflow_main.config

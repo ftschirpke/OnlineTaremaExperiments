@@ -1,0 +1,1 @@
+2024-04-29 22:11:50	46m 58s	determined_golick	OK	872a3279a47d21b4bb095c07733a7c1f	c0dbff77-de67-4e1f-857c-8209d870de83	nextflow run /input/workflows/Synthetic_Cycles -c /experiments/experiment/Synthetic_Cycles/nextflow.config -c /experiments/experiment/configs/nextflow_online_tarema.config -c /experiments/experiment/configs/nextflow_main.config

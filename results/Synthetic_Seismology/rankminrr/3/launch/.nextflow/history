@@ -1,0 +1,1 @@
+2024-05-02 18:54:36	50m 21s	focused_becquerel	OK	4451c09db58548a1caab3e78d50306ce	ea376999-e042-4ce8-8d3f-222c6fc141c1	nextflow run /input/workflows/Synthetic_Seismology -c /experiments/experiment/Synthetic_Seismology/nextflow.config -c /experiments/experiment/configs/nextflow_rankminrr.config -c /experiments/experiment/configs/nextflow_main.config

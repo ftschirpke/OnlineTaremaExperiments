@@ -1,0 +1,1 @@
+2024-04-29 22:59:25	47m 19s	maniac_curry	OK	872a3279a47d21b4bb095c07733a7c1f	e9952859-cc7d-44de-b800-83149df5e08c	nextflow run /input/workflows/Synthetic_Cycles -c /experiments/experiment/Synthetic_Cycles/nextflow.config -c /experiments/experiment/configs/nextflow_benchmark_tarema.config -c /experiments/experiment/configs/nextflow_main.config

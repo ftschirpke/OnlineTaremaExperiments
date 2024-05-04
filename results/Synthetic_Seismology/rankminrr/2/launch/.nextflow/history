@@ -1,0 +1,1 @@
+2024-05-02 18:04:26	49m 52s	spontaneous_euler	OK	4451c09db58548a1caab3e78d50306ce	ff23c0de-c89b-43b4-b2ab-0e59a488dfc2	nextflow run /input/workflows/Synthetic_Seismology -c /experiments/experiment/Synthetic_Seismology/nextflow.config -c /experiments/experiment/configs/nextflow_rankminrr.config -c /experiments/experiment/configs/nextflow_main.config

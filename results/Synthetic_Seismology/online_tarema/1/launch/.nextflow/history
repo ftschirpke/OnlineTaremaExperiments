@@ -1,0 +1,1 @@
+2024-04-30 10:54:20	49m 22s	drunk_ekeblad	OK	4451c09db58548a1caab3e78d50306ce	0c90538e-e6f9-47b7-8d16-f68bd0110692	nextflow run /input/workflows/Synthetic_Seismology -c /experiments/experiment/Synthetic_Seismology/nextflow.config -c /experiments/experiment/configs/nextflow_online_tarema.config -c /experiments/experiment/configs/nextflow_main.config

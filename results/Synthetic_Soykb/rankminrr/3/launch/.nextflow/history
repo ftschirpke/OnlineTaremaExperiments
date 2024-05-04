@@ -1,0 +1,1 @@
+2024-05-04 01:34:31	58m 5s	elated_yalow	OK	c5f12876eaf14a9e076eb66ccc4835d3	72465e96-128b-41f3-9b6b-024d3f9c5960	nextflow run /input/workflows/Synthetic_Soykb -c /experiments/experiment/Synthetic_Soykb/nextflow.config -c /experiments/experiment/configs/nextflow_rankminrr.config -c /experiments/experiment/configs/nextflow_main.config

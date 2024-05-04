@@ -1,0 +1,1 @@
+2024-05-03 22:34:56	57m 32s	focused_volta	OK	c5f12876eaf14a9e076eb66ccc4835d3	6593650c-a8bb-4add-8f86-323c75ca1831	nextflow run /input/workflows/Synthetic_Soykb -c /experiments/experiment/Synthetic_Soykb/nextflow.config -c /experiments/experiment/configs/nextflow_benchmark_tarema.config -c /experiments/experiment/configs/nextflow_main.config

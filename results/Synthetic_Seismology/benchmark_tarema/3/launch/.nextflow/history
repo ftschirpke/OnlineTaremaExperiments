@@ -1,0 +1,1 @@
+2024-05-02 17:14:55	49m 9s	magical_poitras	OK	4451c09db58548a1caab3e78d50306ce	e1b5d0de-1824-4fc9-9840-75d9cdb3b4aa	nextflow run /input/workflows/Synthetic_Seismology -c /experiments/experiment/Synthetic_Seismology/nextflow.config -c /experiments/experiment/configs/nextflow_benchmark_tarema.config -c /experiments/experiment/configs/nextflow_main.config

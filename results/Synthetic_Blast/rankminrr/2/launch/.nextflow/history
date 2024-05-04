@@ -1,0 +1,1 @@
+2024-04-30 23:27:37	49m 57s	maniac_jepsen	OK	3d786acf75344b943c55c28941c2d8ec	95bfd347-3574-4aab-ad5a-a94e42c109f3	nextflow run /input/workflows/Synthetic_Blast -c /experiments/experiment/Synthetic_Blast/nextflow.config -c /experiments/experiment/configs/nextflow_rankminrr.config -c /experiments/experiment/configs/nextflow_main.config

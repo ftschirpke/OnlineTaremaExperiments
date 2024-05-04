@@ -1,0 +1,1 @@
+2024-05-03 21:36:20	57m 42s	hungry_dijkstra	OK	c5f12876eaf14a9e076eb66ccc4835d3	c5aff196-24bb-46f7-9240-b329d9bfbb2b	nextflow run /input/workflows/Synthetic_Soykb -c /experiments/experiment/Synthetic_Soykb/nextflow.config -c /experiments/experiment/configs/nextflow_online_tarema.config -c /experiments/experiment/configs/nextflow_main.config

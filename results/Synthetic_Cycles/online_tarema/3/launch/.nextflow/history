@@ -1,0 +1,1 @@
+2024-05-01 07:38:15	47m 12s	condescending_turing	OK	872a3279a47d21b4bb095c07733a7c1f	b03df889-11d9-49e3-8d4b-18e7cc8559bc	nextflow run /input/workflows/Synthetic_Cycles -c /experiments/experiment/Synthetic_Cycles/nextflow.config -c /experiments/experiment/configs/nextflow_online_tarema.config -c /experiments/experiment/configs/nextflow_main.config

@@ -1,0 +1,1 @@
+2024-04-29 23:47:22	47m 41s	adoring_bassi	OK	872a3279a47d21b4bb095c07733a7c1f	93c5eb7b-1190-4849-a9e0-7a5d595c9377	nextflow run /input/workflows/Synthetic_Cycles -c /experiments/experiment/Synthetic_Cycles/nextflow.config -c /experiments/experiment/configs/nextflow_rankminrr.config -c /experiments/experiment/configs/nextflow_main.config

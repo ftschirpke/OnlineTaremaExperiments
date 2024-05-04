@@ -1,0 +1,1 @@
+2024-05-03 20:38:19	57m 14s	hungry_williams	OK	c5f12876eaf14a9e076eb66ccc4835d3	2cd84bda-548c-4cf3-8849-167c89f16f08	nextflow run /input/workflows/Synthetic_Soykb -c /experiments/experiment/Synthetic_Soykb/nextflow.config -c /experiments/experiment/configs/nextflow_online_tarema.config -c /experiments/experiment/configs/nextflow_main.config

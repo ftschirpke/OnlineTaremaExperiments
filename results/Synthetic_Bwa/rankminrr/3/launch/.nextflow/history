@@ -1,0 +1,1 @@
+2024-05-03 14:30:30	54m 53s	evil_faggin	OK	6bc36bd432c3420d93c4159ebe31e6b4	2cfae1d3-bf83-4118-a7ed-6c45c42f1bb3	nextflow run /input/workflows/Synthetic_Bwa -c /experiments/experiment/Synthetic_Bwa/nextflow.config -c /experiments/experiment/configs/nextflow_rankminrr.config -c /experiments/experiment/configs/nextflow_main.config

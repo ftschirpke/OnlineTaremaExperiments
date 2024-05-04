@@ -1,0 +1,1 @@
+2024-04-29 19:23:57	54m 7s	disturbed_goldberg	OK	6bc36bd432c3420d93c4159ebe31e6b4	0e3b9511-ee95-4003-ad14-3c4577faae6f	nextflow run /input/workflows/Synthetic_Bwa -c /experiments/experiment/Synthetic_Bwa/nextflow.config -c /experiments/experiment/configs/nextflow_online_tarema.config -c /experiments/experiment/configs/nextflow_main.config

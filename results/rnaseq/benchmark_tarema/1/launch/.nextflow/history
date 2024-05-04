@@ -1,0 +1,1 @@
+2024-04-13 01:18:17	4h 43m 51s	voluminous_magritte	OK	f421ddc35d81a0561685927c03e03995	f157813b-bb69-41db-9760-a5ad6b461bb6	nextflow run /input/workflows/rnaseq -profile test_full -c /experiments/experiment/rnaseq/nextflow.config -c /experiments/experiment/configs/nextflow_benchmark_tarema.config -c /experiments/experiment/configs/nextflow_main.config

@@ -1,0 +1,2986 @@
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 26132270, "target": 78995}
+{"estimate": 4, "id": 0}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 58583461, "target": 82058}
+{"estimate": 4, "id": 1}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 44172201, "target": 78892}
+{"estimate": 4, "id": 2}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 30039055, "target": 79737}
+{"estimate": 4, "id": 3}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 63946754, "target": 105854}
+{"estimate": 4, "id": 4}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 60408691, "target": 105444}
+{"estimate": 4, "id": 5}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 35133169, "target": 143001}
+{"estimate": 4, "id": 6}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 81978264, "target": 144641}
+{"estimate": 4, "id": 7}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 201222550, "target": 4432}
+{"estimate": 4, "id": 8}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 16992934, "target": 81881}
+{"estimate": 4, "id": 9}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 16992971, "target": 79001}
+{"estimate": 4, "id": 10}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 16992619, "target": 79044}
+{"estimate": 4, "id": 11}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 16993484, "target": 80057}
+{"estimate": 4, "id": 12}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 349903370, "target": 7843}
+{"estimate": 4, "id": 13}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 16994169, "target": 106111}
+{"estimate": 4, "id": 14}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 17850697, "target": 106721}
+{"estimate": 4, "id": 15}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 83985102, "target": 79715}
+{"estimate": 4, "id": 16}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 84070404, "target": 79809}
+{"estimate": 4, "id": 17}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 83881410, "target": 80820}
+{"estimate": 4, "id": 18}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 83780464, "target": 80949}
+{"estimate": 4, "id": 19}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 188801952, "target": 4724}
+{"estimate": 4, "id": 20}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 80525022, "target": 6359}
+{"estimate": 4, "id": 21}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 18206544, "target": 139511}
+{"estimate": 4, "id": 22}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 84209766, "target": 143772}
+{"estimate": 4, "id": 23}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 230321233, "target": 5836}
+{"estimate": 4, "id": 24}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 83436264, "target": 96889}
+{"estimate": 4, "id": 25}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 326867040, "target": 7408}
+{"estimate": 4, "id": 26}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 83360108, "target": 105174}
+{"estimate": 4, "id": 27}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 82413555, "target": 80561}
+{"estimate": 4, "id": 28}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 82605094, "target": 83365}
+{"estimate": 4, "id": 29}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 82476192, "target": 83124}
+{"estimate": 4, "id": 30}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 82374470, "target": 81534}
+{"estimate": 4, "id": 31}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 139783552, "target": 5850}
+{"estimate": 4, "id": 32}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 163849930, "target": 6153}
+{"estimate": 4, "id": 33}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 267309193, "target": 7605}
+{"estimate": 4, "id": 34}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 170760199, "target": 7254}
+{"estimate": 4, "id": 35}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 172926168, "target": 7288}
+{"estimate": 4, "id": 36}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 81925460, "target": 77044}
+{"estimate": 4, "id": 37}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 81648681, "target": 80485}
+{"estimate": 4, "id": 38}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 81863908, "target": 83427}
+{"estimate": 4, "id": 39}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 81897859, "target": 83196}
+{"estimate": 4, "id": 40}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 82229442, "target": 109408}
+{"estimate": 4, "id": 41}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 159500504, "target": 4914}
+{"estimate": 4, "id": 42}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 161964773, "target": 4375}
+{"estimate": 4, "id": 43}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 161129394, "target": 4998}
+{"estimate": 4, "id": 44}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 281817772, "target": 5105}
+{"estimate": 4, "id": 45}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 174386279, "target": 4423}
+{"estimate": 4, "id": 46}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 282662214, "target": 4690}
+{"estimate": 4, "id": 47}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 82311191, "target": 139678}
+{"estimate": 4, "id": 48}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 228535612, "target": 3768}
+{"estimate": 4, "id": 49}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 161706835, "target": 4430}
+{"estimate": 4, "id": 50}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 82308768, "target": 144524}
+{"estimate": 4, "id": 51}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 82177706, "target": 104828}
+{"estimate": 4, "id": 52}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 239464296, "target": 7339}
+{"estimate": 4, "id": 53}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 81317890, "target": 80691}
+{"estimate": 4, "id": 54}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 80904655, "target": 79827}
+{"estimate": 4, "id": 55}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 81281301, "target": 80364}
+{"estimate": 4, "id": 56}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 81218690, "target": 79819}
+{"estimate": 4, "id": 57}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 308408334, "target": 7426}
+{"estimate": 4, "id": 58}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 155025712, "target": 7599}
+{"estimate": 4, "id": 59}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 221855233, "target": 7726}
+{"estimate": 4, "id": 60}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 215831213, "target": 6827}
+{"estimate": 4, "id": 61}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 209083207, "target": 6423}
+{"estimate": 4, "id": 62}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 245270149, "target": 7359}
+{"estimate": 4, "id": 63}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 80839074, "target": 106136}
+{"estimate": 4, "id": 64}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 80371521, "target": 105316}
+{"estimate": 4, "id": 65}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 262263750, "target": 4557}
+{"estimate": 4, "id": 66}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 80552381, "target": 140612}
+{"estimate": 4, "id": 67}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 80040912, "target": 78984}
+{"estimate": 4, "id": 68}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 80425029, "target": 141941}
+{"estimate": 4, "id": 69}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 230099611, "target": 4345}
+{"estimate": 4, "id": 70}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 79913549, "target": 79041}
+{"estimate": 4, "id": 71}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 80010478, "target": 80768}
+{"estimate": 4, "id": 72}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 79554990, "target": 80469}
+{"estimate": 4, "id": 73}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 172593581, "target": 7405}
+{"estimate": 4, "id": 74}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 188646292, "target": 6631}
+{"estimate": 4, "id": 75}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 181384507, "target": 7248}
+{"estimate": 4, "id": 76}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 200814108, "target": 7587}
+{"estimate": 4, "id": 77}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 167475292, "target": 5747}
+{"estimate": 4, "id": 78}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 155054539, "target": 5706}
+{"estimate": 4, "id": 79}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 275751329, "target": 6982}
+{"estimate": 4, "id": 80}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 248914163, "target": 7316}
+{"estimate": 4, "id": 81}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 169551279, "target": 7161}
+{"estimate": 4, "id": 82}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 272578184, "target": 5568}
+{"estimate": 4, "id": 83}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 196744908, "target": 7281}
+{"estimate": 4, "id": 84}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 297760201, "target": 7280}
+{"estimate": 4, "id": 85}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 79083272, "target": 106423}
+{"estimate": 4, "id": 86}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 78617198, "target": 104337}
+{"estimate": 4, "id": 87}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 274833935, "target": 7390}
+{"estimate": 4, "id": 88}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 238295035, "target": 7118}
+{"estimate": 4, "id": 89}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 77607869, "target": 79245}
+{"estimate": 4, "id": 90}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 155089929, "target": 7003}
+{"estimate": 4, "id": 91}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 149066364, "target": 7207}
+{"estimate": 4, "id": 92}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 76946338, "target": 79476}
+{"estimate": 4, "id": 93}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 76854332, "target": 80412}
+{"estimate": 4, "id": 94}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 262036684, "target": 7146}
+{"estimate": 4, "id": 95}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 341581449, "target": 7077}
+{"estimate": 4, "id": 96}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 274740525, "target": 7796}
+{"estimate": 4, "id": 97}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 268717232, "target": 6764}
+{"estimate": 4, "id": 98}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 207910251, "target": 7627}
+{"estimate": 4, "id": 99}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 76633580, "target": 83010}
+{"estimate": 4, "id": 100}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 234617588, "target": 7842}
+{"estimate": 4, "id": 101}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 277436155, "target": 7311}
+{"estimate": 4, "id": 102}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 221394922, "target": 7581}
+{"estimate": 4, "id": 103}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 241729287, "target": 5325}
+{"estimate": 4, "id": 104}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 216630363, "target": 7322}
+{"estimate": 4, "id": 105}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 317610825, "target": 7700}
+{"estimate": 4, "id": 106}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 96246864, "target": 5642}
+{"estimate": 4, "id": 107}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 184445953, "target": 7414}
+{"estimate": 4, "id": 108}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 234468799, "target": 7115}
+{"estimate": 4, "id": 109}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 77673323, "target": 145704}
+{"estimate": 4, "id": 110}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 77364886, "target": 145088}
+{"estimate": 4, "id": 111}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 218638813, "target": 5095}
+{"estimate": 4, "id": 112}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 139275618, "target": 5125}
+{"estimate": 4, "id": 113}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 245475705, "target": 5206}
+{"estimate": 4, "id": 114}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 211727737, "target": 5145}
+{"estimate": 4, "id": 115}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 76291365, "target": 78701}
+{"estimate": 4, "id": 116}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 75708391, "target": 79092}
+{"estimate": 4, "id": 117}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 75653722, "target": 79917}
+{"estimate": 4, "id": 118}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 266243786, "target": 5060}
+{"estimate": 4, "id": 119}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 309913195, "target": 7669}
+{"estimate": 4, "id": 120}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 75296825, "target": 81227}
+{"estimate": 4, "id": 121}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 146781041, "target": 3349}
+{"estimate": 4, "id": 122}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 423932440, "target": 7884}
+{"estimate": 4, "id": 123}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 381211904, "target": 7568}
+{"estimate": 4, "id": 124}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 217457367, "target": 7437}
+{"estimate": 4, "id": 125}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 296925546, "target": 7559}
+{"estimate": 4, "id": 126}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 290902446, "target": 7354}
+{"estimate": 4, "id": 127}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 76448406, "target": 106455}
+{"estimate": 4, "id": 128}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 181896256, "target": 7144}
+{"estimate": 4, "id": 129}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 311884287, "target": 3611}
+{"estimate": 4, "id": 130}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 238279816, "target": 7250}
+{"estimate": 4, "id": 131}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 240930314, "target": 7306}
+{"estimate": 4, "id": 132}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 76610840, "target": 154336}
+{"estimate": 4, "id": 133}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 221659465, "target": 7028}
+{"estimate": 4, "id": 134}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 110588947, "target": 7209}
+{"estimate": 4, "id": 135}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 184194409, "target": 7280}
+{"estimate": 4, "id": 136}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 74950634, "target": 75742}
+{"estimate": 4, "id": 137}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 74554746, "target": 78412}
+{"estimate": 4, "id": 138}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 74819689, "target": 81826}
+{"estimate": 4, "id": 139}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 187035971, "target": 7153}
+{"estimate": 4, "id": 140}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 189587019, "target": 7224}
+{"estimate": 4, "id": 141}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 224702009, "target": 7212}
+{"estimate": 4, "id": 142}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 74347912, "target": 81478}
+{"estimate": 4, "id": 143}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 254362118, "target": 6896}
+{"estimate": 4, "id": 144}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 411268300, "target": 7485}
+{"estimate": 4, "id": 145}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 157741174, "target": 7429}
+{"estimate": 4, "id": 146}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 288970530, "target": 7362}
+{"estimate": 4, "id": 147}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 238277476, "target": 7453}
+{"estimate": 4, "id": 148}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 141046524, "target": 5290}
+{"estimate": 4, "id": 149}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 242061208, "target": 5457}
+{"estimate": 4, "id": 150}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 216878121, "target": 7425}
+{"estimate": 4, "id": 151}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 183523673, "target": 7219}
+{"estimate": 4, "id": 152}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 74068865, "target": 91864}
+{"estimate": 4, "id": 153}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 75245438, "target": 145883}
+{"estimate": 4, "id": 154}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 75215313, "target": 143543}
+{"estimate": 4, "id": 155}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 303773416, "target": 6695}
+{"estimate": 4, "id": 156}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 273389986, "target": 6455}
+{"estimate": 4, "id": 157}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 267584584, "target": 7083}
+{"estimate": 4, "id": 158}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 352329655, "target": 6845}
+{"estimate": 4, "id": 159}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 73371232, "target": 80053}
+{"estimate": 4, "id": 160}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 73815426, "target": 105840}
+{"estimate": 4, "id": 161}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 291291151, "target": 7604}
+{"estimate": 4, "id": 162}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 273350840, "target": 7497}
+{"estimate": 4, "id": 163}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 162386512, "target": 7355}
+{"estimate": 4, "id": 164}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 73333751, "target": 78486}
+{"estimate": 4, "id": 165}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 73334512, "target": 81533}
+{"estimate": 4, "id": 166}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 244919029, "target": 6158}
+{"estimate": 4, "id": 167}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 371650933, "target": 7595}
+{"estimate": 4, "id": 168}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 242200616, "target": 7792}
+{"estimate": 4, "id": 169}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 73109446, "target": 80722}
+{"estimate": 4, "id": 170}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 219919713, "target": 7797}
+{"estimate": 4, "id": 171}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 314517739, "target": 7368}
+{"estimate": 4, "id": 172}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 280768334, "target": 6992}
+{"estimate": 4, "id": 173}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 206240067, "target": 7275}
+{"estimate": 4, "id": 174}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 193820206, "target": 7389}
+{"estimate": 4, "id": 175}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 287680051, "target": 7464}
+{"estimate": 4, "id": 176}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 73044941, "target": 97257}
+{"estimate": 4, "id": 177}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 207826235, "target": 7536}
+{"estimate": 4, "id": 178}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 72169843, "target": 79580}
+{"estimate": 4, "id": 179}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 260336862, "target": 6595}
+{"estimate": 4, "id": 180}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 215455064, "target": 7500}
+{"estimate": 4, "id": 181}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 122114745, "target": 7334}
+{"estimate": 4, "id": 182}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 175198199, "target": 7273}
+{"estimate": 4, "id": 183}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 71657847, "target": 78816}
+{"estimate": 4, "id": 184}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 72134981, "target": 79651}
+{"estimate": 4, "id": 185}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 71620150, "target": 78552}
+{"estimate": 4, "id": 186}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 217714342, "target": 5145}
+{"estimate": 4, "id": 187}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 164856207, "target": 5000}
+{"estimate": 4, "id": 188}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 283064592, "target": 6617}
+{"estimate": 4, "id": 189}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 72151814, "target": 102776}
+{"estimate": 4, "id": 190}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 214073761, "target": 4611}
+{"estimate": 4, "id": 191}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 250971776, "target": 4718}
+{"estimate": 4, "id": 192}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 133003091, "target": 4618}
+{"estimate": 4, "id": 193}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 253691976, "target": 4725}
+{"estimate": 4, "id": 194}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 500020144, "target": 4690}
+{"estimate": 4, "id": 195}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 159824536, "target": 4488}
+{"estimate": 4, "id": 196}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 72963468, "target": 145992}
+{"estimate": 4, "id": 197}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 72343176, "target": 147778}
+{"estimate": 4, "id": 198}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 96896658, "target": 4252}
+{"estimate": 4, "id": 199}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 273486938, "target": 7150}
+{"estimate": 4, "id": 200}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 157756505, "target": 7192}
+{"estimate": 4, "id": 201}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 218562520, "target": 7230}
+{"estimate": 4, "id": 202}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 71530403, "target": 79648}
+{"estimate": 4, "id": 203}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 71593194, "target": 106769}
+{"estimate": 4, "id": 204}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 289669100, "target": 6416}
+{"estimate": 4, "id": 205}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 70956084, "target": 78874}
+{"estimate": 4, "id": 206}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 257871953, "target": 7165}
+{"estimate": 4, "id": 207}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 71051732, "target": 80418}
+{"estimate": 4, "id": 208}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 321673678, "target": 7512}
+{"estimate": 4, "id": 209}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 338616399, "target": 7089}
+{"estimate": 4, "id": 210}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 289875698, "target": 7371}
+{"estimate": 4, "id": 211}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 70852380, "target": 80445}
+{"estimate": 4, "id": 212}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 185480454, "target": 5176}
+{"estimate": 4, "id": 213}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 207193635, "target": 7262}
+{"estimate": 4, "id": 214}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 300058787, "target": 7426}
+{"estimate": 4, "id": 215}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 129063944, "target": 7223}
+{"estimate": 4, "id": 216}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 193088030, "target": 7119}
+{"estimate": 4, "id": 217}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 159339264, "target": 7407}
+{"estimate": 4, "id": 218}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 166250617, "target": 7185}
+{"estimate": 4, "id": 219}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 70741107, "target": 100806}
+{"estimate": 4, "id": 220}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 323731171, "target": 6381}
+{"estimate": 4, "id": 221}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 178595650, "target": 7808}
+{"estimate": 4, "id": 222}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 69903515, "target": 77546}
+{"estimate": 4, "id": 223}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 68727096, "target": 76502}
+{"estimate": 4, "id": 224}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 186574074, "target": 5571}
+{"estimate": 4, "id": 225}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 118331790, "target": 5855}
+{"estimate": 4, "id": 226}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 316880551, "target": 6045}
+{"estimate": 4, "id": 227}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 294693990, "target": 4949}
+{"estimate": 4, "id": 228}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 201324379, "target": 7075}
+{"estimate": 4, "id": 229}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 219265787, "target": 6501}
+{"estimate": 4, "id": 230}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 68481809, "target": 79878}
+{"estimate": 4, "id": 231}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 70660694, "target": 140168}
+{"estimate": 4, "id": 232}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 68413503, "target": 80254}
+{"estimate": 4, "id": 233}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 173115180, "target": 4467}
+{"estimate": 4, "id": 234}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 152263922, "target": 4511}
+{"estimate": 4, "id": 235}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 68873434, "target": 101453}
+{"estimate": 4, "id": 236}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 70545392, "target": 147237}
+{"estimate": 4, "id": 237}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 200926857, "target": 4963}
+{"estimate": 4, "id": 238}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 253786131, "target": 5133}
+{"estimate": 4, "id": 239}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 174313650, "target": 7294}
+{"estimate": 4, "id": 240}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 189220174, "target": 7321}
+{"estimate": 4, "id": 241}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 165668222, "target": 7179}
+{"estimate": 4, "id": 242}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 68181428, "target": 100329}
+{"estimate": 4, "id": 243}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 68157648, "target": 79554}
+{"estimate": 4, "id": 244}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 200213978, "target": 7492}
+{"estimate": 4, "id": 245}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 67702678, "target": 78383}
+{"estimate": 4, "id": 246}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 311907327, "target": 7733}
+{"estimate": 4, "id": 247}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 338568324, "target": 6948}
+{"estimate": 4, "id": 248}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 317096041, "target": 7755}
+{"estimate": 4, "id": 249}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 265702316, "target": 7628}
+{"estimate": 4, "id": 250}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 259022700, "target": 7724}
+{"estimate": 4, "id": 251}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 67318566, "target": 80192}
+{"estimate": 4, "id": 252}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 320332563, "target": 4301}
+{"estimate": 4, "id": 253}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 270179000, "target": 6350}
+{"estimate": 4, "id": 254}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 270043618, "target": 5798}
+{"estimate": 4, "id": 255}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 198016289, "target": 6219}
+{"estimate": 4, "id": 256}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 218089209, "target": 6549}
+{"estimate": 4, "id": 257}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 329053996, "target": 7730}
+{"estimate": 4, "id": 258}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 213322840, "target": 7517}
+{"estimate": 4, "id": 259}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 274129137, "target": 7555}
+{"estimate": 4, "id": 260}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 314303373, "target": 7955}
+{"estimate": 4, "id": 261}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 67079210, "target": 77667}
+{"estimate": 4, "id": 262}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 326462545, "target": 7273}
+{"estimate": 4, "id": 263}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 298723407, "target": 7669}
+{"estimate": 4, "id": 264}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 184144564, "target": 7360}
+{"estimate": 4, "id": 265}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 280765065, "target": 7677}
+{"estimate": 4, "id": 266}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 172498844, "target": 5804}
+{"estimate": 4, "id": 267}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 208685930, "target": 6020}
+{"estimate": 4, "id": 268}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 178303696, "target": 7325}
+{"estimate": 4, "id": 269}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 236806538, "target": 7078}
+{"estimate": 4, "id": 270}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 66827295, "target": 104301}
+{"estimate": 4, "id": 271}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 181377080, "target": 6027}
+{"estimate": 4, "id": 272}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 557649492, "target": 7588}
+{"estimate": 4, "id": 273}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 345407811, "target": 7505}
+{"estimate": 4, "id": 274}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 316810478, "target": 7068}
+{"estimate": 4, "id": 275}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 67128152, "target": 143791}
+{"estimate": 4, "id": 276}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 65266070, "target": 80630}
+{"estimate": 4, "id": 277}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 64365887, "target": 80555}
+{"estimate": 4, "id": 278}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 348766312, "target": 5159}
+{"estimate": 4, "id": 279}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 366606034, "target": 5054}
+{"estimate": 4, "id": 280}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 212986545, "target": 5121}
+{"estimate": 4, "id": 281}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 180592487, "target": 5538}
+{"estimate": 4, "id": 282}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 299378404, "target": 6506}
+{"estimate": 4, "id": 283}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 66806645, "target": 145938}
+{"estimate": 4, "id": 284}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 65360232, "target": 104345}
+{"estimate": 4, "id": 285}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 64173191, "target": 81850}
+{"estimate": 4, "id": 286}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 64038731, "target": 81864}
+{"estimate": 4, "id": 287}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 294804979, "target": 7655}
+{"estimate": 4, "id": 288}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 284973579, "target": 7899}
+{"estimate": 4, "id": 289}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 308000360, "target": 7723}
+{"estimate": 4, "id": 290}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 468151552, "target": 7820}
+{"estimate": 4, "id": 291}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 154905911, "target": 7580}
+{"estimate": 4, "id": 292}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 268352688, "target": 7930}
+{"estimate": 4, "id": 293}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 253032685, "target": 4010}
+{"estimate": 4, "id": 294}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 199299610, "target": 5619}
+{"estimate": 4, "id": 295}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 276879157, "target": 5786}
+{"estimate": 4, "id": 296}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 328694303, "target": 7327}
+{"estimate": 4, "id": 297}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 286825762, "target": 5958}
+{"estimate": 4, "id": 298}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 239175148, "target": 7296}
+{"estimate": 4, "id": 299}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 249488980, "target": 7432}
+{"estimate": 4, "id": 300}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 193791190, "target": 7275}
+{"estimate": 4, "id": 301}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 308027525, "target": 7192}
+{"estimate": 4, "id": 302}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 282844424, "target": 7220}
+{"estimate": 4, "id": 303}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 207012154, "target": 7173}
+{"estimate": 4, "id": 304}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 64027500, "target": 106512}
+{"estimate": 4, "id": 305}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 63632950, "target": 79174}
+{"estimate": 4, "id": 306}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 62792754, "target": 78062}
+{"estimate": 4, "id": 307}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 65559573, "target": 7369}
+{"estimate": 4, "id": 308}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 198191871, "target": 7420}
+{"estimate": 4, "id": 309}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 162691197, "target": 7803}
+{"estimate": 4, "id": 310}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 278421797, "target": 7666}
+{"estimate": 4, "id": 311}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 223497695, "target": 7557}
+{"estimate": 4, "id": 312}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 219546959, "target": 7507}
+{"estimate": 4, "id": 313}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 275114827, "target": 7944}
+{"estimate": 4, "id": 314}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 61543289, "target": 78659}
+{"estimate": 4, "id": 315}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 170752118, "target": 5816}
+{"estimate": 4, "id": 316}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 308974914, "target": 5685}
+{"estimate": 4, "id": 317}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 316234394, "target": 6135}
+{"estimate": 4, "id": 318}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 223836525, "target": 5463}
+{"estimate": 4, "id": 319}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 332526324, "target": 2835}
+{"estimate": 4, "id": 320}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 320792062, "target": 2676}
+{"estimate": 4, "id": 321}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 61493495, "target": 82004}
+{"estimate": 4, "id": 322}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 273652005, "target": 4828}
+{"estimate": 4, "id": 323}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 345990981, "target": 4849}
+{"estimate": 4, "id": 324}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 278586989, "target": 4694}
+{"estimate": 4, "id": 325}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 317776282, "target": 5326}
+{"estimate": 4, "id": 326}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 283625613, "target": 4071}
+{"estimate": 4, "id": 327}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 204156633, "target": 5858}
+{"estimate": 4, "id": 328}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 329218803, "target": 6056}
+{"estimate": 4, "id": 329}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 216795650, "target": 5681}
+{"estimate": 4, "id": 330}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 273515577, "target": 5665}
+{"estimate": 4, "id": 331}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 350467587, "target": 7534}
+{"estimate": 4, "id": 332}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 270921692, "target": 7569}
+{"estimate": 4, "id": 333}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 201489623, "target": 7345}
+{"estimate": 4, "id": 334}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 323806728, "target": 7384}
+{"estimate": 4, "id": 335}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 221561978, "target": 7567}
+{"estimate": 4, "id": 336}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 249533605, "target": 7675}
+{"estimate": 4, "id": 337}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 277601995, "target": 7442}
+{"estimate": 4, "id": 338}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 62122262, "target": 103774}
+{"estimate": 4, "id": 339}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 270060428, "target": 5466}
+{"estimate": 4, "id": 340}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 249774274, "target": 7110}
+{"estimate": 4, "id": 341}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 301588966, "target": 6928}
+{"estimate": 4, "id": 342}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 131425688, "target": 4861}
+{"estimate": 4, "id": 343}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 183380435, "target": 6110}
+{"estimate": 4, "id": 344}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 242555924, "target": 6684}
+{"estimate": 4, "id": 345}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 260331776, "target": 6909}
+{"estimate": 4, "id": 346}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 416955584, "target": 6819}
+{"estimate": 4, "id": 347}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 311777653, "target": 6820}
+{"estimate": 4, "id": 348}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 308763510, "target": 7159}
+{"estimate": 4, "id": 349}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 63896734, "target": 143647}
+{"estimate": 4, "id": 350}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 323293992, "target": 4917}
+{"estimate": 4, "id": 351}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 339995513, "target": 5746}
+{"estimate": 4, "id": 352}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 329804296, "target": 6805}
+{"estimate": 4, "id": 353}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 341131679, "target": 6040}
+{"estimate": 4, "id": 354}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 62663971, "target": 147810}
+{"estimate": 4, "id": 355}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 60815114, "target": 78473}
+{"estimate": 4, "id": 356}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 60801422, "target": 80175}
+{"estimate": 4, "id": 357}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 187478173, "target": 7241}
+{"estimate": 4, "id": 358}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 346260900, "target": 7608}
+{"estimate": 4, "id": 359}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 295980665, "target": 7382}
+{"estimate": 4, "id": 360}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 357588164, "target": 7117}
+{"estimate": 4, "id": 361}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 330979324, "target": 7138}
+{"estimate": 4, "id": 362}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 60468338, "target": 79545}
+{"estimate": 4, "id": 363}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 60979232, "target": 101701}
+{"estimate": 4, "id": 364}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 148893787, "target": 7190}
+{"estimate": 4, "id": 365}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 244637513, "target": 7907}
+{"estimate": 4, "id": 366}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 60451925, "target": 79662}
+{"estimate": 4, "id": 367}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 250083525, "target": 7453}
+{"estimate": 4, "id": 368}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 211316633, "target": 7247}
+{"estimate": 4, "id": 369}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 223813340, "target": 7556}
+{"estimate": 4, "id": 370}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 393037727, "target": 7526}
+{"estimate": 4, "id": 371}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 215169212, "target": 7640}
+{"estimate": 4, "id": 372}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 251676036, "target": 7339}
+{"estimate": 4, "id": 373}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 200262452, "target": 7557}
+{"estimate": 4, "id": 374}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 276320733, "target": 3988}
+{"estimate": 4, "id": 375}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 224865054, "target": 5673}
+{"estimate": 4, "id": 376}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 275145169, "target": 6679}
+{"estimate": 4, "id": 377}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 60443184, "target": 104973}
+{"estimate": 4, "id": 378}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 183813372, "target": 7642}
+{"estimate": 4, "id": 379}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 170793665, "target": 7347}
+{"estimate": 4, "id": 380}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 215570627, "target": 7566}
+{"estimate": 4, "id": 381}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 189620683, "target": 7314}
+{"estimate": 4, "id": 382}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 180977307, "target": 7431}
+{"estimate": 4, "id": 383}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 59735489, "target": 75720}
+{"estimate": 4, "id": 384}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 217484427, "target": 7559}
+{"estimate": 4, "id": 385}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 166071232, "target": 7371}
+{"estimate": 4, "id": 386}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 193113186, "target": 5932}
+{"estimate": 4, "id": 387}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 235919404, "target": 6359}
+{"estimate": 4, "id": 388}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 230778488, "target": 6307}
+{"estimate": 4, "id": 389}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 195664529, "target": 6009}
+{"estimate": 4, "id": 390}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 59629973, "target": 79895}
+{"estimate": 4, "id": 391}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 59292152, "target": 80287}
+{"estimate": 4, "id": 392}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 142378272, "target": 7504}
+{"estimate": 4, "id": 393}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 232602570, "target": 7186}
+{"estimate": 4, "id": 394}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 270069614, "target": 7189}
+{"estimate": 4, "id": 395}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 262110990, "target": 7399}
+{"estimate": 4, "id": 396}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 158997618, "target": 7075}
+{"estimate": 4, "id": 397}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 58346387, "target": 79327}
+{"estimate": 4, "id": 398}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 191110512, "target": 5646}
+{"estimate": 4, "id": 399}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 249614138, "target": 7504}
+{"estimate": 4, "id": 400}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 221492406, "target": 7170}
+{"estimate": 4, "id": 401}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 330521626, "target": 6054}
+{"estimate": 4, "id": 402}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 327507327, "target": 6746}
+{"estimate": 4, "id": 403}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 249270695, "target": 7755}
+{"estimate": 4, "id": 404}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 256248780, "target": 7798}
+{"estimate": 4, "id": 405}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 339407242, "target": 7739}
+{"estimate": 4, "id": 406}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 357182680, "target": 8006}
+{"estimate": 4, "id": 407}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 58930537, "target": 101310}
+{"estimate": 4, "id": 408}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 290628878, "target": 5150}
+{"estimate": 4, "id": 409}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 351023799, "target": 5746}
+{"estimate": 4, "id": 410}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 194886445, "target": 6487}
+{"estimate": 4, "id": 411}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 248619705, "target": 6867}
+{"estimate": 4, "id": 412}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 60296088, "target": 148584}
+{"estimate": 4, "id": 413}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 126834203, "target": 7003}
+{"estimate": 4, "id": 414}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 247522301, "target": 7102}
+{"estimate": 4, "id": 415}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 244802373, "target": 7168}
+{"estimate": 4, "id": 416}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 216676082, "target": 7351}
+{"estimate": 4, "id": 417}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 60168790, "target": 143860}
+{"estimate": 4, "id": 418}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 58033891, "target": 80252}
+{"estimate": 4, "id": 419}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 43163066, "target": 6194}
+{"estimate": 4, "id": 420}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 159501536, "target": 6839}
+{"estimate": 4, "id": 421}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 58267280, "target": 102117}
+{"estimate": 4, "id": 422}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 255193892, "target": 6554}
+{"estimate": 4, "id": 423}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 138856119, "target": 6399}
+{"estimate": 4, "id": 424}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 138854258, "target": 7653}
+{"estimate": 4, "id": 425}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 57975244, "target": 78028}
+{"estimate": 4, "id": 426}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 57780151, "target": 78432}
+{"estimate": 4, "id": 427}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 215221164, "target": 3250}
+{"estimate": 4, "id": 428}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 268401745, "target": 2716}
+{"estimate": 4, "id": 429}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 229496055, "target": 5761}
+{"estimate": 4, "id": 430}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 235112852, "target": 5962}
+{"estimate": 4, "id": 431}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 219013792, "target": 4407}
+{"estimate": 4, "id": 432}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 295586445, "target": 7595}
+{"estimate": 4, "id": 433}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 215453935, "target": 7615}
+{"estimate": 4, "id": 434}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 259629491, "target": 5958}
+{"estimate": 4, "id": 435}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 286240486, "target": 6048}
+{"estimate": 4, "id": 436}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 285104740, "target": 6180}
+{"estimate": 4, "id": 437}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 278884514, "target": 7715}
+{"estimate": 4, "id": 438}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 286569286, "target": 7732}
+{"estimate": 4, "id": 439}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 285393764, "target": 7570}
+{"estimate": 4, "id": 440}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 276086510, "target": 5731}
+{"estimate": 4, "id": 441}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 270112217, "target": 7377}
+{"estimate": 4, "id": 442}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 296721886, "target": 7575}
+{"estimate": 4, "id": 443}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 480201534, "target": 2940}
+{"estimate": 4, "id": 444}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 240381900, "target": 2726}
+{"estimate": 4, "id": 445}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 550718986, "target": 4778}
+{"estimate": 4, "id": 446}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 511992032, "target": 4532}
+{"estimate": 4, "id": 447}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 57680074, "target": 81475}
+{"estimate": 4, "id": 448}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 231737233, "target": 4487}
+{"estimate": 4, "id": 449}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 232138502, "target": 5783}
+{"estimate": 4, "id": 450}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 266331705, "target": 5749}
+{"estimate": 4, "id": 451}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 201130880, "target": 7402}
+{"estimate": 4, "id": 452}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 170445337, "target": 7519}
+{"estimate": 4, "id": 453}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 128678240, "target": 7309}
+{"estimate": 4, "id": 454}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 239896690, "target": 7346}
+{"estimate": 4, "id": 455}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 170855891, "target": 7367}
+{"estimate": 4, "id": 456}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 57532700, "target": 112813}
+{"estimate": 4, "id": 457}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 56408393, "target": 79883}
+{"estimate": 4, "id": 458}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 267958394, "target": 7151}
+{"estimate": 4, "id": 459}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 350238908, "target": 7329}
+{"estimate": 4, "id": 460}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 291737066, "target": 6874}
+{"estimate": 4, "id": 461}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 322118904, "target": 7426}
+{"estimate": 4, "id": 462}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 221535509, "target": 2771}
+{"estimate": 4, "id": 463}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 252442254, "target": 2789}
+{"estimate": 4, "id": 464}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 234485400, "target": 2877}
+{"estimate": 4, "id": 465}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 278846392, "target": 3537}
+{"estimate": 4, "id": 466}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 137864646, "target": 5286}
+{"estimate": 4, "id": 467}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 55729758, "target": 79088}
+{"estimate": 4, "id": 468}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 218932946, "target": 6130}
+{"estimate": 4, "id": 469}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 233557330, "target": 5165}
+{"estimate": 4, "id": 470}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 137864176, "target": 5988}
+{"estimate": 4, "id": 471}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 227704803, "target": 5818}
+{"estimate": 4, "id": 472}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 258551635, "target": 6159}
+{"estimate": 4, "id": 473}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 280182319, "target": 5629}
+{"estimate": 4, "id": 474}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 255831803, "target": 6111}
+{"estimate": 4, "id": 475}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 254203372, "target": 7432}
+{"estimate": 4, "id": 476}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 55551238, "target": 76902}
+{"estimate": 4, "id": 477}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 316995448, "target": 5975}
+{"estimate": 4, "id": 478}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 201099837, "target": 6887}
+{"estimate": 4, "id": 479}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 261904898, "target": 6559}
+{"estimate": 4, "id": 480}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 305095329, "target": 6603}
+{"estimate": 4, "id": 481}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 255225377, "target": 7303}
+{"estimate": 4, "id": 482}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 308109626, "target": 6871}
+{"estimate": 4, "id": 483}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 267928248, "target": 7199}
+{"estimate": 4, "id": 484}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 55379633, "target": 78874}
+{"estimate": 4, "id": 485}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 56208400, "target": 103242}
+{"estimate": 4, "id": 486}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 57166045, "target": 144332}
+{"estimate": 4, "id": 487}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 240765686, "target": 4956}
+{"estimate": 4, "id": 488}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 267834232, "target": 4795}
+{"estimate": 4, "id": 489}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 263853409, "target": 4655}
+{"estimate": 4, "id": 490}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 220184083, "target": 4608}
+{"estimate": 4, "id": 491}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 161852633, "target": 4629}
+{"estimate": 4, "id": 492}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 313576696, "target": 5019}
+{"estimate": 4, "id": 493}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 267584245, "target": 4896}
+{"estimate": 4, "id": 494}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 317989739, "target": 5423}
+{"estimate": 4, "id": 495}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 257596867, "target": 5956}
+{"estimate": 4, "id": 496}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 215586088, "target": 5685}
+{"estimate": 4, "id": 497}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 303785137, "target": 6593}
+{"estimate": 4, "id": 498}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 215828654, "target": 5392}
+{"estimate": 4, "id": 499}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 271391352, "target": 6435}
+{"estimate": 4, "id": 500}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 56438362, "target": 147431}
+{"estimate": 4, "id": 501}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 250811851, "target": 7283}
+{"estimate": 4, "id": 502}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 54993232, "target": 76695}
+{"estimate": 4, "id": 503}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 316545254, "target": 6588}
+{"estimate": 4, "id": 504}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 152514543, "target": 7148}
+{"estimate": 4, "id": 505}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 290729784, "target": 7405}
+{"estimate": 4, "id": 506}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 287947104, "target": 6977}
+{"estimate": 4, "id": 507}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 54822706, "target": 78803}
+{"estimate": 4, "id": 508}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 54540085, "target": 79966}
+{"estimate": 4, "id": 509}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 55257977, "target": 105436}
+{"estimate": 4, "id": 510}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 303025976, "target": 6070}
+{"estimate": 4, "id": 511}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 271021286, "target": 7222}
+{"estimate": 4, "id": 512}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 127572538, "target": 5611}
+{"estimate": 4, "id": 513}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 54328374, "target": 80005}
+{"estimate": 4, "id": 514}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 164633782, "target": 5771}
+{"estimate": 4, "id": 515}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 255447323, "target": 6784}
+{"estimate": 4, "id": 516}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 199468454, "target": 7017}
+{"estimate": 4, "id": 517}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 177263121, "target": 7851}
+{"estimate": 4, "id": 518}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 209455364, "target": 7489}
+{"estimate": 4, "id": 519}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 222414103, "target": 6915}
+{"estimate": 4, "id": 520}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 212851361, "target": 7873}
+{"estimate": 4, "id": 521}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 268591112, "target": 7073}
+{"estimate": 4, "id": 522}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 215219903, "target": 7271}
+{"estimate": 4, "id": 523}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 54020782, "target": 108193}
+{"estimate": 4, "id": 524}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 53502190, "target": 75761}
+{"estimate": 4, "id": 525}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 208534543, "target": 5916}
+{"estimate": 4, "id": 526}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 251029821, "target": 6807}
+{"estimate": 4, "id": 527}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 155162740, "target": 7367}
+{"estimate": 4, "id": 528}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 263930461, "target": 6470}
+{"estimate": 4, "id": 529}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 293113435, "target": 6649}
+{"estimate": 4, "id": 530}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 177093363, "target": 4698}
+{"estimate": 4, "id": 531}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 126400072, "target": 5739}
+{"estimate": 4, "id": 532}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 244609457, "target": 6229}
+{"estimate": 4, "id": 533}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 53497333, "target": 78092}
+{"estimate": 4, "id": 534}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 53865282, "target": 141645}
+{"estimate": 4, "id": 535}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 246294467, "target": 4672}
+{"estimate": 4, "id": 536}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 291463067, "target": 4761}
+{"estimate": 4, "id": 537}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 52999036, "target": 80119}
+{"estimate": 4, "id": 538}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 272308020, "target": 3969}
+{"estimate": 4, "id": 539}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 276287419, "target": 3965}
+{"estimate": 4, "id": 540}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 283186380, "target": 5778}
+{"estimate": 4, "id": 541}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 297489495, "target": 5314}
+{"estimate": 4, "id": 542}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 238952580, "target": 5603}
+{"estimate": 4, "id": 543}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 230228205, "target": 6492}
+{"estimate": 4, "id": 544}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 249219288, "target": 5922}
+{"estimate": 4, "id": 545}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 228637222, "target": 6176}
+{"estimate": 4, "id": 546}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 196474547, "target": 6003}
+{"estimate": 4, "id": 547}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 183253381, "target": 6593}
+{"estimate": 4, "id": 548}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 177455275, "target": 7399}
+{"estimate": 4, "id": 549}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 52665937, "target": 80065}
+{"estimate": 4, "id": 550}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 53726442, "target": 145172}
+{"estimate": 4, "id": 551}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 162762040, "target": 6709}
+{"estimate": 4, "id": 552}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 272112582, "target": 6744}
+{"estimate": 4, "id": 553}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 233227052, "target": 4220}
+{"estimate": 4, "id": 554}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 298193211, "target": 7124}
+{"estimate": 4, "id": 555}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 268342662, "target": 3882}
+{"estimate": 4, "id": 556}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 300976766, "target": 6721}
+{"estimate": 4, "id": 557}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 326791468, "target": 7044}
+{"estimate": 4, "id": 558}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 52736215, "target": 105438}
+{"estimate": 4, "id": 559}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 422481413, "target": 5154}
+{"estimate": 4, "id": 560}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 230678205, "target": 5577}
+{"estimate": 4, "id": 561}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 265751733, "target": 4967}
+{"estimate": 4, "id": 562}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 490196707, "target": 5913}
+{"estimate": 4, "id": 563}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 273483744, "target": 7429}
+{"estimate": 4, "id": 564}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 279560840, "target": 7749}
+{"estimate": 4, "id": 565}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 327170416, "target": 6032}
+{"estimate": 4, "id": 566}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 269886818, "target": 6478}
+{"estimate": 4, "id": 567}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 318667538, "target": 7302}
+{"estimate": 4, "id": 568}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 234771818, "target": 7125}
+{"estimate": 4, "id": 569}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 52550224, "target": 81589}
+{"estimate": 4, "id": 570}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 344113904, "target": 3849}
+{"estimate": 4, "id": 571}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 269479909, "target": 3778}
+{"estimate": 4, "id": 572}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 214391575, "target": 3890}
+{"estimate": 4, "id": 573}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 445049828, "target": 4076}
+{"estimate": 4, "id": 574}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 52568730, "target": 104762}
+{"estimate": 4, "id": 575}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 140946150, "target": 7610}
+{"estimate": 4, "id": 576}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 260596127, "target": 7526}
+{"estimate": 4, "id": 577}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 282781565, "target": 7555}
+{"estimate": 4, "id": 578}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 220415118, "target": 7707}
+{"estimate": 4, "id": 579}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 337136556, "target": 7301}
+{"estimate": 4, "id": 580}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 240369243, "target": 7567}
+{"estimate": 4, "id": 581}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 304699821, "target": 7588}
+{"estimate": 4, "id": 582}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 52282415, "target": 78259}
+{"estimate": 4, "id": 583}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 264094336, "target": 5332}
+{"estimate": 4, "id": 584}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 238739526, "target": 5505}
+{"estimate": 4, "id": 585}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 292111501, "target": 5678}
+{"estimate": 4, "id": 586}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 287450697, "target": 5313}
+{"estimate": 4, "id": 587}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 347508757, "target": 5718}
+{"estimate": 4, "id": 588}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 357745967, "target": 5752}
+{"estimate": 4, "id": 589}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 52132950, "target": 80895}
+{"estimate": 4, "id": 590}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 256821607, "target": 7661}
+{"estimate": 4, "id": 591}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 212034183, "target": 6875}
+{"estimate": 4, "id": 592}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 262727503, "target": 7520}
+{"estimate": 4, "id": 593}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 524476407, "target": 7573}
+{"estimate": 4, "id": 594}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 330242632, "target": 7314}
+{"estimate": 4, "id": 595}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 218365981, "target": 7255}
+{"estimate": 4, "id": 596}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 265914786, "target": 5704}
+{"estimate": 4, "id": 597}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 286559612, "target": 6077}
+{"estimate": 4, "id": 598}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 445671720, "target": 6257}
+{"estimate": 4, "id": 599}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 264922597, "target": 6033}
+{"estimate": 4, "id": 600}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 170221267, "target": 6077}
+{"estimate": 4, "id": 601}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 411375581, "target": 6347}
+{"estimate": 4, "id": 602}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 170221585, "target": 7704}
+{"estimate": 4, "id": 603}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 51931854, "target": 79822}
+{"estimate": 4, "id": 604}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 395489935, "target": 7788}
+{"estimate": 4, "id": 605}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 316835167, "target": 8240}
+{"estimate": 4, "id": 606}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 232938464, "target": 7977}
+{"estimate": 4, "id": 607}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 325337301, "target": 7926}
+{"estimate": 4, "id": 608}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 267899497, "target": 7997}
+{"estimate": 4, "id": 609}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 318379195, "target": 7795}
+{"estimate": 4, "id": 610}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 443085540, "target": 7708}
+{"estimate": 4, "id": 611}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 51688522, "target": 106586}
+{"estimate": 4, "id": 612}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 50939848, "target": 78786}
+{"estimate": 4, "id": 613}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 308627007, "target": 5025}
+{"estimate": 4, "id": 614}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 180092252, "target": 5243}
+{"estimate": 4, "id": 615}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 245416844, "target": 5424}
+{"estimate": 4, "id": 616}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 259561341, "target": 5254}
+{"estimate": 4, "id": 617}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 321927506, "target": 5375}
+{"estimate": 4, "id": 618}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 253537658, "target": 6753}
+{"estimate": 4, "id": 619}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 52227294, "target": 146660}
+{"estimate": 4, "id": 620}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 298187874, "target": 3291}
+{"estimate": 4, "id": 621}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 288202147, "target": 3528}
+{"estimate": 4, "id": 622}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 348594276, "target": 4558}
+{"estimate": 4, "id": 623}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 335028917, "target": 4415}
+{"estimate": 4, "id": 624}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 246192807, "target": 5673}
+{"estimate": 4, "id": 625}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 253018963, "target": 5891}
+{"estimate": 4, "id": 626}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 344182070, "target": 6093}
+{"estimate": 4, "id": 627}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 192458100, "target": 5849}
+{"estimate": 4, "id": 628}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 311148458, "target": 6124}
+{"estimate": 4, "id": 629}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 326750951, "target": 5954}
+{"estimate": 4, "id": 630}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 50516223, "target": 80311}
+{"estimate": 4, "id": 631}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 157531869, "target": 5211}
+{"estimate": 4, "id": 632}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 105145373, "target": 5638}
+{"estimate": 4, "id": 633}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 194719769, "target": 5574}
+{"estimate": 4, "id": 634}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 221554817, "target": 5935}
+{"estimate": 4, "id": 635}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 242938697, "target": 4123}
+{"estimate": 4, "id": 636}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 228316046, "target": 4034}
+{"estimate": 4, "id": 637}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 187807852, "target": 6727}
+{"estimate": 4, "id": 638}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 49971320, "target": 77334}
+{"estimate": 4, "id": 639}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 261823390, "target": 5105}
+{"estimate": 4, "id": 640}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 263583808, "target": 5615}
+{"estimate": 4, "id": 641}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 267933464, "target": 6048}
+{"estimate": 4, "id": 642}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 241947239, "target": 5638}
+{"estimate": 4, "id": 643}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 51872238, "target": 148722}
+{"estimate": 4, "id": 644}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 542722223, "target": 5695}
+{"estimate": 4, "id": 645}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 216169878, "target": 5480}
+{"estimate": 4, "id": 646}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 217806480, "target": 5061}
+{"estimate": 4, "id": 647}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 350440257, "target": 5249}
+{"estimate": 4, "id": 648}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 527302377, "target": 6428}
+{"estimate": 4, "id": 649}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 215784639, "target": 6749}
+{"estimate": 4, "id": 650}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 49683490, "target": 79313}
+{"estimate": 4, "id": 651}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 50654334, "target": 105726}
+{"estimate": 4, "id": 652}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 192639240, "target": 4369}
+{"estimate": 4, "id": 653}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 274917907, "target": 4663}
+{"estimate": 4, "id": 654}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 293265049, "target": 4435}
+{"estimate": 4, "id": 655}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 246798115, "target": 7331}
+{"estimate": 4, "id": 656}
+{"node": "hu-worker-c43", "task": "task_mConcatFit", "rchar": 12183442, "target": 27345}
+{"estimate": 4, "id": 657}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 216415975, "target": 7977}
+{"estimate": 4, "id": 658}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 544579223, "target": 4188}
+{"estimate": 4, "id": 659}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 406354969, "target": 5675}
+{"estimate": 4, "id": 660}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 199854936, "target": 5311}
+{"estimate": 4, "id": 661}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 246188715, "target": 7607}
+{"estimate": 4, "id": 662}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 234969536, "target": 7682}
+{"estimate": 4, "id": 663}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 197305281, "target": 7494}
+{"estimate": 4, "id": 664}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 225723565, "target": 7960}
+{"estimate": 4, "id": 665}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 283752405, "target": 7293}
+{"estimate": 4, "id": 666}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 158126649, "target": 3696}
+{"estimate": 4, "id": 667}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 263858174, "target": 4367}
+{"estimate": 4, "id": 668}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 307423662, "target": 5518}
+{"estimate": 4, "id": 669}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 218688082, "target": 4615}
+{"estimate": 4, "id": 670}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 300696920, "target": 5825}
+{"estimate": 4, "id": 671}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 292420876, "target": 7607}
+{"estimate": 4, "id": 672}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 49335919, "target": 82646}
+{"estimate": 4, "id": 673}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 187381373, "target": 7318}
+{"estimate": 4, "id": 674}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 189141540, "target": 7280}
+{"estimate": 4, "id": 675}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 176886700, "target": 7647}
+{"estimate": 4, "id": 676}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 193490843, "target": 7259}
+{"estimate": 4, "id": 677}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 167504960, "target": 7693}
+{"estimate": 4, "id": 678}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 153873206, "target": 7315}
+{"estimate": 4, "id": 679}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 168496162, "target": 7603}
+{"estimate": 4, "id": 680}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 48907957, "target": 80660}
+{"estimate": 4, "id": 681}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 48828970, "target": 81095}
+{"estimate": 4, "id": 682}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 49437845, "target": 107354}
+{"estimate": 4, "id": 683}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 153743462, "target": 6336}
+{"estimate": 4, "id": 684}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 190283676, "target": 6868}
+{"estimate": 4, "id": 685}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 255984712, "target": 7188}
+{"estimate": 4, "id": 686}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 111823115, "target": 5196}
+{"estimate": 4, "id": 687}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 165748505, "target": 6026}
+{"estimate": 4, "id": 688}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 261708839, "target": 5614}
+{"estimate": 4, "id": 689}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 170909184, "target": 6087}
+{"estimate": 4, "id": 690}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 365780655, "target": 4170}
+{"estimate": 4, "id": 691}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 213920420, "target": 4433}
+{"estimate": 4, "id": 692}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 215555054, "target": 4480}
+{"estimate": 4, "id": 693}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 398731762, "target": 4262}
+{"estimate": 4, "id": 694}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 109801546, "target": 7358}
+{"estimate": 4, "id": 695}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 198143161, "target": 7100}
+{"estimate": 4, "id": 696}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 244456811, "target": 5655}
+{"estimate": 4, "id": 697}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 262048262, "target": 7691}
+{"estimate": 4, "id": 698}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 110185414, "target": 6238}
+{"estimate": 4, "id": 699}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 365441741, "target": 4385}
+{"estimate": 4, "id": 700}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 213534143, "target": 4433}
+{"estimate": 4, "id": 701}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 348189731, "target": 4699}
+{"estimate": 4, "id": 702}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 259797922, "target": 4576}
+{"estimate": 4, "id": 703}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 233741729, "target": 7355}
+{"estimate": 4, "id": 704}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 48392239, "target": 81452}
+{"estimate": 4, "id": 705}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 366338074, "target": 7302}
+{"estimate": 4, "id": 706}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 275297570, "target": 7795}
+{"estimate": 4, "id": 707}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 285612758, "target": 7183}
+{"estimate": 4, "id": 708}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 295880062, "target": 7231}
+{"estimate": 4, "id": 709}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 285342739, "target": 7458}
+{"estimate": 4, "id": 710}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 229913929, "target": 6771}
+{"estimate": 4, "id": 711}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 344151016, "target": 7228}
+{"estimate": 4, "id": 712}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 47386540, "target": 108907}
+{"estimate": 4, "id": 713}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 49288818, "target": 148162}
+{"estimate": 4, "id": 714}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 181333848, "target": 4408}
+{"estimate": 4, "id": 715}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 150952288, "target": 4407}
+{"estimate": 4, "id": 716}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 145145281, "target": 4285}
+{"estimate": 4, "id": 717}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 47076085, "target": 74656}
+{"estimate": 4, "id": 718}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 334985733, "target": 5187}
+{"estimate": 4, "id": 719}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 298861305, "target": 5278}
+{"estimate": 4, "id": 720}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 278280729, "target": 5284}
+{"estimate": 4, "id": 721}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 350912075, "target": 5492}
+{"estimate": 4, "id": 722}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 353893106, "target": 5465}
+{"estimate": 4, "id": 723}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 294206260, "target": 5735}
+{"estimate": 4, "id": 724}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 314788473, "target": 6757}
+{"estimate": 4, "id": 725}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 48778483, "target": 146043}
+{"estimate": 4, "id": 726}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 46623383, "target": 82763}
+{"estimate": 4, "id": 727}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 46290503, "target": 78137}
+{"estimate": 4, "id": 728}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 269174343, "target": 4008}
+{"estimate": 4, "id": 729}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 336769906, "target": 3966}
+{"estimate": 4, "id": 730}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 211005274, "target": 3692}
+{"estimate": 4, "id": 731}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 276392928, "target": 7891}
+{"estimate": 4, "id": 732}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 256546468, "target": 7108}
+{"estimate": 4, "id": 733}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 304764487, "target": 7467}
+{"estimate": 4, "id": 734}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 222232461, "target": 7811}
+{"estimate": 4, "id": 735}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 322858704, "target": 7781}
+{"estimate": 4, "id": 736}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 182073897, "target": 7993}
+{"estimate": 4, "id": 737}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 219485638, "target": 7354}
+{"estimate": 4, "id": 738}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 226395151, "target": 3876}
+{"estimate": 4, "id": 739}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 272120945, "target": 4096}
+{"estimate": 4, "id": 740}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 225655507, "target": 3842}
+{"estimate": 4, "id": 741}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 171495259, "target": 5242}
+{"estimate": 4, "id": 742}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 45651454, "target": 78629}
+{"estimate": 4, "id": 743}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 46157496, "target": 102890}
+{"estimate": 4, "id": 744}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 335702683, "target": 7352}
+{"estimate": 4, "id": 745}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 264681624, "target": 7052}
+{"estimate": 4, "id": 746}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 309091189, "target": 7210}
+{"estimate": 4, "id": 747}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 254200998, "target": 7381}
+{"estimate": 4, "id": 748}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 324374750, "target": 7305}
+{"estimate": 4, "id": 749}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 325547724, "target": 7168}
+{"estimate": 4, "id": 750}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 142849108, "target": 5555}
+{"estimate": 4, "id": 751}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 223708338, "target": 7454}
+{"estimate": 4, "id": 752}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 45332633, "target": 78416}
+{"estimate": 4, "id": 753}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 238800359, "target": 7554}
+{"estimate": 4, "id": 754}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 150065563, "target": 7524}
+{"estimate": 4, "id": 755}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 45609014, "target": 105373}
+{"estimate": 4, "id": 756}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 204468554, "target": 7591}
+{"estimate": 4, "id": 757}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 185247821, "target": 7222}
+{"estimate": 4, "id": 758}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 195235590, "target": 7383}
+{"estimate": 4, "id": 759}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 208194228, "target": 7500}
+{"estimate": 4, "id": 760}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 232073703, "target": 7475}
+{"estimate": 4, "id": 761}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 44896813, "target": 76743}
+{"estimate": 4, "id": 762}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 44574123, "target": 77695}
+{"estimate": 4, "id": 763}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 305161277, "target": 6048}
+{"estimate": 4, "id": 764}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 210844403, "target": 7372}
+{"estimate": 4, "id": 765}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 305902849, "target": 7480}
+{"estimate": 4, "id": 766}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 252979965, "target": 4991}
+{"estimate": 4, "id": 767}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 755694495, "target": 5991}
+{"estimate": 4, "id": 768}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 320248628, "target": 5688}
+{"estimate": 4, "id": 769}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 320971896, "target": 6097}
+{"estimate": 4, "id": 770}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 259664148, "target": 3591}
+{"estimate": 4, "id": 771}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 258140778, "target": 7337}
+{"estimate": 4, "id": 772}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 662041852, "target": 7244}
+{"estimate": 4, "id": 773}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 285373257, "target": 7209}
+{"estimate": 4, "id": 774}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 243296403, "target": 7604}
+{"estimate": 4, "id": 775}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 242706078, "target": 4561}
+{"estimate": 4, "id": 776}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 213197305, "target": 4743}
+{"estimate": 4, "id": 777}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 182815897, "target": 4415}
+{"estimate": 4, "id": 778}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 177007963, "target": 4521}
+{"estimate": 4, "id": 779}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 159038631, "target": 4326}
+{"estimate": 4, "id": 780}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 213938686, "target": 5269}
+{"estimate": 4, "id": 781}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 163200410, "target": 4765}
+{"estimate": 4, "id": 782}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 118879189, "target": 7203}
+{"estimate": 4, "id": 783}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 44197669, "target": 79307}
+{"estimate": 4, "id": 784}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 266493457, "target": 5187}
+{"estimate": 4, "id": 785}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 221706353, "target": 6593}
+{"estimate": 4, "id": 786}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 302566383, "target": 7378}
+{"estimate": 4, "id": 787}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 45466188, "target": 143128}
+{"estimate": 4, "id": 788}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 264663819, "target": 6014}
+{"estimate": 4, "id": 789}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 185712632, "target": 7130}
+{"estimate": 4, "id": 790}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 289320051, "target": 6591}
+{"estimate": 4, "id": 791}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 238794774, "target": 7145}
+{"estimate": 4, "id": 792}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 323934362, "target": 7235}
+{"estimate": 4, "id": 793}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 279051921, "target": 7215}
+{"estimate": 4, "id": 794}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 44096303, "target": 103485}
+{"estimate": 4, "id": 795}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 43942240, "target": 82290}
+{"estimate": 4, "id": 796}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 181917773, "target": 4871}
+{"estimate": 4, "id": 797}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 44971032, "target": 145781}
+{"estimate": 4, "id": 798}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 199607239, "target": 5038}
+{"estimate": 4, "id": 799}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 284157918, "target": 6156}
+{"estimate": 4, "id": 800}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 265349873, "target": 6990}
+{"estimate": 4, "id": 801}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 218978485, "target": 6187}
+{"estimate": 4, "id": 802}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 218457296, "target": 6746}
+{"estimate": 4, "id": 803}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 173436592, "target": 7144}
+{"estimate": 4, "id": 804}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 195819678, "target": 2611}
+{"estimate": 4, "id": 805}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 181545726, "target": 6023}
+{"estimate": 4, "id": 806}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 234358193, "target": 5625}
+{"estimate": 4, "id": 807}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 266300776, "target": 6135}
+{"estimate": 4, "id": 808}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 211268584, "target": 5673}
+{"estimate": 4, "id": 809}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 192026685, "target": 5829}
+{"estimate": 4, "id": 810}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 261909229, "target": 5709}
+{"estimate": 4, "id": 811}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 250374633, "target": 7288}
+{"estimate": 4, "id": 812}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 192277801, "target": 7166}
+{"estimate": 4, "id": 813}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 238337787, "target": 7328}
+{"estimate": 4, "id": 814}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 200732356, "target": 7025}
+{"estimate": 4, "id": 815}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 190688138, "target": 7175}
+{"estimate": 4, "id": 816}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 247392416, "target": 7442}
+{"estimate": 4, "id": 817}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 43826990, "target": 77820}
+{"estimate": 4, "id": 818}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 43226739, "target": 76154}
+{"estimate": 4, "id": 819}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 354050662, "target": 5850}
+{"estimate": 4, "id": 820}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 134472815, "target": 5619}
+{"estimate": 4, "id": 821}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 173580038, "target": 7593}
+{"estimate": 4, "id": 822}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 126403067, "target": 7515}
+{"estimate": 4, "id": 823}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 420120662, "target": 7830}
+{"estimate": 4, "id": 824}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 199823794, "target": 7448}
+{"estimate": 4, "id": 825}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 81614876, "target": 7816}
+{"estimate": 4, "id": 826}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 183253027, "target": 7716}
+{"estimate": 4, "id": 827}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 724745760, "target": 7764}
+{"estimate": 4, "id": 828}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 289718294, "target": 3445}
+{"estimate": 4, "id": 829}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 202486921, "target": 5152}
+{"estimate": 4, "id": 830}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 156222454, "target": 4437}
+{"estimate": 4, "id": 831}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 280161968, "target": 5114}
+{"estimate": 4, "id": 832}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 43831968, "target": 105572}
+{"estimate": 4, "id": 833}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 42692143, "target": 83573}
+{"estimate": 4, "id": 834}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 168688447, "target": 5370}
+{"estimate": 4, "id": 835}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 217467491, "target": 7248}
+{"estimate": 4, "id": 836}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 196689107, "target": 7651}
+{"estimate": 4, "id": 837}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 115830213, "target": 7194}
+{"estimate": 4, "id": 838}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 277385345, "target": 5708}
+{"estimate": 4, "id": 839}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 204933739, "target": 6855}
+{"estimate": 4, "id": 840}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 247110570, "target": 6624}
+{"estimate": 4, "id": 841}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 236512585, "target": 7415}
+{"estimate": 4, "id": 842}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 41399386, "target": 79574}
+{"estimate": 4, "id": 843}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 40694931, "target": 77804}
+{"estimate": 4, "id": 844}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 253428895, "target": 7498}
+{"estimate": 4, "id": 845}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 114690139, "target": 7566}
+{"estimate": 4, "id": 846}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 137472068, "target": 7364}
+{"estimate": 4, "id": 847}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 294701586, "target": 7561}
+{"estimate": 4, "id": 848}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 830991581, "target": 7729}
+{"estimate": 4, "id": 849}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 704670452, "target": 7268}
+{"estimate": 4, "id": 850}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 370582215, "target": 7192}
+{"estimate": 4, "id": 851}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 40530501, "target": 77366}
+{"estimate": 4, "id": 852}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 328941893, "target": 3970}
+{"estimate": 4, "id": 853}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 203226680, "target": 3856}
+{"estimate": 4, "id": 854}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 236916047, "target": 4277}
+{"estimate": 4, "id": 855}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 282640689, "target": 4657}
+{"estimate": 4, "id": 856}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 236174850, "target": 4323}
+{"estimate": 4, "id": 857}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 41703040, "target": 112151}
+{"estimate": 4, "id": 858}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 186179344, "target": 5500}
+{"estimate": 4, "id": 859}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 182015010, "target": 5031}
+{"estimate": 4, "id": 860}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 173720720, "target": 4788}
+{"estimate": 4, "id": 861}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 325558428, "target": 6901}
+{"estimate": 4, "id": 862}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 217724084, "target": 7319}
+{"estimate": 4, "id": 863}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 259900101, "target": 7407}
+{"estimate": 4, "id": 864}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 249304158, "target": 7308}
+{"estimate": 4, "id": 865}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 323924176, "target": 7233}
+{"estimate": 4, "id": 866}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 259489140, "target": 7149}
+{"estimate": 4, "id": 867}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 290176472, "target": 6686}
+{"estimate": 4, "id": 868}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 247134361, "target": 5391}
+{"estimate": 4, "id": 869}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 331743445, "target": 5307}
+{"estimate": 4, "id": 870}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 229655001, "target": 5296}
+{"estimate": 4, "id": 871}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 275038952, "target": 6362}
+{"estimate": 4, "id": 872}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 343892361, "target": 6083}
+{"estimate": 4, "id": 873}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 334725938, "target": 5972}
+{"estimate": 4, "id": 874}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 295619782, "target": 8111}
+{"estimate": 4, "id": 875}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 350651431, "target": 7772}
+{"estimate": 4, "id": 876}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 41816280, "target": 144803}
+{"estimate": 4, "id": 877}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 39373925, "target": 82280}
+{"estimate": 4, "id": 878}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 283222343, "target": 5913}
+{"estimate": 4, "id": 879}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 309626128, "target": 6221}
+{"estimate": 4, "id": 880}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 424083934, "target": 6854}
+{"estimate": 4, "id": 881}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 263345574, "target": 6980}
+{"estimate": 4, "id": 882}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 168644559, "target": 6771}
+{"estimate": 4, "id": 883}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 228241063, "target": 4363}
+{"estimate": 4, "id": 884}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 323298034, "target": 4949}
+{"estimate": 4, "id": 885}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 322558406, "target": 5550}
+{"estimate": 4, "id": 886}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 255592042, "target": 6181}
+{"estimate": 4, "id": 887}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 260103248, "target": 6607}
+{"estimate": 4, "id": 888}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 292175930, "target": 6845}
+{"estimate": 4, "id": 889}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 350678046, "target": 6332}
+{"estimate": 4, "id": 890}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 352068047, "target": 6530}
+{"estimate": 4, "id": 891}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 286370199, "target": 8368}
+{"estimate": 4, "id": 892}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 39656776, "target": 103756}
+{"estimate": 4, "id": 893}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 272520935, "target": 5416}
+{"estimate": 4, "id": 894}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 338223319, "target": 5405}
+{"estimate": 4, "id": 895}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 281845846, "target": 5261}
+{"estimate": 4, "id": 896}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 319413123, "target": 5747}
+{"estimate": 4, "id": 897}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 285671776, "target": 5719}
+{"estimate": 4, "id": 898}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 304317896, "target": 5989}
+{"estimate": 4, "id": 899}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 321260632, "target": 6014}
+{"estimate": 4, "id": 900}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 353266226, "target": 6541}
+{"estimate": 4, "id": 901}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 235981159, "target": 6831}
+{"estimate": 4, "id": 902}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 253671810, "target": 6391}
+{"estimate": 4, "id": 903}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 41093422, "target": 149976}
+{"estimate": 4, "id": 904}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 322023851, "target": 6465}
+{"estimate": 4, "id": 905}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 165886446, "target": 6945}
+{"estimate": 4, "id": 906}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 300179234, "target": 7664}
+{"estimate": 4, "id": 907}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 317609125, "target": 8209}
+{"estimate": 4, "id": 908}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 271617799, "target": 8041}
+{"estimate": 4, "id": 909}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 315182301, "target": 7435}
+{"estimate": 4, "id": 910}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 284575883, "target": 8160}
+{"estimate": 4, "id": 911}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 280851487, "target": 8458}
+{"estimate": 4, "id": 912}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 219619184, "target": 7740}
+{"estimate": 4, "id": 913}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 39230238, "target": 81353}
+{"estimate": 4, "id": 914}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 294503397, "target": 4095}
+{"estimate": 4, "id": 915}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 298297252, "target": 4583}
+{"estimate": 4, "id": 916}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 354195404, "target": 5819}
+{"estimate": 4, "id": 917}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 364387419, "target": 5335}
+{"estimate": 4, "id": 918}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 260828022, "target": 6169}
+{"estimate": 4, "id": 919}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 284022997, "target": 6288}
+{"estimate": 4, "id": 920}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 303915367, "target": 6229}
+{"estimate": 4, "id": 921}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 284255323, "target": 6386}
+{"estimate": 4, "id": 922}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 355371194, "target": 7601}
+{"estimate": 4, "id": 923}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 39118732, "target": 79609}
+{"estimate": 4, "id": 924}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 38690646, "target": 80825}
+{"estimate": 4, "id": 925}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 315538151, "target": 5516}
+{"estimate": 4, "id": 926}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 317787976, "target": 7589}
+{"estimate": 4, "id": 927}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 300195683, "target": 7568}
+{"estimate": 4, "id": 928}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 167562244, "target": 7536}
+{"estimate": 4, "id": 929}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 258226022, "target": 7562}
+{"estimate": 4, "id": 930}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 211804682, "target": 7622}
+{"estimate": 4, "id": 931}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 165540005, "target": 7637}
+{"estimate": 4, "id": 932}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 289481417, "target": 7443}
+{"estimate": 4, "id": 933}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 255453244, "target": 4913}
+{"estimate": 4, "id": 934}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 291042281, "target": 5528}
+{"estimate": 4, "id": 935}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 197283127, "target": 5873}
+{"estimate": 4, "id": 936}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 289194853, "target": 5906}
+{"estimate": 4, "id": 937}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 36543779, "target": 79166}
+{"estimate": 4, "id": 938}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 37483400, "target": 107730}
+{"estimate": 4, "id": 939}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 169668572, "target": 3696}
+{"estimate": 4, "id": 940}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 258715039, "target": 3765}
+{"estimate": 4, "id": 941}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 210540426, "target": 3772}
+{"estimate": 4, "id": 942}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 217453241, "target": 7499}
+{"estimate": 4, "id": 943}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 180266069, "target": 7630}
+{"estimate": 4, "id": 944}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 245923835, "target": 7272}
+{"estimate": 4, "id": 945}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 127877838, "target": 7526}
+{"estimate": 4, "id": 946}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 243146855, "target": 3429}
+{"estimate": 4, "id": 947}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 138088435, "target": 7390}
+{"estimate": 4, "id": 948}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 244289072, "target": 7413}
+{"estimate": 4, "id": 949}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 156346118, "target": 7480}
+{"estimate": 4, "id": 950}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 326724102, "target": 3875}
+{"estimate": 4, "id": 951}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 313441797, "target": 4750}
+{"estimate": 4, "id": 952}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 847888803, "target": 5312}
+{"estimate": 4, "id": 953}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 219789576, "target": 4882}
+{"estimate": 4, "id": 954}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 247808737, "target": 6178}
+{"estimate": 4, "id": 955}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 194437207, "target": 6099}
+{"estimate": 4, "id": 956}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 303204481, "target": 5853}
+{"estimate": 4, "id": 957}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 34892143, "target": 78834}
+{"estimate": 4, "id": 958}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 35217845, "target": 104834}
+{"estimate": 4, "id": 959}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 178664444, "target": 6735}
+{"estimate": 4, "id": 960}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 170184557, "target": 5967}
+{"estimate": 4, "id": 961}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 262096726, "target": 7107}
+{"estimate": 4, "id": 962}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 224528532, "target": 7331}
+{"estimate": 4, "id": 963}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 215725338, "target": 7259}
+{"estimate": 4, "id": 964}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 155347590, "target": 3080}
+{"estimate": 4, "id": 965}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 106937969, "target": 3122}
+{"estimate": 4, "id": 966}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 310669928, "target": 2956}
+{"estimate": 4, "id": 967}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 359380085, "target": 2978}
+{"estimate": 4, "id": 968}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 234629705, "target": 3222}
+{"estimate": 4, "id": 969}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 190885910, "target": 3343}
+{"estimate": 4, "id": 970}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 385740299, "target": 3219}
+{"estimate": 4, "id": 971}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 33776965, "target": 79949}
+{"estimate": 4, "id": 972}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 201134749, "target": 3242}
+{"estimate": 4, "id": 973}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 275180765, "target": 3330}
+{"estimate": 4, "id": 974}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 419438884, "target": 3729}
+{"estimate": 4, "id": 975}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 398655883, "target": 3741}
+{"estimate": 4, "id": 976}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 437554944, "target": 3322}
+{"estimate": 4, "id": 977}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 283424183, "target": 3789}
+{"estimate": 4, "id": 978}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 193278813, "target": 4421}
+{"estimate": 4, "id": 979}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 309373610, "target": 5850}
+{"estimate": 4, "id": 980}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 442958297, "target": 5737}
+{"estimate": 4, "id": 981}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 364042354, "target": 5697}
+{"estimate": 4, "id": 982}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 429676116, "target": 6404}
+{"estimate": 4, "id": 983}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 245565329, "target": 5714}
+{"estimate": 4, "id": 984}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 219749765, "target": 5890}
+{"estimate": 4, "id": 985}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 216967239, "target": 5866}
+{"estimate": 4, "id": 986}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 226671841, "target": 7283}
+{"estimate": 4, "id": 987}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 277616493, "target": 2999}
+{"estimate": 4, "id": 988}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 81534713, "target": 2883}
+{"estimate": 4, "id": 989}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 259872695, "target": 2755}
+{"estimate": 4, "id": 990}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 274780300, "target": 3133}
+{"estimate": 4, "id": 991}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 123557399, "target": 3967}
+{"estimate": 4, "id": 992}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 197162827, "target": 4556}
+{"estimate": 4, "id": 993}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 325942516, "target": 5133}
+{"estimate": 4, "id": 994}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 378921646, "target": 6933}
+{"estimate": 4, "id": 995}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 336024472, "target": 5484}
+{"estimate": 4, "id": 996}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 406027554, "target": 6789}
+{"estimate": 4, "id": 997}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 33705144, "target": 82957}
+{"estimate": 4, "id": 998}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 311287984, "target": 7095}
+{"estimate": 4, "id": 999}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 325677220, "target": 5174}
+{"estimate": 4, "id": 1000}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 340679730, "target": 5780}
+{"estimate": 4, "id": 1001}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 306349041, "target": 5249}
+{"estimate": 4, "id": 1002}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 191383089, "target": 5006}
+{"estimate": 4, "id": 1003}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 314108709, "target": 5843}
+{"estimate": 4, "id": 1004}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 297114809, "target": 5641}
+{"estimate": 4, "id": 1005}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 201575238, "target": 3933}
+{"estimate": 4, "id": 1006}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 201343127, "target": 3905}
+{"estimate": 4, "id": 1007}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 36900482, "target": 147297}
+{"estimate": 4, "id": 1008}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 221234101, "target": 4560}
+{"estimate": 4, "id": 1009}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 271515583, "target": 4624}
+{"estimate": 4, "id": 1010}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 280624638, "target": 5150}
+{"estimate": 4, "id": 1011}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 272690718, "target": 5071}
+{"estimate": 4, "id": 1012}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 215617492, "target": 4736}
+{"estimate": 4, "id": 1013}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 178147993, "target": 4981}
+{"estimate": 4, "id": 1014}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 281706234, "target": 5192}
+{"estimate": 4, "id": 1015}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 211824644, "target": 4847}
+{"estimate": 4, "id": 1016}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 197188462, "target": 5745}
+{"estimate": 4, "id": 1017}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 851775295, "target": 5877}
+{"estimate": 4, "id": 1018}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 380139257, "target": 6216}
+{"estimate": 4, "id": 1019}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 435723887, "target": 6810}
+{"estimate": 4, "id": 1020}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 225347304, "target": 5777}
+{"estimate": 4, "id": 1021}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 304204692, "target": 5803}
+{"estimate": 4, "id": 1022}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 202565383, "target": 6105}
+{"estimate": 4, "id": 1023}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 255423044, "target": 5916}
+{"estimate": 4, "id": 1024}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 283424507, "target": 7276}
+{"estimate": 4, "id": 1025}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 793141406, "target": 7118}
+{"estimate": 4, "id": 1026}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 799960015, "target": 7268}
+{"estimate": 4, "id": 1027}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 198327437, "target": 6664}
+{"estimate": 4, "id": 1028}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 820246706, "target": 7664}
+{"estimate": 4, "id": 1029}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 33318731, "target": 83603}
+{"estimate": 4, "id": 1030}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 34905708, "target": 145177}
+{"estimate": 4, "id": 1031}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 133715567, "target": 5231}
+{"estimate": 4, "id": 1032}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 123529773, "target": 5185}
+{"estimate": 4, "id": 1033}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 77452231, "target": 6636}
+{"estimate": 4, "id": 1034}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 198149719, "target": 7019}
+{"estimate": 4, "id": 1035}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 203167734, "target": 7166}
+{"estimate": 4, "id": 1036}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 212575030, "target": 7298}
+{"estimate": 4, "id": 1037}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 164400750, "target": 7184}
+{"estimate": 4, "id": 1038}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 346698475, "target": 5781}
+{"estimate": 4, "id": 1039}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 328804996, "target": 6208}
+{"estimate": 4, "id": 1040}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 254298313, "target": 6045}
+{"estimate": 4, "id": 1041}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 339436411, "target": 6186}
+{"estimate": 4, "id": 1042}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 201215233, "target": 5844}
+{"estimate": 4, "id": 1043}
+{"node": "hu-worker-c43", "task": "task_mConcatFit", "rchar": 10425722, "target": 1266}
+{"estimate": 4, "id": 1044}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 33296587, "target": 110665}
+{"estimate": 4, "id": 1045}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 31658756, "target": 82155}
+{"estimate": 4, "id": 1046}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 141115936, "target": 3618}
+{"estimate": 4, "id": 1047}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 173101030, "target": 2971}
+{"estimate": 4, "id": 1048}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 543148286, "target": 3308}
+{"estimate": 4, "id": 1049}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 296686308, "target": 3733}
+{"estimate": 4, "id": 1050}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 637567977, "target": 4492}
+{"estimate": 4, "id": 1051}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 681194182, "target": 3787}
+{"estimate": 4, "id": 1052}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 270443440, "target": 4435}
+{"estimate": 4, "id": 1053}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 229172030, "target": 3682}
+{"estimate": 4, "id": 1054}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 184811251, "target": 3998}
+{"estimate": 4, "id": 1055}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 201259989, "target": 4005}
+{"estimate": 4, "id": 1056}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 178477989, "target": 4398}
+{"estimate": 4, "id": 1057}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 798081165, "target": 4756}
+{"estimate": 4, "id": 1058}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 357832434, "target": 4459}
+{"estimate": 4, "id": 1059}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 482514947, "target": 4814}
+{"estimate": 4, "id": 1060}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 252858249, "target": 5964}
+{"estimate": 4, "id": 1061}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 603019479, "target": 5570}
+{"estimate": 4, "id": 1062}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 179487948, "target": 5910}
+{"estimate": 4, "id": 1063}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 554310137, "target": 5913}
+{"estimate": 4, "id": 1064}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 294209029, "target": 5943}
+{"estimate": 4, "id": 1065}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 279329918, "target": 6000}
+{"estimate": 4, "id": 1066}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 576819377, "target": 7484}
+{"estimate": 4, "id": 1067}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 31240271, "target": 81920}
+{"estimate": 4, "id": 1068}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 30623255, "target": 81459}
+{"estimate": 4, "id": 1069}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 247936221, "target": 4850}
+{"estimate": 4, "id": 1070}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 226298436, "target": 5708}
+{"estimate": 4, "id": 1071}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 131597329, "target": 5441}
+{"estimate": 4, "id": 1072}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 131597793, "target": 5727}
+{"estimate": 4, "id": 1073}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 227289742, "target": 5562}
+{"estimate": 4, "id": 1074}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 258655600, "target": 5743}
+{"estimate": 4, "id": 1075}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 499262404, "target": 5517}
+{"estimate": 4, "id": 1076}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 531053237, "target": 4909}
+{"estimate": 4, "id": 1077}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 781277253, "target": 5599}
+{"estimate": 4, "id": 1078}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 856491020, "target": 5576}
+{"estimate": 4, "id": 1079}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 589962525, "target": 4942}
+{"estimate": 4, "id": 1080}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 333408929, "target": 5305}
+{"estimate": 4, "id": 1081}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 313121454, "target": 4733}
+{"estimate": 4, "id": 1082}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 442271267, "target": 5165}
+{"estimate": 4, "id": 1083}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 524771715, "target": 5607}
+{"estimate": 4, "id": 1084}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 306304470, "target": 4943}
+{"estimate": 4, "id": 1085}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 478783503, "target": 5043}
+{"estimate": 4, "id": 1086}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 948722629, "target": 5594}
+{"estimate": 4, "id": 1087}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 364939209, "target": 4959}
+{"estimate": 4, "id": 1088}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 386550455, "target": 5210}
+{"estimate": 4, "id": 1089}
+{"node": "hu-worker-c29", "task": "task_mDiffFit", "rchar": 563719431, "target": 7706}
+{"estimate": 4, "id": 1090}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 31412629, "target": 111911}
+{"estimate": 4, "id": 1091}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 264616983, "target": 3243}
+{"estimate": 4, "id": 1092}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 310988804, "target": 4631}
+{"estimate": 4, "id": 1093}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 277244778, "target": 4709}
+{"estimate": 4, "id": 1094}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 297266152, "target": 4593}
+{"estimate": 4, "id": 1095}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 312836166, "target": 3922}
+{"estimate": 4, "id": 1096}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 245247001, "target": 4664}
+{"estimate": 4, "id": 1097}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 219077052, "target": 4346}
+{"estimate": 4, "id": 1098}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 327485856, "target": 3293}
+{"estimate": 4, "id": 1099}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 264095244, "target": 4628}
+{"estimate": 4, "id": 1100}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 28540654, "target": 83901}
+{"estimate": 4, "id": 1101}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 227556312, "target": 5945}
+{"estimate": 4, "id": 1102}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 270168552, "target": 6178}
+{"estimate": 4, "id": 1103}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 273420315, "target": 6496}
+{"estimate": 4, "id": 1104}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 329798283, "target": 6305}
+{"estimate": 4, "id": 1105}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 295894005, "target": 6117}
+{"estimate": 4, "id": 1106}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 344840777, "target": 6381}
+{"estimate": 4, "id": 1107}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 232028003, "target": 3048}
+{"estimate": 4, "id": 1108}
+{"node": "hu-worker-c23", "task": "task_mConcatFit", "rchar": 10426313, "target": 1182}
+{"estimate": 4, "id": 1109}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 260153396, "target": 4427}
+{"estimate": 4, "id": 1110}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 236889292, "target": 4284}
+{"estimate": 4, "id": 1111}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 262875246, "target": 5275}
+{"estimate": 4, "id": 1112}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 223257772, "target": 5477}
+{"estimate": 4, "id": 1113}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 30368432, "target": 139642}
+{"estimate": 4, "id": 1114}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 27039750, "target": 84302}
+{"estimate": 4, "id": 1115}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 306800036, "target": 3188}
+{"estimate": 4, "id": 1116}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 283855182, "target": 3966}
+{"estimate": 4, "id": 1117}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 248671442, "target": 3748}
+{"estimate": 4, "id": 1118}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 320726638, "target": 5482}
+{"estimate": 4, "id": 1119}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 339834458, "target": 4407}
+{"estimate": 4, "id": 1120}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 301585061, "target": 4724}
+{"estimate": 4, "id": 1121}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 337407109, "target": 4259}
+{"estimate": 4, "id": 1122}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 26887139, "target": 81801}
+{"estimate": 4, "id": 1123}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 299947838, "target": 5892}
+{"estimate": 4, "id": 1124}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 219087970, "target": 5780}
+{"estimate": 4, "id": 1125}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 271945220, "target": 5942}
+{"estimate": 4, "id": 1126}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 214850431, "target": 5837}
+{"estimate": 4, "id": 1127}
+{"node": "hu-worker-c43", "task": "task_mBgModel", "rchar": 10335323, "target": 1477}
+{"estimate": 4, "id": 1128}
+{"node": "hu-worker-c43", "task": "task_mBgModel", "rchar": 10451107, "target": 2052}
+{"estimate": 4, "id": 1129}
+{"node": "hu-worker-c43", "task": "task_mConcatFit", "rchar": 10425731, "target": 941}
+{"estimate": 4, "id": 1130}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 124895369, "target": 3217}
+{"estimate": 4, "id": 1131}
+{"node": "hu-worker-c43", "task": "task_mBgModel", "rchar": 10335323, "target": 1310}
+{"estimate": 4, "id": 1132}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 26037298, "target": 81839}
+{"estimate": 4, "id": 1133}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 429743559, "target": 4568}
+{"estimate": 4, "id": 1134}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 609462185, "target": 3902}
+{"estimate": 4, "id": 1135}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 665992902, "target": 5287}
+{"estimate": 4, "id": 1136}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 89455614, "target": 4837}
+{"estimate": 4, "id": 1137}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 196219960, "target": 5541}
+{"estimate": 4, "id": 1138}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 215113268, "target": 5619}
+{"estimate": 4, "id": 1139}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 363675430, "target": 6279}
+{"estimate": 4, "id": 1140}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 93105663, "target": 5529}
+{"estimate": 4, "id": 1141}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 186516380, "target": 5874}
+{"estimate": 4, "id": 1142}
+{"node": "hu-worker-c43", "task": "task_mBgModel", "rchar": 10335328, "target": 1321}
+{"estimate": 4, "id": 1143}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 27875613, "target": 137626}
+{"estimate": 4, "id": 1144}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 267152789, "target": 2864}
+{"estimate": 4, "id": 1145}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 239413966, "target": 2675}
+{"estimate": 4, "id": 1146}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 154476343, "target": 2632}
+{"estimate": 4, "id": 1147}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 228918866, "target": 2745}
+{"estimate": 4, "id": 1148}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 219537873, "target": 2615}
+{"estimate": 4, "id": 1149}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 124835222, "target": 3803}
+{"estimate": 4, "id": 1150}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 221456165, "target": 3847}
+{"estimate": 4, "id": 1151}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 357717159, "target": 3715}
+{"estimate": 4, "id": 1152}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 265818178, "target": 3722}
+{"estimate": 4, "id": 1153}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 318100282, "target": 3727}
+{"estimate": 4, "id": 1154}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 250317303, "target": 3858}
+{"estimate": 4, "id": 1155}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 266528019, "target": 2681}
+{"estimate": 4, "id": 1156}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 245816377, "target": 2794}
+{"estimate": 4, "id": 1157}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 251246546, "target": 2682}
+{"estimate": 4, "id": 1158}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 267704533, "target": 2592}
+{"estimate": 4, "id": 1159}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 27362213, "target": 116434}
+{"estimate": 4, "id": 1160}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 206837405, "target": 2506}
+{"estimate": 4, "id": 1161}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 315620712, "target": 3732}
+{"estimate": 4, "id": 1162}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 257118030, "target": 3806}
+{"estimate": 4, "id": 1163}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 233339143, "target": 3620}
+{"estimate": 4, "id": 1164}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 287500608, "target": 4773}
+{"estimate": 4, "id": 1165}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 333965503, "target": 4938}
+{"estimate": 4, "id": 1166}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 258646650, "target": 4699}
+{"estimate": 4, "id": 1167}
+{"node": "hu-worker-c23", "task": "task_mProject", "rchar": 24981796, "target": 74862}
+{"estimate": 4, "id": 1168}
+{"node": "hu-worker-c40", "task": "task_mConcatFit", "rchar": 10426307, "target": 1087}
+{"estimate": 4, "id": 1169}
+{"node": "hu-worker-c29", "task": "task_mBgModel", "rchar": 10335918, "target": 2169}
+{"estimate": 4, "id": 1170}
+{"node": "hu-worker-c40", "task": "task_mProject", "rchar": 25332029, "target": 102538}
+{"estimate": 4, "id": 1171}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 242636231, "target": 3559}
+{"estimate": 4, "id": 1172}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 242376711, "target": 3393}
+{"estimate": 4, "id": 1173}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 254783981, "target": 3521}
+{"estimate": 4, "id": 1174}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 140545819, "target": 3508}
+{"estimate": 4, "id": 1175}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 206511833, "target": 3571}
+{"estimate": 4, "id": 1176}
+{"node": "hu-worker-c43", "task": "task_mProject", "rchar": 20181884, "target": 56517}
+{"estimate": 4, "id": 1177}
+{"node": "hu-worker-c40", "task": "task_mConcatFit", "rchar": 12130246, "target": 23350}
+{"estimate": 4, "id": 1178}
+{"node": "hu-worker-c40", "task": "task_mConcatFit", "rchar": 10426333, "target": 1539}
+{"estimate": 4, "id": 1179}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 293158564, "target": 4326}
+{"estimate": 4, "id": 1180}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 256420541, "target": 4451}
+{"estimate": 4, "id": 1181}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 655073549, "target": 4317}
+{"estimate": 4, "id": 1182}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 469226334, "target": 4102}
+{"estimate": 4, "id": 1183}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 288814998, "target": 4179}
+{"estimate": 4, "id": 1184}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 246735916, "target": 4466}
+{"estimate": 4, "id": 1185}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 482223021, "target": 4254}
+{"estimate": 4, "id": 1186}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 492582871, "target": 4340}
+{"estimate": 4, "id": 1187}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 323688695, "target": 4402}
+{"estimate": 4, "id": 1188}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 261580250, "target": 4009}
+{"estimate": 4, "id": 1189}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 324413672, "target": 4111}
+{"estimate": 4, "id": 1190}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 350470812, "target": 4683}
+{"estimate": 4, "id": 1191}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 562878688, "target": 4904}
+{"estimate": 4, "id": 1192}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 755907186, "target": 4018}
+{"estimate": 4, "id": 1193}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 333968094, "target": 4031}
+{"estimate": 4, "id": 1194}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 352379756, "target": 3897}
+{"estimate": 4, "id": 1195}
+{"node": "hu-worker-c29", "task": "task_mBgModel", "rchar": 10335918, "target": 2269}
+{"estimate": 4, "id": 1196}
+{"node": "hu-worker-c23", "task": "task_mDiffFit", "rchar": 456101746, "target": 2753}
+{"estimate": 4, "id": 1197}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 565929714, "target": 3871}
+{"estimate": 4, "id": 1198}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 574577673, "target": 4317}
+{"estimate": 4, "id": 1199}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 437291822, "target": 4364}
+{"estimate": 4, "id": 1200}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 402838594, "target": 3804}
+{"estimate": 4, "id": 1201}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 505353124, "target": 3741}
+{"estimate": 4, "id": 1202}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 379558954, "target": 3780}
+{"estimate": 4, "id": 1203}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 770833480, "target": 3922}
+{"estimate": 4, "id": 1204}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 687917030, "target": 3931}
+{"estimate": 4, "id": 1205}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 511946302, "target": 4233}
+{"estimate": 4, "id": 1206}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 352300097, "target": 3850}
+{"estimate": 4, "id": 1207}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 662484453, "target": 4105}
+{"estimate": 4, "id": 1208}
+{"node": "hu-worker-c43", "task": "task_mDiffFit", "rchar": 446478105, "target": 2745}
+{"estimate": 4, "id": 1209}
+{"node": "hu-worker-c40", "task": "task_mConcatFit", "rchar": 10488499, "target": 2127}
+{"estimate": 4, "id": 1210}
+{"node": "hu-worker-c40", "task": "task_mConcatFit", "rchar": 10530889, "target": 2446}
+{"estimate": 4, "id": 1211}
+{"node": "hu-worker-c40", "task": "task_mBgModel", "rchar": 10335929, "target": 1254}
+{"estimate": 4, "id": 1212}
+{"node": "hu-worker-c29", "task": "task_mBgModel", "rchar": 10508277, "target": 4152}
+{"estimate": 4, "id": 1213}
+{"node": "hu-worker-c40", "task": "task_mConcatFit", "rchar": 11425810, "target": 13528}
+{"estimate": 4, "id": 1214}
+{"node": "hu-worker-c29", "task": "task_mBgModel", "rchar": 10335918, "target": 2465}
+{"estimate": 4, "id": 1215}
+{"node": "hu-worker-c40", "task": "task_mConcatFit", "rchar": 12243044, "target": 23591}
+{"estimate": 4, "id": 1216}
+{"node": "hu-worker-c29", "task": "task_mBgModel", "rchar": 10335917, "target": 1972}
+{"estimate": 4, "id": 1217}
+{"node": "hu-worker-c29", "task": "task_mProject", "rchar": 22191292, "target": 113028}
+{"estimate": 4, "id": 1218}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 322898216, "target": 3881}
+{"estimate": 4, "id": 1219}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 336820790, "target": 3659}
+{"estimate": 4, "id": 1220}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 279511143, "target": 3958}
+{"estimate": 4, "id": 1221}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 313806298, "target": 4011}
+{"estimate": 4, "id": 1222}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 195838176, "target": 3558}
+{"estimate": 4, "id": 1223}
+{"node": "hu-worker-c40", "task": "task_mDiffFit", "rchar": 290539234, "target": 3776}
+{"estimate": 4, "id": 1224}
+{"node": "hu-worker-c40", "task": "task_mConcatFit", "rchar": 10454567, "target": 1616}
+{"estimate": 4, "id": 1225}
+{"node": "hu-worker-c29", "task": "task_mBgModel", "rchar": 10335920, "target": 1608}
+{"estimate": 4, "id": 1226}
+{"node": "hu-worker-c29", "task": "task_mBgModel", "rchar": 23822181, "target": 80640}
+{"estimate": 4, "id": 1227}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 89493882, "target": 10970}
+{"estimate": 4, "id": 1228}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 56757378, "target": 10740}
+{"estimate": 4, "id": 1229}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 132999103, "target": 11378}
+{"estimate": 4, "id": 1230}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 172150667, "target": 13784}
+{"estimate": 4, "id": 1231}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 28459793, "target": 13579}
+{"estimate": 4, "id": 1232}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 171803354, "target": 13769}
+{"estimate": 4, "id": 1233}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 68998082, "target": 10241}
+{"estimate": 4, "id": 1234}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 53635931, "target": 14054}
+{"estimate": 4, "id": 1235}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 188957260, "target": 14331}
+{"estimate": 4, "id": 1236}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 183235528, "target": 14373}
+{"estimate": 4, "id": 1237}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 142295948, "target": 14385}
+{"estimate": 4, "id": 1238}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 109651937, "target": 10864}
+{"estimate": 4, "id": 1239}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 149147431, "target": 13108}
+{"estimate": 4, "id": 1240}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 115813622, "target": 14576}
+{"estimate": 4, "id": 1241}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 110882711, "target": 14485}
+{"estimate": 4, "id": 1242}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 159835648, "target": 15073}
+{"estimate": 4, "id": 1243}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 142912374, "target": 14145}
+{"estimate": 4, "id": 1244}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 61522360, "target": 13784}
+{"estimate": 4, "id": 1245}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 126087901, "target": 14949}
+{"estimate": 4, "id": 1246}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 73112395, "target": 10937}
+{"estimate": 4, "id": 1247}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 190428508, "target": 14893}
+{"estimate": 4, "id": 1248}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 163767448, "target": 14180}
+{"estimate": 4, "id": 1249}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 123585581, "target": 11715}
+{"estimate": 4, "id": 1250}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 144797682, "target": 11228}
+{"estimate": 4, "id": 1251}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 146426702, "target": 11149}
+{"estimate": 4, "id": 1252}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 185218677, "target": 11059}
+{"estimate": 4, "id": 1253}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 114383117, "target": 15448}
+{"estimate": 4, "id": 1254}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 82219981, "target": 15011}
+{"estimate": 4, "id": 1255}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 160753136, "target": 14002}
+{"estimate": 4, "id": 1256}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 38876558, "target": 14520}
+{"estimate": 4, "id": 1257}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 92802694, "target": 14411}
+{"estimate": 4, "id": 1258}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 190396853, "target": 14264}
+{"estimate": 4, "id": 1259}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 129981746, "target": 12342}
+{"estimate": 4, "id": 1260}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 183791584, "target": 13470}
+{"estimate": 4, "id": 1261}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 153690307, "target": 12959}
+{"estimate": 4, "id": 1262}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 162033323, "target": 14970}
+{"estimate": 4, "id": 1263}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 81388741, "target": 14299}
+{"estimate": 4, "id": 1264}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 179762006, "target": 14901}
+{"estimate": 4, "id": 1265}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 123398566, "target": 14341}
+{"estimate": 4, "id": 1266}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 79751411, "target": 14863}
+{"estimate": 4, "id": 1267}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 113477179, "target": 14784}
+{"estimate": 4, "id": 1268}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 51559193, "target": 11649}
+{"estimate": 4, "id": 1269}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 145979616, "target": 14214}
+{"estimate": 4, "id": 1270}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 164882798, "target": 13980}
+{"estimate": 4, "id": 1271}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 100479704, "target": 11855}
+{"estimate": 4, "id": 1272}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 143038428, "target": 14879}
+{"estimate": 4, "id": 1273}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 126585393, "target": 12489}
+{"estimate": 4, "id": 1274}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 105619382, "target": 18883}
+{"estimate": 4, "id": 1275}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 117978441, "target": 19085}
+{"estimate": 4, "id": 1276}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 125196107, "target": 19521}
+{"estimate": 4, "id": 1277}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 134964442, "target": 17983}
+{"estimate": 4, "id": 1278}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 106724620, "target": 18423}
+{"estimate": 4, "id": 1279}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 162099975, "target": 18981}
+{"estimate": 4, "id": 1280}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 109529764, "target": 18775}
+{"estimate": 4, "id": 1281}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 113612822, "target": 19238}
+{"estimate": 4, "id": 1282}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 36854518, "target": 12531}
+{"estimate": 4, "id": 1283}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 127348465, "target": 18666}
+{"estimate": 4, "id": 1284}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 82516372, "target": 11984}
+{"estimate": 4, "id": 1285}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 65120276, "target": 18817}
+{"estimate": 4, "id": 1286}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 52070156, "target": 12349}
+{"estimate": 4, "id": 1287}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 107688661, "target": 16851}
+{"estimate": 4, "id": 1288}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 26666942, "target": 11026}
+{"estimate": 4, "id": 1289}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 77201076, "target": 12528}
+{"estimate": 4, "id": 1290}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 44117545, "target": 19103}
+{"estimate": 4, "id": 1291}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 175353724, "target": 11904}
+{"estimate": 4, "id": 1292}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 112530433, "target": 19284}
+{"estimate": 4, "id": 1293}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 109907320, "target": 11648}
+{"estimate": 4, "id": 1294}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 133385572, "target": 17028}
+{"estimate": 4, "id": 1295}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 39138059, "target": 11598}
+{"estimate": 4, "id": 1296}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 125080565, "target": 19398}
+{"estimate": 4, "id": 1297}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 164853477, "target": 12059}
+{"estimate": 4, "id": 1298}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 138410755, "target": 18441}
+{"estimate": 4, "id": 1299}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 58333451, "target": 11805}
+{"estimate": 4, "id": 1300}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 183329223, "target": 19365}
+{"estimate": 4, "id": 1301}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 141449159, "target": 12271}
+{"estimate": 4, "id": 1302}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 126085208, "target": 16324}
+{"estimate": 4, "id": 1303}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 179378016, "target": 12301}
+{"estimate": 4, "id": 1304}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 172486898, "target": 12416}
+{"estimate": 4, "id": 1305}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 169179879, "target": 18512}
+{"estimate": 4, "id": 1306}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 95402011, "target": 12873}
+{"estimate": 4, "id": 1307}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 172652846, "target": 17362}
+{"estimate": 4, "id": 1308}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 170777021, "target": 11800}
+{"estimate": 4, "id": 1309}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 110174219, "target": 15352}
+{"estimate": 4, "id": 1310}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 121730942, "target": 19105}
+{"estimate": 4, "id": 1311}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 160794471, "target": 12547}
+{"estimate": 4, "id": 1312}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 27654499, "target": 18787}
+{"estimate": 4, "id": 1313}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 177629225, "target": 14739}
+{"estimate": 4, "id": 1314}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 164889429, "target": 11160}
+{"estimate": 4, "id": 1315}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 133403839, "target": 19066}
+{"estimate": 4, "id": 1316}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 178804127, "target": 13424}
+{"estimate": 4, "id": 1317}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 75945568, "target": 11432}
+{"estimate": 4, "id": 1318}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 111705449, "target": 18919}
+{"estimate": 4, "id": 1319}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 171033216, "target": 16140}
+{"estimate": 4, "id": 1320}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 190697592, "target": 12223}
+{"estimate": 4, "id": 1321}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 68690096, "target": 15719}
+{"estimate": 4, "id": 1322}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 157737145, "target": 18496}
+{"estimate": 4, "id": 1323}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 114865913, "target": 12315}
+{"estimate": 4, "id": 1324}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 97962342, "target": 14636}
+{"estimate": 4, "id": 1325}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 124697384, "target": 18726}
+{"estimate": 4, "id": 1326}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 104032499, "target": 12673}
+{"estimate": 4, "id": 1327}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 98225903, "target": 16014}
+{"estimate": 4, "id": 1328}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 154256661, "target": 11391}
+{"estimate": 4, "id": 1329}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 95388588, "target": 18582}
+{"estimate": 4, "id": 1330}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 26667561, "target": 16208}
+{"estimate": 4, "id": 1331}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 95789275, "target": 12046}
+{"estimate": 4, "id": 1332}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 185953050, "target": 19029}
+{"estimate": 4, "id": 1333}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 41450500, "target": 12621}
+{"estimate": 4, "id": 1334}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 162347129, "target": 14076}
+{"estimate": 4, "id": 1335}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 158052796, "target": 18736}
+{"estimate": 4, "id": 1336}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 187820121, "target": 12775}
+{"estimate": 4, "id": 1337}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 158391500, "target": 16116}
+{"estimate": 4, "id": 1338}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 37239956, "target": 18706}
+{"estimate": 4, "id": 1339}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 118300999, "target": 15886}
+{"estimate": 4, "id": 1340}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 80481861, "target": 18746}
+{"estimate": 4, "id": 1341}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 117563056, "target": 16728}
+{"estimate": 4, "id": 1342}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 131896022, "target": 15797}
+{"estimate": 4, "id": 1343}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 171510293, "target": 16331}
+{"estimate": 4, "id": 1344}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 169441540, "target": 15525}
+{"estimate": 4, "id": 1345}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 120007592, "target": 16127}
+{"estimate": 4, "id": 1346}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 43424535, "target": 15742}
+{"estimate": 4, "id": 1347}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 171118781, "target": 15814}
+{"estimate": 4, "id": 1348}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 95812707, "target": 16301}
+{"estimate": 4, "id": 1349}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 118548494, "target": 14957}
+{"estimate": 4, "id": 1350}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 161947038, "target": 8686}
+{"estimate": 4, "id": 1351}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 167102336, "target": 8692}
+{"estimate": 4, "id": 1352}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 146549866, "target": 8196}
+{"estimate": 4, "id": 1353}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 170224970, "target": 8578}
+{"estimate": 4, "id": 1354}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 155518886, "target": 8761}
+{"estimate": 4, "id": 1355}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 136019019, "target": 8794}
+{"estimate": 4, "id": 1356}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 132542609, "target": 10382}
+{"estimate": 4, "id": 1357}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 124426514, "target": 8455}
+{"estimate": 4, "id": 1358}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 190621843, "target": 8944}
+{"estimate": 4, "id": 1359}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 142619079, "target": 9773}
+{"estimate": 4, "id": 1360}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 189378650, "target": 14282}
+{"estimate": 4, "id": 1361}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 146266830, "target": 13234}
+{"estimate": 4, "id": 1362}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 122802362, "target": 10436}
+{"estimate": 4, "id": 1363}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 163359395, "target": 11538}
+{"estimate": 4, "id": 1364}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 179368083, "target": 15672}
+{"estimate": 4, "id": 1365}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 157085243, "target": 15350}
+{"estimate": 4, "id": 1366}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 177338836, "target": 7723}
+{"estimate": 4, "id": 1367}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 148587707, "target": 11052}
+{"estimate": 4, "id": 1368}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 176949988, "target": 13566}
+{"estimate": 4, "id": 1369}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 123161456, "target": 13448}
+{"estimate": 4, "id": 1370}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 165192576, "target": 7903}
+{"estimate": 4, "id": 1371}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 117937674, "target": 13830}
+{"estimate": 4, "id": 1372}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 188761915, "target": 16346}
+{"estimate": 4, "id": 1373}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 163648403, "target": 15421}
+{"estimate": 4, "id": 1374}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 124152693, "target": 16776}
+{"estimate": 4, "id": 1375}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 189101438, "target": 7737}
+{"estimate": 4, "id": 1376}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 156955960, "target": 17936}
+{"estimate": 4, "id": 1377}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 146344601, "target": 11647}
+{"estimate": 4, "id": 1378}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 115973612, "target": 11265}
+{"estimate": 4, "id": 1379}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 88215176, "target": 7772}
+{"estimate": 4, "id": 1380}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 171087497, "target": 7933}
+{"estimate": 4, "id": 1381}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 156917447, "target": 7933}
+{"estimate": 4, "id": 1382}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 48485766, "target": 7324}
+{"estimate": 4, "id": 1383}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 124620214, "target": 7818}
+{"estimate": 4, "id": 1384}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 60881467, "target": 7795}
+{"estimate": 4, "id": 1385}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 129539332, "target": 7696}
+{"estimate": 4, "id": 1386}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 107044043, "target": 8050}
+{"estimate": 4, "id": 1387}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 65040495, "target": 7795}
+{"estimate": 4, "id": 1388}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 59743495, "target": 7775}
+{"estimate": 4, "id": 1389}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 169216347, "target": 9707}
+{"estimate": 4, "id": 1390}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 90802536, "target": 8933}
+{"estimate": 4, "id": 1391}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 164616150, "target": 7507}
+{"estimate": 4, "id": 1392}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 189818640, "target": 11472}
+{"estimate": 4, "id": 1393}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 173041481, "target": 11761}
+{"estimate": 4, "id": 1394}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 103434719, "target": 7540}
+{"estimate": 4, "id": 1395}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 104058537, "target": 7797}
+{"estimate": 4, "id": 1396}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 156544334, "target": 9192}
+{"estimate": 4, "id": 1397}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 88752807, "target": 10841}
+{"estimate": 4, "id": 1398}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 143652288, "target": 8000}
+{"estimate": 4, "id": 1399}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 114057889, "target": 7638}
+{"estimate": 4, "id": 1400}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 86476644, "target": 7796}
+{"estimate": 4, "id": 1401}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 118976552, "target": 7304}
+{"estimate": 4, "id": 1402}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 147617253, "target": 8618}
+{"estimate": 4, "id": 1403}
+{"node": "hu-worker-c43", "task": "task_mBackground", "rchar": 81719747, "target": 8277}
+{"estimate": 4, "id": 1404}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 83687568, "target": 9351}
+{"estimate": 4, "id": 1405}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 172603048, "target": 12357}
+{"estimate": 4, "id": 1406}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 48594462, "target": 12387}
+{"estimate": 4, "id": 1407}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 164140317, "target": 11332}
+{"estimate": 4, "id": 1408}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 186739305, "target": 11686}
+{"estimate": 4, "id": 1409}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 189934764, "target": 12988}
+{"estimate": 4, "id": 1410}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 174069687, "target": 11557}
+{"estimate": 4, "id": 1411}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 170829135, "target": 10891}
+{"estimate": 4, "id": 1412}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 172908248, "target": 12204}
+{"estimate": 4, "id": 1413}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 154760096, "target": 12292}
+{"estimate": 4, "id": 1414}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 175876312, "target": 12512}
+{"estimate": 4, "id": 1415}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 181136001, "target": 12056}
+{"estimate": 4, "id": 1416}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 34588757, "target": 9501}
+{"estimate": 4, "id": 1417}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 170350614, "target": 11637}
+{"estimate": 4, "id": 1418}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 73996215, "target": 11388}
+{"estimate": 4, "id": 1419}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 186852398, "target": 11795}
+{"estimate": 4, "id": 1420}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 28459800, "target": 9715}
+{"estimate": 4, "id": 1421}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 189996107, "target": 12283}
+{"estimate": 4, "id": 1422}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 153941297, "target": 11465}
+{"estimate": 4, "id": 1423}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 184719965, "target": 11365}
+{"estimate": 4, "id": 1424}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 138858302, "target": 9414}
+{"estimate": 4, "id": 1425}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 173790772, "target": 12268}
+{"estimate": 4, "id": 1426}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 112131670, "target": 9325}
+{"estimate": 4, "id": 1427}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 142822750, "target": 11641}
+{"estimate": 4, "id": 1428}
+{"node": "hu-worker-c40", "task": "task_mBackground", "rchar": 174260950, "target": 11673}
+{"estimate": 4, "id": 1429}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 116894727, "target": 10780}
+{"estimate": 4, "id": 1430}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 94626325, "target": 9504}
+{"estimate": 4, "id": 1431}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 123530974, "target": 10016}
+{"estimate": 4, "id": 1432}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 85215337, "target": 9455}
+{"estimate": 4, "id": 1433}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 109441964, "target": 10055}
+{"estimate": 4, "id": 1434}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 87901798, "target": 11157}
+{"estimate": 4, "id": 1435}
+{"node": "hu-worker-c23", "task": "task_mBackground", "rchar": 71893011, "target": 9539}
+{"estimate": 4, "id": 1436}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 115724434, "target": 14439}
+{"estimate": 4, "id": 1437}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 166758677, "target": 12897}
+{"estimate": 4, "id": 1438}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 92916039, "target": 14047}
+{"estimate": 4, "id": 1439}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 130276169, "target": 13657}
+{"estimate": 4, "id": 1440}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 172422066, "target": 14094}
+{"estimate": 4, "id": 1441}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 83118930, "target": 14297}
+{"estimate": 4, "id": 1442}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 161469816, "target": 13206}
+{"estimate": 4, "id": 1443}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 107455969, "target": 13083}
+{"estimate": 4, "id": 1444}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 110133355, "target": 13405}
+{"estimate": 4, "id": 1445}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 26667539, "target": 15002}
+{"estimate": 4, "id": 1446}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 150378160, "target": 13335}
+{"estimate": 4, "id": 1447}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 64632637, "target": 14439}
+{"estimate": 4, "id": 1448}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 84261885, "target": 13229}
+{"estimate": 4, "id": 1449}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 99072805, "target": 13873}
+{"estimate": 4, "id": 1450}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 127484622, "target": 13783}
+{"estimate": 4, "id": 1451}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 80457723, "target": 13255}
+{"estimate": 4, "id": 1452}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 71453238, "target": 13860}
+{"estimate": 4, "id": 1453}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 58100777, "target": 14689}
+{"estimate": 4, "id": 1454}
+{"node": "hu-worker-c29", "task": "task_mBackground", "rchar": 146318585, "target": 13369}
+{"estimate": 4, "id": 1455}
+{"node": "hu-worker-c43", "task": "task_mImgtbl", "rchar": 2650308567, "target": 3030}
+{"estimate": 4, "id": 1456}
+{"node": "hu-worker-c43", "task": "task_mImgtbl", "rchar": 2650308567, "target": 3248}
+{"estimate": 4, "id": 1457}
+{"node": "hu-worker-c29", "task": "task_mImgtbl", "rchar": 2650590081, "target": 3908}
+{"estimate": 4, "id": 1458}
+{"node": "hu-worker-c43", "task": "task_mImgtbl", "rchar": 2650308569, "target": 3126}
+{"estimate": 4, "id": 1459}
+{"node": "hu-worker-c40", "task": "task_mImgtbl", "rchar": 2653643121, "target": 3818}
+{"estimate": 4, "id": 1460}
+{"node": "hu-worker-c29", "task": "task_mImgtbl", "rchar": 3970370016, "target": 5446}
+{"estimate": 4, "id": 1461}
+{"node": "hu-worker-c40", "task": "task_mImgtbl", "rchar": 4796776517, "target": 6553}
+{"estimate": 4, "id": 1462}
+{"node": "hu-worker-c23", "task": "task_mImgtbl", "rchar": 2650309185, "target": 3446}
+{"estimate": 4, "id": 1463}
+{"node": "hu-worker-c40", "task": "task_mImgtbl", "rchar": 6280464672, "target": 7014}
+{"estimate": 4, "id": 1464}
+{"node": "hu-worker-c29", "task": "task_mImgtbl", "rchar": 6296036026, "target": 8629}
+{"estimate": 4, "id": 1465}
+{"node": "hu-worker-c23", "task": "task_mImgtbl", "rchar": 3640356541, "target": 4604}
+{"estimate": 4, "id": 1466}
+{"node": "hu-worker-c23", "task": "task_mImgtbl", "rchar": 6280469461, "target": 7225}
+{"estimate": 4, "id": 1467}
+{"node": "hu-worker-c29", "task": "task_mAdd", "rchar": 2650482646, "target": 8220}
+{"estimate": 4, "id": 1468}
+{"node": "hu-worker-c40", "task": "task_mAdd", "rchar": 2650325936, "target": 10030}
+{"estimate": 4, "id": 1469}
+{"node": "hu-worker-c29", "task": "task_mAdd", "rchar": 2654451296, "target": 9825}
+{"estimate": 4, "id": 1470}
+{"node": "hu-worker-c43", "task": "task_mAdd", "rchar": 2651207969, "target": 9449}
+{"estimate": 4, "id": 1471}
+{"node": "hu-worker-c43", "task": "task_mAdd", "rchar": 2650324762, "target": 9531}
+{"estimate": 4, "id": 1472}
+{"node": "hu-worker-c29", "task": "task_mAdd", "rchar": 3640366499, "target": 11405}
+{"estimate": 4, "id": 1473}
+{"node": "hu-worker-c43", "task": "task_mAdd", "rchar": 3970378712, "target": 11053}
+{"estimate": 4, "id": 1474}
+{"node": "hu-worker-c40", "task": "task_mAdd", "rchar": 6280474465, "target": 14717}
+{"estimate": 4, "id": 1475}
+{"node": "hu-worker-c40", "task": "task_mAdd", "rchar": 6280473884, "target": 13760}
+{"estimate": 4, "id": 1476}
+{"node": "hu-worker-c23", "task": "task_mAdd", "rchar": 2650326428, "target": 9293}
+{"estimate": 4, "id": 1477}
+{"node": "hu-worker-c29", "task": "task_mViewer", "rchar": 1254328426, "target": 6489}
+{"estimate": 4, "id": 1478}
+{"node": "hu-worker-c43", "task": "task_mViewer", "rchar": 1254327856, "target": 8095}
+{"estimate": 4, "id": 1479}
+{"node": "hu-worker-c43", "task": "task_mViewer", "rchar": 1254327861, "target": 4449}
+{"estimate": 4, "id": 1480}
+{"node": "hu-worker-c29", "task": "task_mViewer", "rchar": 1254328428, "target": 8793}
+{"estimate": 4, "id": 1481}
+{"node": "hu-worker-c40", "task": "task_mViewer", "rchar": 1254328441, "target": 6529}
+{"estimate": 4, "id": 1482}
+{"node": "hu-worker-c23", "task": "task_mAdd", "rchar": 4795413689, "target": 16026}
+{"estimate": 4, "id": 1483}
+{"node": "hu-worker-c29", "task": "task_mViewer", "rchar": 1254328428, "target": 7343}
+{"estimate": 4, "id": 1484}
+{"node": "hu-worker-c23", "task": "task_mAdd", "rchar": 6280474866, "target": 17609}
+{"estimate": 4, "id": 1485}
+{"node": "hu-worker-c40", "task": "task_mViewer", "rchar": 1254328463, "target": 5161}
+{"estimate": 4, "id": 1486}
+{"node": "hu-worker-c40", "task": "task_mViewer", "rchar": 1254328463, "target": 5862}
+{"estimate": 4, "id": 1487}
+{"node": "hu-worker-c40", "task": "task_mViewer", "rchar": 1254328439, "target": 6353}
+{"estimate": 4, "id": 1488}
+{"node": "hu-worker-c40", "task": "task_mViewer", "rchar": 1254328439, "target": 6288}
+{"estimate": 4, "id": 1489}
+{"node": "hu-worker-c40", "task": "task_mViewer", "rchar": 1254328439, "target": 7080}
+{"estimate": 4, "id": 1490}
+{"node": "hu-worker-c40", "task": "task_mViewer", "rchar": 1254328439, "target": 5927}
+{"estimate": 4, "id": 1491}
+{"node": "hu-worker-c40", "task": "task_mViewer", "rchar": 14940183855, "target": 13637}
+{"estimate": 4, "id": 1492}

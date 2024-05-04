@@ -1,0 +1,1 @@
+2024-04-13 10:48:26	4h 48m 10s	jolly_rutherford	OK	f421ddc35d81a0561685927c03e03995	fca0acb9-405f-47f2-bbaa-f45365d6139f	nextflow run /input/workflows/rnaseq -profile test_full -c /experiments/experiment/rnaseq/nextflow.config -c /experiments/experiment/configs/nextflow_benchmark_tarema.config -c /experiments/experiment/configs/nextflow_main.config

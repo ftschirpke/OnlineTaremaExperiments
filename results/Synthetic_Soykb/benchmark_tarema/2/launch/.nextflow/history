@@ -1,0 +1,1 @@
+2024-05-02 21:46:45	57m 1s	fervent_brahmagupta	OK	c5f12876eaf14a9e076eb66ccc4835d3	2ce12ed7-699a-4fa1-8b24-74ab5f190e38	nextflow run /input/workflows/Synthetic_Soykb -c /experiments/experiment/Synthetic_Soykb/nextflow.config -c /experiments/experiment/configs/nextflow_benchmark_tarema.config -c /experiments/experiment/configs/nextflow_main.config

@@ -1,0 +1,1 @@
+2024-04-30 07:26:21	49m 46s	confident_mercator	OK	9c2a4a023eb65273f7a732187858f607	02fbae6c-0f20-4a3a-8d90-3f4d81251d6f	nextflow run /input/workflows/Synthetic_Genome -c /experiments/experiment/Synthetic_Genome/nextflow.config -c /experiments/experiment/configs/nextflow_rankminrr.config -c /experiments/experiment/configs/nextflow_main.config

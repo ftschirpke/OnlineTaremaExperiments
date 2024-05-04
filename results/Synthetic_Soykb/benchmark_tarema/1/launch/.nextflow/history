@@ -1,0 +1,1 @@
+2024-04-30 14:27:42	57m 17s	focused_shirley	OK	c5f12876eaf14a9e076eb66ccc4835d3	790f8ae6-4c1b-4e2d-ae01-38271b94926b	nextflow run /input/workflows/Synthetic_Soykb -c /experiments/experiment/Synthetic_Soykb/nextflow.config -c /experiments/experiment/configs/nextflow_benchmark_tarema.config -c /experiments/experiment/configs/nextflow_main.config

@@ -1,0 +1,1 @@
+2024-05-03 01:47:53	48m 48s	cheesy_lumiere	OK	9c2a4a023eb65273f7a732187858f607	4a3634de-fb48-4048-b088-aeaedad627b3	nextflow run /input/workflows/Synthetic_Genome -c /experiments/experiment/Synthetic_Genome/nextflow.config -c /experiments/experiment/configs/nextflow_rankminrr.config -c /experiments/experiment/configs/nextflow_main.config

@@ -3,11 +3,11 @@
 results_dir=/experiments/bachelor_results
 namespace=ftschirpke
 
-workflows=( rnaseq Synthetic_Blast Synthetic_Bwa Synthetic_Cycles Synthetic_Genome Synthetic_Montage Synthetic_Seismology Synthetic_Soykb sarek )
+workflows=( rnaseq Synthetic_Blast Synthetic_Bwa Synthetic_Cycles Synthetic_Genome Synthetic_Montage Synthetic_Seismology Synthetic_Soykb )
 
 runs=( online_tarema benchmark_tarema rankminrr )
 
-reruns=1
+reruns=3
 
 waitForNodes(){
     # Confirm that all nodes are ready before starting

@@ -1,0 +1,1 @@
+2024-04-30 12:33:41	50m 15s	trusting_goodall	OK	4451c09db58548a1caab3e78d50306ce	528bce47-5abc-4bfb-8d4d-b1e9e3422316	nextflow run /input/workflows/Synthetic_Seismology -c /experiments/experiment/Synthetic_Seismology/nextflow.config -c /experiments/experiment/configs/nextflow_rankminrr.config -c /experiments/experiment/configs/nextflow_main.config

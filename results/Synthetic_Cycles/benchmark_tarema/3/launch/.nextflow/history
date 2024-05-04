@@ -1,0 +1,1 @@
+2024-05-01 09:13:31	47m 27s	amazing_magritte	OK	872a3279a47d21b4bb095c07733a7c1f	258ecf71-9975-4058-855f-cbf66147169a	nextflow run /input/workflows/Synthetic_Cycles -c /experiments/experiment/Synthetic_Cycles/nextflow.config -c /experiments/experiment/configs/nextflow_benchmark_tarema.config -c /experiments/experiment/configs/nextflow_main.config

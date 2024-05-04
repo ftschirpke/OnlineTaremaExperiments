@@ -1,0 +1,1 @@
+2024-05-02 16:25:21	49m 8s	disturbed_gautier	OK	4451c09db58548a1caab3e78d50306ce	3e29701d-7519-45b5-aa5f-a78f6deb7251	nextflow run /input/workflows/Synthetic_Seismology -c /experiments/experiment/Synthetic_Seismology/nextflow.config -c /experiments/experiment/configs/nextflow_benchmark_tarema.config -c /experiments/experiment/configs/nextflow_main.config

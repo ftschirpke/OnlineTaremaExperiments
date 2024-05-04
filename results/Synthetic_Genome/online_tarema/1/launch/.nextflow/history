@@ -1,0 +1,1 @@
+2024-04-30 00:35:38	48m 24s	spontaneous_picasso	OK	9c2a4a023eb65273f7a732187858f607	c1fac723-d6b6-4b76-a871-799afd30cf6a	nextflow run /input/workflows/Synthetic_Genome -c /experiments/experiment/Synthetic_Genome/nextflow.config -c /experiments/experiment/configs/nextflow_online_tarema.config -c /experiments/experiment/configs/nextflow_main.config

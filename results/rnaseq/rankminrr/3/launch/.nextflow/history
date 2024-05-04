@@ -1,0 +1,1 @@
+2024-04-15 11:47:00	5h 2m 32s	happy_cantor	OK	f421ddc35d81a0561685927c03e03995	05fd2913-5c68-484e-9ee4-b412f48f0b9b	nextflow run /input/workflows/rnaseq -profile test_full -c /experiments/experiment/rnaseq/nextflow.config -c /experiments/experiment/configs/nextflow_rankminrr.config -c /experiments/experiment/configs/nextflow_main.config

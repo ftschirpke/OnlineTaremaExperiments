@@ -1,0 +1,1 @@
+2024-05-01 12:26:27	48m 9s	suspicious_dalembert	OK	9c2a4a023eb65273f7a732187858f607	a46f5940-3a5f-4f11-b80f-575d62d69079	nextflow run /input/workflows/Synthetic_Genome -c /experiments/experiment/Synthetic_Genome/nextflow.config -c /experiments/experiment/configs/nextflow_online_tarema.config -c /experiments/experiment/configs/nextflow_main.config

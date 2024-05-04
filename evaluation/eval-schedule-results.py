@@ -8,7 +8,7 @@ from matplotlib.ticker import StrMethodFormatter
 import seaborn as sns
 import scienceplots
 
-DIR = "../results_copied_down/bachelor_results_0/"
+DIR = "../results"
 
 
 SAVE = True
@@ -90,6 +90,13 @@ def main() -> None:
     PERC_IMPR_RMRR = "Relative Makespan compared to RankMin-RR Median"
     df[PERC_IMPR_RMRR] = df["relative_to_rankminrr"].map(lambda x: (x - 1) * 100)
 
+    for wf in df[WF].unique():
+        for sa in df[SA].unique():
+            subdf = df[(df[WF] == wf) & (df[SA] == sa)]
+            print(f"Workflow: {wf:20}, Scheduling Approach: {sa:20}, Count: {len(subdf):4}")
+            if len(subdf) > 3:
+                print(subdf[[WF, SA, RN, MINS]])
+
     print(df)
 
     total_time = df[MINS].sum()
@@ -105,6 +112,7 @@ def main() -> None:
     # plot_y = "relative_duration"
     # plot_y = "percentage_improvement"
 
+    plt.axhline(0, color="black", linestyle='dashed', linewidth=1)
     bp = sns.boxplot(data=df, x=WF, y=plot_y, hue=SA)
 
     if plot_y == PERC_IMPR_RMRR or plot_y == "percentage_improvement":

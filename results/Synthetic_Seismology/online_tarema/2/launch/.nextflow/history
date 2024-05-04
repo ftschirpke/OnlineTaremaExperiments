@@ -1,0 +1,1 @@
+2024-05-02 14:45:45	49m 23s	sad_ramanujan	OK	4451c09db58548a1caab3e78d50306ce	dc8c4c72-3e95-48c8-b13d-22a426889be9	nextflow run /input/workflows/Synthetic_Seismology -c /experiments/experiment/Synthetic_Seismology/nextflow.config -c /experiments/experiment/configs/nextflow_online_tarema.config -c /experiments/experiment/configs/nextflow_main.config

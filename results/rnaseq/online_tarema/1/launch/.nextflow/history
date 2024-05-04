@@ -1,0 +1,1 @@
+2024-04-12 10:51:14	4h 47m 45s	ridiculous_kowalevski	OK	f421ddc35d81a0561685927c03e03995	ef2a5b34-b20d-40e8-8a0c-9118f66f3f82	nextflow run /input/workflows/rnaseq -profile test_full -c /experiments/experiment/rnaseq/nextflow.config -c /experiments/experiment/configs/nextflow_online_tarema.config -c /experiments/experiment/configs/nextflow_main.config

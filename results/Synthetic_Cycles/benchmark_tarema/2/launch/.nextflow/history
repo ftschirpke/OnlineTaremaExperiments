@@ -1,0 +1,1 @@
+2024-05-01 08:26:03	46m 57s	high_montalcini	OK	872a3279a47d21b4bb095c07733a7c1f	59182411-503e-44fe-850a-b1e452bbf6f6	nextflow run /input/workflows/Synthetic_Cycles -c /experiments/experiment/Synthetic_Cycles/nextflow.config -c /experiments/experiment/configs/nextflow_benchmark_tarema.config -c /experiments/experiment/configs/nextflow_main.config

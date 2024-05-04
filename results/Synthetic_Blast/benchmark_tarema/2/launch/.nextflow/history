@@ -1,0 +1,1 @@
+2024-04-30 21:47:49	49m 12s	jolly_murdock	OK	3d786acf75344b943c55c28941c2d8ec	900afc8d-510f-44fe-897f-86819f221c47	nextflow run /input/workflows/Synthetic_Blast -c /experiments/experiment/Synthetic_Blast/nextflow.config -c /experiments/experiment/configs/nextflow_benchmark_tarema.config -c /experiments/experiment/configs/nextflow_main.config

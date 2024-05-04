@@ -1,0 +1,1 @@
+2024-05-03 18:02:57	51m 33s	prickly_murdock	OK	0dd78ae1b0b2c2d90161d9c3e5f1adcd	f09c4ca5-2b55-4032-975a-05b836f0f93f	nextflow run /input/workflows/Synthetic_Montage -c /experiments/experiment/Synthetic_Montage/nextflow.config -c /experiments/experiment/configs/nextflow_benchmark_tarema.config -c /experiments/experiment/configs/nextflow_main.config

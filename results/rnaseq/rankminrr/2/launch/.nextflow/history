@@ -1,0 +1,1 @@
+2024-04-15 06:35:50	5h 9m 49s	cheeky_koch	OK	f421ddc35d81a0561685927c03e03995	206cca5b-6b18-421a-9eca-babdebeeb782	nextflow run /input/workflows/rnaseq -profile test_full -c /experiments/experiment/rnaseq/nextflow.config -c /experiments/experiment/configs/nextflow_rankminrr.config -c /experiments/experiment/configs/nextflow_main.config

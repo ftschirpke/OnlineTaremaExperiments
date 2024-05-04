@@ -1,0 +1,1 @@
+2024-04-30 20:58:25	48m 56s	sick_mendel	OK	3d786acf75344b943c55c28941c2d8ec	da6aff46-22d5-4c95-a39c-5fc4cd68463f	nextflow run /input/workflows/Synthetic_Blast -c /experiments/experiment/Synthetic_Blast/nextflow.config -c /experiments/experiment/configs/nextflow_online_tarema.config -c /experiments/experiment/configs/nextflow_main.config

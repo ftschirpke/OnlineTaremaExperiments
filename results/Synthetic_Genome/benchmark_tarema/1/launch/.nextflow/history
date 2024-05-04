@@ -1,0 +1,1 @@
+2024-04-30 01:24:37	47m 59s	angry_kimura	OK	9c2a4a023eb65273f7a732187858f607	75815022-38d0-469b-a36b-d93d4ba802a6	nextflow run /input/workflows/Synthetic_Genome -c /experiments/experiment/Synthetic_Genome/nextflow.config -c /experiments/experiment/configs/nextflow_benchmark_tarema.config -c /experiments/experiment/configs/nextflow_main.config

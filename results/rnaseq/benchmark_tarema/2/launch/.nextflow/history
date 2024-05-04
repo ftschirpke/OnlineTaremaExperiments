@@ -1,0 +1,1 @@
+2024-04-13 06:03:26	4h 43m 42s	condescending_babbage	OK	f421ddc35d81a0561685927c03e03995	4c4c6dca-f680-49be-a7da-6b8fcf597ed5	nextflow run /input/workflows/rnaseq -profile test_full -c /experiments/experiment/rnaseq/nextflow.config -c /experiments/experiment/configs/nextflow_benchmark_tarema.config -c /experiments/experiment/configs/nextflow_main.config
