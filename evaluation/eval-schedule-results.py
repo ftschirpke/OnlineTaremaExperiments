@@ -1,7 +1,6 @@
 from pathlib import Path
 from collections import defaultdict
 
-import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.ticker import StrMethodFormatter
@@ -61,7 +60,7 @@ def main() -> None:
             start: int = run_df["start"].min()
             end: int = run_df["complete"].max()
             data = {
-                WF: reformat(workflow),
+                WF: reformat(workflow).replace(" ", "\n"),
                 SA: reformat(scheduling_approach),
                 RN: int(run_name),
                 "start": start,
@@ -114,6 +113,7 @@ def main() -> None:
 
     plt.axhline(0, color="black", linestyle='dashed', linewidth=1)
     bp = sns.boxplot(data=df, x=WF, y=plot_y, hue=SA)
+    plt.legend(title="", loc="lower right")
 
     if plot_y == PERC_IMPR_RMRR or plot_y == "percentage_improvement":
         bp.yaxis.set_major_formatter(StrMethodFormatter("${x:+.0f}$\\%%"))
