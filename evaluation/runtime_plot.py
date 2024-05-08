@@ -116,6 +116,11 @@ def main() -> None:
     if plot_y == PERC_IMPR_RMRR or plot_y == "percentage_improvement":
         bp.yaxis.set_major_formatter(StrMethodFormatter("${x:+.0f}$\\%%"))
 
+    for wf in df[WF].unique():
+        med = df[(df[WF] == wf) & (df[SA] == RMRR)][MINS].median()
+        twf = wf.replace('\n', ' ')
+        print(f"Median time for {twf:20}: {med:6.2f} minutes")
+
     print(f"Currently at Runtime plot ({plot_y})")
     if SAVE:
         yes = input("Save this? (y/n) ") == "y"
