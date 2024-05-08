@@ -92,9 +92,7 @@ def main() -> None:
     for wf in df[WF].unique():
         for sa in df[SA].unique():
             subdf = df[(df[WF] == wf) & (df[SA] == sa)]
-            print(f"Workflow: {wf:20}, Scheduling Approach: {sa:20}, Count: {len(subdf):4}")
-            if len(subdf) > 3:
-                print(subdf[[WF, SA, RN, MINS]])
+            print(subdf.sort_values(by="duration")[[WF, SA, RN, MINS]])
 
     print(df)
 
